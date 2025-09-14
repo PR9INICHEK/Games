@@ -12,7 +12,9 @@
 11. [DayZ SECRETS You Might Not Know... 🤫 | Fresh Spawns](https://www.youtube.com/watch?v=gUcZSIRSBNE)
 12. [Good for apartments #tips #dayz #dayzgameplay #gaming #dayzxbox #dayzclips #dayzmoments #shorts #fyp | H_Y🇬🇧](https://www.youtube.com/watch?v=qZKvh_lEj-Y)
 13. [7 СОВЕТОВ Которые ВЫ могли НЕ ЗНАТЬ в DayZ #dayz #дейз | KARAPAS](https://www.youtube.com/watch?v=QgleaoPimdU)
-14. 
+14. [ТО, ЧТО НУЖНО ДЕЙЗУ - #1 | DAYZ STANDALONE 1.24 | ИДЕИ И ПРЕДЛОЖЕНИЯ | Lemonade ATTC](https://www.youtube.com/watch?v=CazBZFsi-rk)
+15. [How to Enjoy Yourself & Survive on DayZ as a New Player in 2024 | Simonb1471](https://www.youtube.com/watch?v=BmSdBFpYSUc)
+16. 
 
 # Места для баз
 1. [The top 5 BASE locations in DayZ | Tommy](https://www.youtube.com/watch?v=e4HbFRk3kkw)
@@ -27,7 +29,7 @@
 1. [How to Raid Bases in DayZ - Every Method to Break into Bases - PC Xbox PS4 PS5 Console | Nitno](https://www.youtube.com/watch?v=CdRuokoOb14)
 2. [Complete Hunting and Fishing Guide to DayZ | Nitno](https://www.youtube.com/watch?v=R8MKVu3JbcY)
 3. [ВСЁ ПРО РЕЙД | КАК ЗАРЕЙДИТЬ ЧУЖУЮ БАЗУ | РЕЙД ОРУЖИЕМ И ВЗРЫВЧАТКОЙ | DAYZ STANDALONE 1.22 | Lemonade ATTC](https://www.youtube.com/watch?v=VDEC2AWPgsw)
-4. 
+4. [Dayz How to Navigate Map using a Stick #dayz | Camo Rat](https://www.youtube.com/watch?v=gFki58ZMuNs)
 
 # Видео от WOBO
 1. [How to boost damage against players in DayZ | Hitbox Damage Guide | WOBO](https://www.youtube.com/watch?v=ypjbrkkUFPQ)
