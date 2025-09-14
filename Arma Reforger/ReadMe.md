@@ -7,7 +7,12 @@
 7. [Flying around in Arma Reforger with HeadTracking on 49" 32:9 | Dazzorm](https://www.youtube.com/watch?v=zklwG2PKDjc)
 8. [The high quality gunplay of Arma Reforger | caracal](https://www.youtube.com/watch?v=1OLmRlCOjFw)
 9. [Arma's BEST Gamemode is BACK! — Arma Reforger Wasteland Mod | PsiSyn](https://www.youtube.com/watch?v=JAzfNmy4y2I)
-10. 
+10. [I was COMPLETELY WRONG about the LAV-25 in ARMA REFORGER 1.3 | Sabre](https://www.youtube.com/watch?v=iLbBELox6TI)
+
+# Советы
+1. [10 Great Tips in Arma Reforger | spartank](https://www.youtube.com/watch?v=iQcjXSUSlEk)
+2. 
+
 
 # Руководства
 1. [Basic Helicopter Guide | Arma Reforger | Plekter](https://www.youtube.com/watch?v=zBPfID9wQuQ)
@@ -20,7 +25,11 @@
 8. [How to EFFECTIVELY use Anti-Tank mines in Arma Reforger! | Sabre](https://www.youtube.com/watch?v=8Xmts7yP70c)
 9. [ARMA Reforger - A Brief Overview of Supplies | Tha Sly Fox](https://www.youtube.com/watch?v=2eokMA_oRDA)
 10. 
+11. 
 
+# Тактика
+1. [How to effectively sabotage enemy bases and burn their supplies in Arma Reforger. #armareforger | Kenji](https://www.youtube.com/watch?v=quOPSYwYKHE)
+2. [This is the most annoying strategy in Arma Reforger | Plekter](https://www.youtube.com/watch?v=YviOsYcWpQw)
 
 # Матчи
 1. [Milsim PVP: DarkGRU vs Xiled Alliance | Arma Reforger | Ironbeard](https://www.youtube.com/watch?v=FBU85Cv8-9Y)
