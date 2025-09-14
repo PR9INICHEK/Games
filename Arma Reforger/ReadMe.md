@@ -3,5 +3,7 @@
 3. [Creating A Seize & Secure Scenario From Scratch | Arma Reforger | Ironbeard](https://www.youtube.com/watch?v=LiqHZYUsTkI)
 4. 
 
+[PSA: Arma Reforger's Radio System | Rectorol](https://www.youtube.com/watch?v=x51dhsY0L9Q)
+
 
 [CQB - Positive vs Negative Corner-Fed Rooms #cqb #cqc #tactics | Gungnir Strategic LLC](https://www.youtube.com/watch?v=8HKJ300y0VY)
