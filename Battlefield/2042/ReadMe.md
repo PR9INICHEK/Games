@@ -21,6 +21,8 @@
 # Разное
 1. [Battlefield 2042 with two Joystick logitech PRO | Capitain Philtron](https://www.youtube.com/watch?v=O1iaUVhCH2A)
 2. [ТОП 10 ФИШЕК которые ДОЛЖНЫ вернуться в BATTLEFIELD 2042! | segafive](https://www.youtube.com/watch?v=X1T7mQUgd6o)
+3. [Battlefield 2042 LATV Adventures 4 | Ravic](https://www.youtube.com/watch?v=XdrIAmC-1fM)
+4. 
 
 # Пасхальные яйца (Easter Eggs)
 1. [Full Guide to the Fire Circle Easter Egg in Battlefield 2042 (Unlocks Sacrifice Playercard) | TheCadWoman](https://www.youtube.com/watch?v=2tR6m7sX66k)
