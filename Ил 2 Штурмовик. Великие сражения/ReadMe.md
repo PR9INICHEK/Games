@@ -128,4 +128,5 @@ https://shop.vkb-sim.pro/items/sem-v/
 52. [Tactical Kurfürst Ambush - Tactical Air War | Sheriff's Sim Shack](https://www.youtube.com/watch?v=jgbEqXtz7ew)
 53. [ЧЕМ ОТЛИЧАЕТСЯ ВОЗДУШНЫЙ БОЙ В ЖИЗНИ И В АВИАСИМУЛЯТОРЕ ? | iluha](https://www.youtube.com/watch?v=zvWdiwBC-jc)
 54. [WarThunder жмёт в плечах? | Just Fly It](https://www.youtube.com/watch?v=K-c8NTHLXA0)
-55. 
+55. [После титров | Продюсер «Ил-2» Даниил Тусеев | Выпуск 211 | После Титров](https://www.youtube.com/watch?v=EtNxH_N4kH8)
+56. 
