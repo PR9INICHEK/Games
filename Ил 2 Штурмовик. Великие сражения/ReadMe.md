@@ -121,4 +121,11 @@ https://shop.vkb-sim.pro/items/sem-v/
 45. https://www.youtube.com/watch?v=YHGdZLSk-GA&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=49&pp=gAQBiAQB
 46. https://www.youtube.com/watch?v=P7gN2iFdngI&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=50&pp=gAQBiAQB
 47. https://www.youtube.com/watch?v=e8WhhjQlEf8&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=51&pp=gAQBiAQB
-48. 
+48. [Flying Stupid and Paying the Price in IL-2 Multiplayer | Enigma](https://www.youtube.com/watch?v=X6jgtt4FCrI)
+49. [Ла-5Ф бой с пилотом на Bf 109 G-2 | DronFear](https://www.youtube.com/watch?v=vIhsHOXkeBc)
+50. [Минимальный набор настроек для "обычной" сложности в Ил-2 Штурмовик: Великие сражения | AstronHaizer](https://www.youtube.com/watch?v=vLHEawbSuhE)
+51. [War Thunder I Курс обучения лётчиков - Лётная школа I Часть 1 - Матчасть для чайников. |_Kailer_](https://www.youtube.com/watch?v=0wxKcD67GuM)
+52. [Tactical Kurfürst Ambush - Tactical Air War | Sheriff's Sim Shack](https://www.youtube.com/watch?v=jgbEqXtz7ew)
+53. [ЧЕМ ОТЛИЧАЕТСЯ ВОЗДУШНЫЙ БОЙ В ЖИЗНИ И В АВИАСИМУЛЯТОРЕ ? | iluha](https://www.youtube.com/watch?v=zvWdiwBC-jc)
+54. [WarThunder жмёт в плечах? | Just Fly It](https://www.youtube.com/watch?v=K-c8NTHLXA0)
+55. 
