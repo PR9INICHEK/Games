@@ -6,3 +6,8 @@
 1. [Тапежара (Tapejara) в АРК. Лучший обзор: приручение, разведение и способности в ark | FenomeN GameS](https://www.youtube.com/watch?v=ctKhCV_JHL8)
 2. [How to get rid of floating rocks in ARK Survival Ascended! | Ark Trade Federation](https://www.youtube.com/watch?v=slaak2ixJNI)
 3. 
+
+# Тетрис
+1. [Вот и прохождение на максимальной 12й скорости максимального 12го уровня! | Brick&pocket games](https://www.youtube.com/watch?v=xX-fFq6fu58)
+2. [Tetris Super Brick Game 96 in 1 E-23 Plus Mark II | Android 1996](https://www.youtube.com/watch?v=ceZkijEXx6w)
+3. 
