@@ -9,17 +9,20 @@
 8. [КАК НЕ УМИРАТЬ В DAYZ? | НЕСКОЛЬКО ПОЛЕЗНЫХ СОВЕТОВ В PVP | DAYZ STANDALONE 1.16 | Lemonade ATTC](https://www.youtube.com/watch?v=iFYtLNByCF4)
 9. [10 SNEAKY DayZ Tips You Won't Believe... | Fresh Spawns](https://www.youtube.com/watch?v=m5dVjMjIDqo)
 10. [DayZ - Scaring People Standalone Edition | BestBudGaming](https://www.youtube.com/watch?v=pAYNzq6QRa8)
-11. [Mr. Moon: "Maverick" - DayZ Standalone | Mr. Moon](https://www.youtube.com/watch?v=HY8mOw7-RT8)
+11. [DayZ SECRETS You Might Not Know... 🤫 | Fresh Spawns](https://www.youtube.com/watch?v=gUcZSIRSBNE)
 12. 
 
 # Места для баз
 1. [The top 5 BASE locations in DayZ | Tommy](https://www.youtube.com/watch?v=e4HbFRk3kkw)
 2. [Best Solo Bases in DayZ | No Mods | PC & Console | AlwaysStreams](https://www.youtube.com/watch?v=fKxAV1xC9aM)
-3. 
+3. [Построил Самую Скрытную Базу на Дереве в DayZ | Vorushov](https://www.youtube.com/watch?v=kputv32eDx8)
+4. 
 
 # Руководства
 1. [How to Raid Bases in DayZ - Every Method to Break into Bases - PC Xbox PS4 PS5 Console | Nitno](https://www.youtube.com/watch?v=CdRuokoOb14)
-2. 
+2. [Complete Hunting and Fishing Guide to DayZ | Nitno](https://www.youtube.com/watch?v=R8MKVu3JbcY)
+3. [ВСЁ ПРО РЕЙД | КАК ЗАРЕЙДИТЬ ЧУЖУЮ БАЗУ | РЕЙД ОРУЖИЕМ И ВЗРЫВЧАТКОЙ | DAYZ STANDALONE 1.22 | Lemonade ATTC](https://www.youtube.com/watch?v=VDEC2AWPgsw)
+4. 
 
 # Видео от WOBO
 1. [How to boost damage against players in DayZ | Hitbox Damage Guide | WOBO](https://www.youtube.com/watch?v=ypjbrkkUFPQ)
@@ -31,8 +34,6 @@
 
 # Фильмы
 1. [WAR! - DayZ (Movie) | JLK](https://www.youtube.com/watch?v=G3rXsSG5gFg)
-2. 
-
-
-
-[My 2015 - 2021 Experience | PolishedGuy](https://www.youtube.com/watch?v=ORlk6ZndXVg)
+2. [My 2015 - 2021 Experience | PolishedGuy](https://www.youtube.com/watch?v=ORlk6ZndXVg)
+3. [Mr. Moon: "Maverick" - DayZ Standalone | Mr. Moon](https://www.youtube.com/watch?v=HY8mOw7-RT8)
+4. 
