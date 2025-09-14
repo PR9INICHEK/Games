@@ -2,3 +2,6 @@
 2. [Lets make a Conflict Scenario #armareforger | TPM Tactical](https://www.youtube.com/watch?v=GsCWu77Bw9o)
 3. [Creating A Seize & Secure Scenario From Scratch | Arma Reforger | Ironbeard](https://www.youtube.com/watch?v=LiqHZYUsTkI)
 4. 
+
+
+[CQB - Positive vs Negative Corner-Fed Rooms #cqb #cqc #tactics | Gungnir Strategic LLC](https://www.youtube.com/watch?v=8HKJ300y0VY)
