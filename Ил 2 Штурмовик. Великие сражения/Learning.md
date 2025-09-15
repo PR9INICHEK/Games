@@ -1,25 +1,25 @@
 # Обучение
 
 **TODO** Расписать, что в видео полезного
-1. https://www.youtube.com/watch?v=P7gN2iFdngI
+1. [ПОЧЕМУ ВЫ ПЛОХО ЛЕТАЕТЕ? Самые частые ошибки новичков и вирпилов "со стажем". | iluha](https://www.youtube.com/watch?v=P7gN2iFdngI)
     - на такой-то минуте то-то
-2. https://www.youtube.com/watch?v=1HzM_CY7Dso
-3. https://www.youtube.com/watch?v=S3WT3M2A4Zw
-4. https://www.youtube.com/watch?v=6btyr6c8Ie0
-5. https://www.youtube.com/watch?v=ZAZ-ROsRX1I
-6. https://www.youtube.com/watch?v=EtNxH_N4kH8
-7. https://www.youtube.com/watch?v=DWYqu1Il9Ps
-8. https://youtu.be/TkpqBMOE5Kk
+2. [Скольжение самолета (Часть 1). Причины возникновения, опасность и способы применения. | ТАНКИСТ](https://www.youtube.com/watch?v=1HzM_CY7Dso)
+3. [Над чем надо работать новичку в авиасимуляторах? Делюсь опытом из игры Ил-2 Штурмовик! | iluha](https://www.youtube.com/watch?v=S3WT3M2A4Zw)
+4. [(168) IL-2 What I learned in over 3000 hours on IL-2 What your government does not want you to know. | Col Ninny](https://www.youtube.com/watch?v=6btyr6c8Ie0)
+5. [Flying talks | Just Fly It](https://www.youtube.com/watch?v=ZAZ-ROsRX1I)
+6. [После титров | Продюсер «Ил-2» Даниил Тусеев | Выпуск 211 | После титров](https://www.youtube.com/watch?v=EtNxH_N4kH8)
+7. [Hitting a Moving Target for World War 2 Bomber Gunners (1944 - Restored) | ZenosWarbirds](https://www.youtube.com/watch?v=DWYqu1Il9Ps)
+8. [Воздушная стрельба в игре "Ил-2 ШТУРМОВИК" БЗХ | Hunn](https://www.youtube.com/watch?v=TkpqBMOE5Kk)
 9. [Несколько советов для новичков в Ил-2 Штурмовик Битва за Сталинград (Ил-2 БЗС, Il-2 BoS, Ил2 БЗХ). | iluha](https://www.youtube.com/watch?v=1hucMhgi3kg)
     - на такой-то минуте то-то
 
 ## Настройка обзора
-1. https://www.youtube.com/watch?v=5r16oYQJtJQ
+1. [Настройка обзора в Ил-2 БЗС \ Увидеть все кольца прицела | Hunn](https://www.youtube.com/watch?v=5r16oYQJtJQ)
     - на такой-то минуте то-то
-2. https://www.youtube.com/watch?v=o7v-N_HcYh8
-3. https://www.youtube.com/watch?v=WUXfza_41_I
-4. https://www.youtube.com/watch?v=rIKNCf0vKFE
-5. https://www.youtube.com/watch?v=o_9PI-gmK-M
+2. [ИЛ-2 Штурмовик: Великие битвы. Настройка клавиш управления и обзора | Full Mission Builder](https://www.youtube.com/watch?v=o7v-N_HcYh8)
+3. [Учебный Ил-2 Штурмовик (Настройка истребителей) | Вирпил SpayeR](https://www.youtube.com/watch?v=WUXfza_41_I)
+4. [Настройка взгляда по умолчанию | Thresher](https://www.youtube.com/watch?v=rIKNCf0vKFE)
+5. [Глава 2.2 - Настройка обзора(MK.Mr.X) | MK.Mr.X](https://www.youtube.com/watch?v=o_9PI-gmK-M)
 6. [Ил-2 Штурмовик. Битва за Сталинград. Настройка обзора кабины. | ТАНКИСТ](https://www.youtube.com/watch?v=JRlOhNFVkrI)
 
 ## Playlists
