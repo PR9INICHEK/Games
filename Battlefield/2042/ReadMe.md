@@ -48,7 +48,7 @@
 22. []()
 23. []()
 24. []()
-25. []()
+25. [Награды за ветерана/предзаказ](https://battlefield.fandom.com/wiki/Battlefield_2042_Assignments#Veteran_Kit)
 
 
 # Интересные вещи, о которых можно рассказывать
