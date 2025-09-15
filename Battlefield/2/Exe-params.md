@@ -6,8 +6,7 @@
     - Например - `cd "D:\Games\Battlefield 2 Complete Collection\"`
 3. Выполнить команду `start BF2.exe +help`
 
-![image](https://github.com/user-attachments/assets/91a6c36c-6455-48f5-86d2-2653a8549351)
-
+<img width="387" height="649" alt="image" src="https://github.com/user-attachments/assets/f74704f7-63b0-416c-9cef-96e95899e67d" />
 
 # Available options are:
 - `+dedicated`  -  Start in dedicated server mode
