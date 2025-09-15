@@ -6,9 +6,9 @@
 5. 
 
 # Видео
-1. https://www.youtube.com/watch?v=I3rW5Z5Voew
-2. https://www.youtube.com/watch?v=C1-hFY23mh4
-3. https://www.youtube.com/watch?v=k0wkRXltGNQ
-4. https://www.youtube.com/watch?v=-mxX8p7GtgE
+1. [My VR Setup for IL-2: Great Battles - OpenXR - Quest 3 - Settings and tips | Sheriff's Sim Shack](https://www.youtube.com/watch?v=I3rW5Z5Voew)
+2. [Пробный полет на ЛаГГ-3 в игре "Ил-2 Штурмовик БЗС" в VR шлеме. | Kons Games](https://www.youtube.com/watch?v=C1-hFY23mh4)
+3. [И-153 "Чайка", перехват J52. Oculus Quest 3 VR | TheSovit001](https://www.youtube.com/watch?v=k0wkRXltGNQ)
+4. [Virtual Cockpit Passthrough for Il2 and DCS with Quest 3 | Wingly_Actual](https://www.youtube.com/watch?v=-mxX8p7GtgE)
 5. [IL-2 Sturmovik VR Tuning Guide | How to determine the best settings for your rig and gameplay style | Blue Max](https://www.youtube.com/watch?v=jFXhfI7bcKg)
 6. 
