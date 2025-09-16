@@ -36,9 +36,6 @@
 ## Педали
 1.
 
-Как можно улучшить
-https://shop.vkb-sim.pro/items/sem-v/
-
 # Остальное
 1. [Голосовая связь прям в игре - SRS for IL-2 (Voice Comms App)](https://forum.il2sturmovik.ru/topic/13613-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-srs-for-il-2-voice-comms-app/)
 2. [Виртуальный музей](https://il2sturmovik.ru/museum/)
