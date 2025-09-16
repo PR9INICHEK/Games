@@ -15,11 +15,13 @@ https://wiki.bfee.co/BF2042/Phantom_Program
 **Shorts**
 1. [Unlock Falck’s Skin FAST – No Codes or Radios (Battlefield 2042 Tutorial) - @TAKA_BeWhy](https://www.youtube.com/shorts/RMiTF10f-Iw)
 
-#### Скины на других персонажей - ПЕРЕЧИСЛИТЬ
+## Скины на других персонажей - ПЕРЕЧИСЛИТЬ
 1. [КАК ОТКРЫТЬ СЕКРЕТНЫЙ ФАНТОМ СКИН В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=RwrZiu5Audo)
+
+### Engineer
+1. [Phantom skins for Engineer solved | DANNYonPC](https://www.youtube.com/watch?v=V54ucbVdbAA)
 2. []()
 3. []()
-4. []()
 
 #### Оружие прототип
 1. [Battlefield 2042 Как получить Секретное Оружие ( Prototype / Прототип ) - Shobo](https://www.youtube.com/watch?v=_3M6xE_6tw4)
