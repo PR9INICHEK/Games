@@ -42,12 +42,6 @@
 3. [Плюшки от Меховушки](https://forum.il2sturmovik.ru/topic/2156-%D0%BF%D0%BB%D1%8E%D1%88%D0%BA%D0%B8-%D0%BE%D1%82-%D0%BC%D0%B5%D1%85%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B8/)
 4. 
 
-# История игры
-1. https://www.youtube.com/watch?v=fVimnAGXgjw
-2. https://www.youtube.com/watch?v=g4vyEGRlUi0
-
-
-
 ## Разобрать
 1. https://www.youtube.com/watch?v=S-SP7JY-qj8&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=1&t=9s&pp=gAQBiAQB0gcJCd4JAYcqIYzv
 2. https://www.youtube.com/watch?v=v-aC5lNYU-8&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=2&pp=gAQBiAQB0gcJCd4JAYcqIYzv
