@@ -39,20 +39,11 @@
 Как можно улучшить
 https://shop.vkb-sim.pro/items/sem-v/
 
-
 # Остальное
 1. [Голосовая связь прям в игре - SRS for IL-2 (Voice Comms App)](https://forum.il2sturmovik.ru/topic/13613-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-srs-for-il-2-voice-comms-app/)
 2. [Виртуальный музей](https://il2sturmovik.ru/museum/)
 3. [Плюшки от Меховушки](https://forum.il2sturmovik.ru/topic/2156-%D0%BF%D0%BB%D1%8E%D1%88%D0%BA%D0%B8-%D0%BE%D1%82-%D0%BC%D0%B5%D1%85%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B8/)
 4. 
-
-
-# Сервера
-1. [Finnish VirtualPilots](https://forum.il2sturmovik.ru/topic/6043-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-finnish-virtualpilots-dynamic-war-%D0%B6%D1%83%D1%82%D0%BA%D0%B8%D0%B9-%D1%85%D0%B0%D1%80%D0%B4%D0%BA%D0%BE%D1%80/)
-    - [статистика](https://stats.virtualpilots.fi/)
-2. [КРЫЛЬЯ СВОБОДЫ / WINGS of LIBERTY](https://forum.il2sturmovik.ru/topic/6481-%D0%BA%D1%80%D1%8B%D0%BB%D1%8C%D1%8F-%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B-wings-of-liberty/)
-    - [статистика](http://il2stat.aviaskins.com:8008/ru/)
-3. 
 
 # История игры
 1. https://www.youtube.com/watch?v=fVimnAGXgjw
