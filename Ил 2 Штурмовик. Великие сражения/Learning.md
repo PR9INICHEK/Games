@@ -32,6 +32,15 @@
 3. [Обучение и руководства](https://forum.il2sturmovik.ru/forum/44-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0/)
 4. [Воздушная стрельба в игре "Ил-2 ШТУРМОВИК" БЗХ - Hunn](https://www.youtube.com/watch?v=TkpqBMOE5Kk)
 5. [Скольжение самолета (часть 2): Боевое применение скольжения. | ТАНКИСТ](https://www.youtube.com/watch?v=1DzcazXBBM4)
+6. [Aerobatics - Barrel Rolls | The Air Combat Tutorial Library](https://www.youtube.com/watch?v=S-SP7JY-qj8)
+7. [How to Yak-1 | Part 2: How to Fight | IL-2: Battle of Stalingrad | Sheriff's Sim Shack](https://www.youtube.com/watch?v=v-aC5lNYU-8)
+8. [Ла-5 8серии ЛЕТО Оптимальные режимы мотора. Для новичков в игре "Ил-2 Штурмовик БЗХ" | Hunn](https://www.youtube.com/watch?v=XW-gePhHaF0)
+9. [How To Navigate in IL-2 Multiplayer (Finnish Specific) | Don't Be Lost, Find Your Way! | Enigma](https://www.youtube.com/watch?v=iuBY6jmOVSE)
+10. [How To: Basic Wingman Multiplayer Tactics Part 1 for IL-2 Multiplayer | Enigma](https://www.youtube.com/watch?v=XzLp4_v6tdc)
+11. [Аэрокобра - самый быстрый самолёт ВВС КА в 1942 году! Как реализовать возможности двигателя Элиссон? | Hunn](https://www.youtube.com/watch?v=HFNrIhmpgag)
+12. [How To: Fly the Bf-110 in Multiplayer | Bite Size Guide and Directional Approaches to the Zerstörer | Enigma](https://www.youtube.com/watch?v=Ldl4Trt0Bpg)
+13. [Two Soviets Fighters VS a German Bomber Squadron | IL-2 Sturmovik Flight Sim Realistic Missions | Renzic](https://www.youtube.com/watch?v=jmV6lUM1RUE)
+14. 
 
 # Плейлист
 1. [iluha](https://www.youtube.com/watch?v=JuFDL9h4xxE&list=PLFPwCmZWHukCrNkglN14Fv2bYWGRahZDy)
