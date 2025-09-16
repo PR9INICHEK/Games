@@ -43,14 +43,6 @@
 4. 
 
 ## Разобрать
-1. https://www.youtube.com/watch?v=S-SP7JY-qj8&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=1&t=9s&pp=gAQBiAQB0gcJCd4JAYcqIYzv
-2. https://www.youtube.com/watch?v=v-aC5lNYU-8&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=2&pp=gAQBiAQB0gcJCd4JAYcqIYzv
-3. https://www.youtube.com/watch?v=XW-gePhHaF0&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=3&t=120s&pp=gAQBiAQB
-4. https://www.youtube.com/watch?v=iuBY6jmOVSE&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=4&pp=gAQBiAQB
-5. https://www.youtube.com/watch?v=XzLp4_v6tdc&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=5&pp=gAQBiAQB0gcJCd4JAYcqIYzv
-6. https://www.youtube.com/watch?v=HFNrIhmpgag&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=6&pp=gAQBiAQB
-7. https://www.youtube.com/watch?v=Ldl4Trt0Bpg&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=7&pp=gAQBiAQB
-8. https://www.youtube.com/watch?v=jmV6lUM1RUE&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=8&pp=gAQBiAQB
 9. https://www.youtube.com/watch?v=zbyGOd6NwME&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=9&t=1s&pp=gAQBiAQB
 10. https://www.youtube.com/watch?v=VU7v77kTs-k&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=10&pp=gAQBiAQB0gcJCd4JAYcqIYzv
 11. https://www.youtube.com/watch?v=Ja--X3mkYFk&list=PLKYEPEF-53lQfCmTbhLmb_mqIad8tjHRm&index=11&t=1s&pp=gAQBiAQB0gcJCd4JAYcqIYzv
