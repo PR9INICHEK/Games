@@ -25,19 +25,6 @@
 3. Изменил цвет интерфейса, чтобы мы красные, а враги синие
 4. 
 
-## Самолёты
-2. Як-9
-    - https://www.youtube.com/watch?v=qdHLhchdNEU
-3. Ta-152
-    - https://www.youtube.com/watch?v=LY5SuI9CH8Q
-    - https://www.youtube.com/watch?v=bNeCHnmi6IY
-4. Tempest Mk.V ser.2
-    - https://www.youtube.com/watch?v=2D7PXszty9g
-    - https://www.youtube.com/watch?v=s_jpmXN7MA4
-5. Ju-88
-    - https://www.youtube.com/watch?v=8UyonJIEkoY
-6. 
-
 # Настройка джойстиков
 ## РУД
 ### Ручка WWII THQ(https://shop.vkb-sim.pro/items/wwii-thq-grip/) на базе GNX-THQ(https://shop.vkb-sim.pro/items/modul-gnx-thq/)
