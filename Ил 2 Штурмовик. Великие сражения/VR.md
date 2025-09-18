@@ -11,4 +11,7 @@
 3. [И-153 "Чайка", перехват J52. Oculus Quest 3 VR | TheSovit001](https://www.youtube.com/watch?v=k0wkRXltGNQ)
 4. [Virtual Cockpit Passthrough for Il2 and DCS with Quest 3 | Wingly_Actual](https://www.youtube.com/watch?v=-mxX8p7GtgE)
 5. [IL-2 Sturmovik VR Tuning Guide | How to determine the best settings for your rig and gameplay style | Blue Max](https://www.youtube.com/watch?v=jFXhfI7bcKg)
-6. 
+6. [Quest 3 "самые вторые" впечатления. Работа с ПК, настройка Quest link. | Just Fly It](https://www.youtube.com/watch?v=2dWkZ8eAhFU)
+7. [Настраиваем Quest 3 и Virtual Desktop для полётов в VR. | Just Fly It](https://www.youtube.com/watch?v=tnESzVvxiRs)
+  - на таком-то моменте такое
+7. 
