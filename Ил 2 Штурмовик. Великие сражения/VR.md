@@ -5,6 +5,13 @@
 4. [Советы новичкам Виртуальной реальности](https://forum.il2sturmovik.ru/topic/6927-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0%D0%BC-%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%80%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/)
 5. 
 
+# Помощь от сообщества
+1. [Про openvr_api.dll и обрезку FOV через opencomposite.ini](https://forum.il2sturmovik.ru/topic/16544-quest-3/page/59/#findComment-938214)
+2. [Про настройку дальности](https://forum.il2sturmovik.ru/topic/16544-quest-3/page/55/#findComment-935880)
+   - "Фильтр текстур земли лучше ставить размытие - лучше видно объекты на земле и на фоне земли"
+3. 
+
+
 # Видео
 1. [My VR Setup for IL-2: Great Battles - OpenXR - Quest 3 - Settings and tips | Sheriff's Sim Shack](https://www.youtube.com/watch?v=I3rW5Z5Voew)
 2. [Пробный полет на ЛаГГ-3 в игре "Ил-2 Штурмовик БЗС" в VR шлеме. | Kons Games](https://www.youtube.com/watch?v=C1-hFY23mh4)
