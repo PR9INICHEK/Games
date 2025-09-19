@@ -20,7 +20,7 @@ https://wiki.bfee.co/BF2042/Phantom_Program
 
 ### Engineer
 1. [Phantom skins for Engineer solved | DANNYonPC](https://www.youtube.com/watch?v=V54ucbVdbAA)
-2. []()
+2. [Секретный скин на Инженера Battlefield 2042 (Программа Фантом / Engineer) | Shobo](https://www.youtube.com/watch?v=mXjACUUJcnM)
 3. []()
 
 #### Оружие прототип
