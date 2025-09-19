@@ -26,6 +26,9 @@ https://wiki.bfee.co/BF2042/Phantom_Program
 2. [Секретный скин на Инженера Battlefield 2042 (Программа Фантом / Engineer) | Shobo](https://www.youtube.com/watch?v=mXjACUUJcnM)
 3. []()
 
+### Sniper
+1.
+
 #### Оружие прототип
 1. [Battlefield 2042 Как получить Секретное Оружие ( Prototype / Прототип ) - Shobo](https://www.youtube.com/watch?v=_3M6xE_6tw4)
 2. [КАК ОТКРЫТЬ ПРОТОТИП В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=8BpR0I0HqEg)
