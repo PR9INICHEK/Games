@@ -11,7 +11,10 @@ https://wiki.bfee.co/BF2042/Phantom_Program
 ## Скины на других персонажей - ПЕРЕЧИСЛИТЬ
 1. [КАК ОТКРЫТЬ СЕКРЕТНЫЙ ФАНТОМ СКИН В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=RwrZiu5Audo)
 
-### Поддержка
+### Assault
+1.
+
+### Support
 1. [Секретный скин на Поддержку Battlefield 2042 ( Phantom Program skins ) - Shobo](https://www.youtube.com/watch?v=Rwk5Nx8s6yg)
 2. [КАК ОТКРЫТЬ ФАНТОМ СКИН ПОДДЕРЖКИ В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=rg4953QG5CA)
 3. [Unlock Falck’s Skin FAST – No Codes or Radios (Battlefield 2042 Tutorial) - @TAKA_BeWhy](https://www.youtube.com/shorts/RMiTF10f-Iw)
