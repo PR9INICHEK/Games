@@ -8,15 +8,15 @@
 
 https://wiki.bfee.co/BF2042/Phantom_Program
 
-#### Скины на поддержку
-1. [Секретный скин на Поддержку Battlefield 2042 ( Phantom Program skins ) - Shobo](https://www.youtube.com/watch?v=Rwk5Nx8s6yg)
-2. [КАК ОТКРЫТЬ ФАНТОМ СКИН ПОДДЕРЖКИ В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=rg4953QG5CA)
-
 **Shorts**
 1. [Unlock Falck’s Skin FAST – No Codes or Radios (Battlefield 2042 Tutorial) - @TAKA_BeWhy](https://www.youtube.com/shorts/RMiTF10f-Iw)
 
 ## Скины на других персонажей - ПЕРЕЧИСЛИТЬ
 1. [КАК ОТКРЫТЬ СЕКРЕТНЫЙ ФАНТОМ СКИН В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=RwrZiu5Audo)
+
+### Поддержка
+1. [Секретный скин на Поддержку Battlefield 2042 ( Phantom Program skins ) - Shobo](https://www.youtube.com/watch?v=Rwk5Nx8s6yg)
+2. [КАК ОТКРЫТЬ ФАНТОМ СКИН ПОДДЕРЖКИ В BATTLEFIELD 2042 - Preepwalker](https://www.youtube.com/watch?v=rg4953QG5CA)
 
 ### Engineer
 1. [Phantom skins for Engineer solved | DANNYonPC](https://www.youtube.com/watch?v=V54ucbVdbAA)
