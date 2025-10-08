@@ -16,7 +16,8 @@
 13. [Как я за год стал 3D художником ничего не зная про моделирование | Моя история | Papidaster](https://www.youtube.com/watch?v=za3W6KBIpTQ)
 14. [3 Совета Для Начинающих Инди Разработчиков | xk](https://www.youtube.com/watch?v=un09YfxH51Q)
 15. [ПРОГРЕВ: Ключевой шаг для успешной разработки игры | xk](https://www.youtube.com/watch?v=DvXKYO1SutE)
-16. 
+16. [15 часов в день чтобы сделать лучшую игру | xk](https://www.youtube.com/watch?v=cQIXAOPGdV4)
+17. 
 
 
 # Успешный успех - для вдохновения
