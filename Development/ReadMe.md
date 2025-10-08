@@ -10,4 +10,15 @@
 7. [I Optimised My Game Engine Up To 12000 FPS | Vercidium](https://www.youtube.com/watch?v=40JzyaOYJeY)
 8. [How to Create a Game from Scratch | All details for beginners | Cyberstars -  How to create a game](https://www.youtube.com/watch?v=KjBBC07hGjQ)
 9. [Learning C++ Game Engine Development in 1 Year | MakerJSON](https://www.youtube.com/watch?v=yp3NG4JvXus)
-10. 
+10. [Сделал свой 3д движок | kingmang](https://www.youtube.com/watch?v=Ub3f5HhKCC0)
+11. [Как я учу программирование БЫСТРЕЕ тебя? ТОП 3 Правила БЫСТРОГО обучения | ZProger [ IT ]](https://www.youtube.com/watch?v=FRp3GomhoGU)
+12. [Make Video Games | Pirate Software](https://www.youtube.com/watch?v=aMc-GKv5olA)
+13. [Как я за год стал 3D художником ничего не зная про моделирование | Моя история | Papidaster](https://www.youtube.com/watch?v=za3W6KBIpTQ)
+14. [3 Совета Для Начинающих Инди Разработчиков | xk](https://www.youtube.com/watch?v=un09YfxH51Q)
+15. [ПРОГРЕВ: Ключевой шаг для успешной разработки игры | xk](https://www.youtube.com/watch?v=DvXKYO1SutE)
+16. 
+
+
+# Успешный успех - для вдохновения
+1. [Как я заработал 100 тысяч долларов на своей первой игре в Steam | Indovers](https://www.youtube.com/watch?v=iLtRm6JqMIE)
+2. 
