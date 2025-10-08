@@ -1,7 +1,10 @@
 # VR
 
-1. https://www.youtube.com/watch?v=XbL7f6TIl30
+1. [Как Подключить Meta Quest к ПК | 4 СПОСОБА + СРАВНЕНИЕ | ViarTim](https://www.youtube.com/watch?v=XbL7f6TIl30)
 2. [Quest 3 Virtual Desktop Tutorial and PCVR Setup in Under 5 Minutes | VR ManCave](https://www.youtube.com/watch?v=uiOnlK22wLM&list=WL&index=2&pp=gAQBiAQB)
+3. [Всё про Virtual Desktop: настройки, запуск игр, управление | Pavel419](https://www.youtube.com/watch?v=5WmCo6h_7k0)
+4. [Полная инструкция Virtual Desktop 🎮 Как настроить VR без лагов (Quest 3 / Pico 4) | Beyond Meta](https://www.youtube.com/watch?v=Z4rNajvNI9c)
+5. 
 
 # Игры
 1. [Eye of the Temple](https://www.youtube.com/shorts/D5KRgybuoiE)
