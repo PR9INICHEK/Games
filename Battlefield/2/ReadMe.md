@@ -148,7 +148,7 @@
 4. Для больших карт - https://www.moddb.com/games/battlefield-2/downloads/bf2-larger-sp-maps
 5. https://www.playground.ru/battlefield_2/file/battlefield_2_karta_highway_tampa_fix_coop-1261534
 6. Battlefield 2 Co-Op FEAR Edition - https://www.nexusmods.com/battlefield2/mods/1132
-7. 
+7. [BF2 1.5 AI Commander Fix + Weapons Unlock](https://www.moddb.com/games/battlefield-2/downloads/bf2-15-ai-commander-fix-weapons-unlock)
 
 
 # Полезная информация
