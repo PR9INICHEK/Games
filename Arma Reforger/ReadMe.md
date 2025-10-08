@@ -25,7 +25,7 @@
 7. [Combat Landing Tutorial | Arma Reforger | Teej](https://www.youtube.com/watch?v=UEa1e6H79LE)
 8. [How to EFFECTIVELY use Anti-Tank mines in Arma Reforger! | Sabre](https://www.youtube.com/watch?v=8Xmts7yP70c)
 9. [ARMA Reforger - A Brief Overview of Supplies | Tha Sly Fox](https://www.youtube.com/watch?v=2eokMA_oRDA)
-10. 
+10. [Every War Tactic Explained in 8 Minutes | The Paint Explainer](https://www.youtube.com/watch?v=uAev-EdK3I4)
 11. 
 
 # Тактика
