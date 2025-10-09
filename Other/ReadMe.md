@@ -1,6 +1,7 @@
 # Казаки. Снова война
 1. [Казаки. Снова Война. Спидран обучения: "С чего начать?" за 02:23 | The Real Felix](https://www.youtube.com/watch?v=EZliFn401Jw)
-2. 
+2. [Игровой сервер для игры "Казаки"](http://cossacks-server.net/)
+3. 
 
 # ARK: Survival Evolved
 1. [Тапежара (Tapejara) в АРК. Лучший обзор: приручение, разведение и способности в ark | FenomeN GameS](https://www.youtube.com/watch?v=ctKhCV_JHL8)
