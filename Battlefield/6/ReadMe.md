@@ -13,7 +13,8 @@
 2. 
 
 # Настройки управления для самолётов
-1.
+1. [Battlefield 6 Quick Start Jet Guide! (Tips, Settings and Exploits?) | Silk](https://www.youtube.com/watch?v=wjuz1CIa9qg)
+2. 
 
 # Бета
 1. [Battlefield 6 From a Tarkov Duo's POV | RamenStyle](https://www.youtube.com/watch?v=p2xDdYH6_g4)
