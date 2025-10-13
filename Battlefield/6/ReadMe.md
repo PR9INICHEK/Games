@@ -14,6 +14,7 @@
 
 # Настройки управления для самолётов
 1. [Battlefield 6 Quick Start Jet Guide! (Tips, Settings and Exploits?) | Silk](https://www.youtube.com/watch?v=wjuz1CIa9qg)
+   - На таком-то моменте то-то говорят
 2. 
 
 # Бета
