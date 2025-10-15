@@ -16,7 +16,8 @@
 14. [3 Совета Для Начинающих Инди Разработчиков | xk](https://www.youtube.com/watch?v=un09YfxH51Q)
 15. [ПРОГРЕВ: Ключевой шаг для успешной разработки игры | xk](https://www.youtube.com/watch?v=DvXKYO1SutE)
 16. [15 часов в день чтобы сделать лучшую игру | xk](https://www.youtube.com/watch?v=cQIXAOPGdV4)
-17. 
+17. [Пример системного гейм дизайна | xkoster](https://www.youtube.com/shorts/E9g4vNiCeN4)
+18. 
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
