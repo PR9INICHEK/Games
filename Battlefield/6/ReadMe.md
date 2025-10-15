@@ -41,6 +41,9 @@ Proper smoke positions are winning games. ONE person can literally make it easy 
    - На таком-то моменте то-то говорят
 2. [You're Flying WRONG in Battlefield 6. Here's How to Fix It. | TheTacticalBrit and 2 more](https://www.youtube.com/watch?v=tzRYgW8auhc)
    - На таком-то моменте то-то говорят
+3. [Про инвертирование управления](https://vk.com/wall-99128346_77947?reply=77974&thread=77967)
+   - "в настройках…вертолета"
+4. 
 
 # Бета
 1. [Battlefield 6 From a Tarkov Duo's POV | RamenStyle](https://www.youtube.com/watch?v=p2xDdYH6_g4)
