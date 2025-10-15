@@ -17,7 +17,10 @@
 15. [ПРОГРЕВ: Ключевой шаг для успешной разработки игры | xk](https://www.youtube.com/watch?v=DvXKYO1SutE)
 16. [15 часов в день чтобы сделать лучшую игру | xk](https://www.youtube.com/watch?v=cQIXAOPGdV4)
 17. [Пример системного гейм дизайна | xkoster](https://www.youtube.com/shorts/E9g4vNiCeN4)
-18. 
+18. [От Идеи до Реализации: Моя Первая Игра за 40 Дней | nosok](https://www.youtube.com/watch?v=bd66scJCATU)
+19. [НЕ Делай так свои игры | История 2 лет разработки [Devlog] | justapoint](https://www.youtube.com/watch?v=lvLrEv__1HY)
+20. [Делал свою игру 5 ЛЕТ и сдался... | ANCION](https://www.youtube.com/watch?v=QMQ4OxUbZjo)
+21. 
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
