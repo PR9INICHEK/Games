@@ -45,7 +45,9 @@ Proper smoke positions are winning games. ONE person can literally make it easy 
 3. [Про инвертирование управления](https://vk.com/wall-99128346_77947?reply=77974&thread=77967)
    - "в настройках…вертолета"
 4. [Сервер для обучению летанию](https://x.com/GhostGamingG/status/1977409437091647579)
-5. 
+5. [Battlefield 6 Fighter Thrust Vectoring and Details | Kieran Poole](https://www.youtube.com/watch?v=QFlp6c8cqso)
+6. [POV: You are Battlefield 6's Most DANGEROUS Pilot... | Silk](https://www.youtube.com/watch?v=xOkz1tBJkbc)
+7. 
 
 # Бета
 1. [Battlefield 6 From a Tarkov Duo's POV | RamenStyle](https://www.youtube.com/watch?v=p2xDdYH6_g4)
