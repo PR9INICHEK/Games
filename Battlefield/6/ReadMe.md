@@ -3,6 +3,7 @@
 
 # Лайфхаки
 1. [Battlefield 6 - Setting Rate of fire and scope switch to the same button - Very useful | Michael Antonio](https://www.youtube.com/watch?v=0WnXIuZ187w)
+
 ## Советы по тактике
 1. [Правильное использование дымовых гранат](https://www.reddit.com/r/Battlefield6/comments/1o4zjvh/most_players_dont_actually_understand_how_to_use/)
    - оригинальный пост с реддита вроде удалили(повезло, что текст остался в переводчике). Можно будет поискать позднее
