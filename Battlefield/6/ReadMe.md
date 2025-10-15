@@ -5,7 +5,7 @@
 1. [Battlefield 6 - Setting Rate of fire and scope switch to the same button - Very useful | Michael Antonio](https://www.youtube.com/watch?v=0WnXIuZ187w)
 ## Советы по тактике
 1. [Правильное использование дымовых гранат](https://www.reddit.com/r/Battlefield6/comments/1o4zjvh/most_players_dont_actually_understand_how_to_use/)
-2. Про использование дымов - оригинальный пост с реддита вроде удалили. Можно будет поискать позднее
+   - оригинальный пост с реддита вроде удалили(повезло, что текст остался в переводчике). Можно будет поискать позднее
    - People completely misuse smoke grenades in this game. Throwing smoke directly on a downed teammate or on your own team does almost nothing. It just blinds everyone on your side and gives the enemy more control.
 
 Smoke is about controlling sightlines and forcing movement. Here’s how to actually use it:
