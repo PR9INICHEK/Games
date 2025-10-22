@@ -23,7 +23,8 @@
 2. [ТОП 10 ФИШЕК которые ДОЛЖНЫ вернуться в BATTLEFIELD 2042! | segafive](https://www.youtube.com/watch?v=X1T7mQUgd6o)
 3. [Battlefield 2042 LATV Adventures 4 | Ravic](https://www.youtube.com/watch?v=XdrIAmC-1fM)
 4. [Battlefield 2042 SEASON 3 PRO Settings Guide ( Best Visibility and Performance ) | Silk](https://www.youtube.com/watch?v=tIJ33N-9nHM)
-5. 
+5. [17 Tips Every Battlefield 2042 Player Should Know! | TheCadWoman](https://www.youtube.com/watch?v=v5lvPwgrdQE)
+6. 
 
 #### Другое или Неразобранное
 1. []()
