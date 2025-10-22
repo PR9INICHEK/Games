@@ -20,7 +20,11 @@
 18. [От Идеи до Реализации: Моя Первая Игра за 40 Дней | nosok](https://www.youtube.com/watch?v=bd66scJCATU)
 19. [НЕ Делай так свои игры | История 2 лет разработки [Devlog] | justapoint](https://www.youtube.com/watch?v=lvLrEv__1HY)
 20. [Делал свою игру 5 ЛЕТ и сдался... | ANCION](https://www.youtube.com/watch?v=QMQ4OxUbZjo)
-21. 
+21. [Мой первый год разработки игр на Unity | Mason](https://www.youtube.com/watch?v=LTnSzMindyI)
+22. [Why You Shouldn't Nest Your Code | CodeAesthetic](https://www.youtube.com/watch?v=CFRhGnuXG-4)
+23. [Creating a 2D platformer in Unity- For total beginners | VionixStudio](https://www.youtube.com/watch?v=EVB1BAQIBxE)
+24. [How Game Designers Solved These 11 Problems | Game Maker's Toolkit](https://www.youtube.com/watch?v=rJZyPdYIbZI)
+25. 
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
@@ -28,4 +32,8 @@
 
 # Успешный успех - для вдохновения
 1. [Как я заработал 100 тысяч долларов на своей первой игре в Steam | Indovers](https://www.youtube.com/watch?v=iLtRm6JqMIE)
+2. 
+
+# Разное
+1. [ASMR Programming - Calculator App Coding - No Talking | AsmrProg](https://www.youtube.com/watch?v=sBJmRD7kNTk)
 2. 
