@@ -47,9 +47,15 @@
 3. [Путь программиста, который почти никто не вывозит | Winderton](https://www.youtube.com/watch?v=BZ2Ee3HgIVY)
 4. [Как я делаю свои игры / День из жизни разработчика игр | Mason](https://www.youtube.com/watch?v=jMAfly2ivVA)
 5. [Roadmap to becoming a gamedev in 2025 | BiteMe Games](https://www.youtube.com/watch?v=6cU3ru8NSWQ)
-6. 
+6. [Getting started with Enfusion Map making (initial setup and importing a terrain) | Jorgo32](https://www.youtube.com/watch?v=P8VTr-its0k)
+7. 
 
 # QA
 1. [Unit Testing C# Code - Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=HYrXogLj7vg)
 2. [What bugs Filip the QA Lead? – Dev Stream Highlights | DayZ](https://www.youtube.com/watch?v=PPDkgZciUkM)
 3. 
+
+
+# Интервью
+1. [FPI: Filip "Fido" Doksanský: Enfusion, Black Element, Bohemia Interactive, Testament, Alpha Prime .. | Vision Game](https://www.youtube.com/watch?v=mu0vgWgFGFM)
+2. 
