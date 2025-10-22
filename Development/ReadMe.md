@@ -24,11 +24,15 @@
 22. [Why You Shouldn't Nest Your Code | CodeAesthetic](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 23. [Creating a 2D platformer in Unity- For total beginners | VionixStudio](https://www.youtube.com/watch?v=EVB1BAQIBxE)
 24. [How Game Designers Solved These 11 Problems | Game Maker's Toolkit](https://www.youtube.com/watch?v=rJZyPdYIbZI)
-25. 
+25. [How I Created an Epic 3D Fantasy World in only 3 Days | CG Geek](https://www.youtube.com/watch?v=kQ0x0R_yHrs)
+26. [C# 2025 С НУЛЯ ДО ПРОФИ | СЛИВ ЛУЧШЕГО КУРСА | Роман Сакутин](https://www.youtube.com/watch?v=w8rRhAup4kg)
+27. 
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
 2. [A* (A-Star) Pathfinding Algorithm Visualization on a Real Map | ones and zeros](https://www.youtube.com/watch?v=CgW0HPHqFE8)
+3. [How Dijkstra's Algorithm Works | Spanning Tree](https://www.youtube.com/watch?v=EFg3u_E6eHU)
+4. 
 
 # Успешный успех - для вдохновения
 1. [Как я заработал 100 тысяч долларов на своей первой игре в Steam | Indovers](https://www.youtube.com/watch?v=iLtRm6JqMIE)
@@ -36,4 +40,6 @@
 
 # Разное
 1. [ASMR Programming - Calculator App Coding - No Talking | AsmrProg](https://www.youtube.com/watch?v=sBJmRD7kNTk)
-2. 
+2. [Godot 4.0: It's Almost a Brand New Engine! Full Breakdown of New Features | GDQuest](https://www.youtube.com/watch?v=chXAjMQrcZk)
+3. [Путь программиста, который почти никто не вывозит | Winderton](https://www.youtube.com/watch?v=BZ2Ee3HgIVY)
+4. 
