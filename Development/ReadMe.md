@@ -26,7 +26,10 @@
 24. [How Game Designers Solved These 11 Problems | Game Maker's Toolkit](https://www.youtube.com/watch?v=rJZyPdYIbZI)
 25. [How I Created an Epic 3D Fantasy World in only 3 Days | CG Geek](https://www.youtube.com/watch?v=kQ0x0R_yHrs)
 26. [C# 2025 С НУЛЯ ДО ПРОФИ | СЛИВ ЛУЧШЕГО КУРСА | Роман Сакутин](https://www.youtube.com/watch?v=w8rRhAup4kg)
-27. 
+27. [2D Player Movement In Unity | bendux](https://www.youtube.com/watch?v=K1xZ-rycYY8)
+28. [In Video Games, The Player Never Moves | Josh's Channel](https://www.youtube.com/watch?v=wiYTxjJjfxs)
+29. [Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial) | Code Monkey](https://www.youtube.com/watch?v=AmGSEH7QcDg)
+30. 
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
@@ -42,4 +45,11 @@
 1. [ASMR Programming - Calculator App Coding - No Talking | AsmrProg](https://www.youtube.com/watch?v=sBJmRD7kNTk)
 2. [Godot 4.0: It's Almost a Brand New Engine! Full Breakdown of New Features | GDQuest](https://www.youtube.com/watch?v=chXAjMQrcZk)
 3. [Путь программиста, который почти никто не вывозит | Winderton](https://www.youtube.com/watch?v=BZ2Ee3HgIVY)
-4. 
+4. [Как я делаю свои игры / День из жизни разработчика игр | Mason](https://www.youtube.com/watch?v=jMAfly2ivVA)
+5. [Roadmap to becoming a gamedev in 2025 | BiteMe Games](https://www.youtube.com/watch?v=6cU3ru8NSWQ)
+6. 
+
+# QA
+1. [Unit Testing C# Code - Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=HYrXogLj7vg)
+2. [What bugs Filip the QA Lead? – Dev Stream Highlights | DayZ](https://www.youtube.com/watch?v=PPDkgZciUkM)
+3. 
