@@ -59,3 +59,12 @@
 # Интервью
 1. [FPI: Filip "Fido" Doksanský: Enfusion, Black Element, Bohemia Interactive, Testament, Alpha Prime .. | Vision Game](https://www.youtube.com/watch?v=mu0vgWgFGFM)
 2. 
+
+
+# Hacking
+1. [How To Catch A Cheater With Math | Primer](https://www.youtube.com/watch?v=XTcP4oo4JI4)
+2. [You Should Learn C++ (for hacking games) | cazz](https://www.youtube.com/watch?v=IK7GbHXvpy8)
+3. [Malware Development: Processes, Threads, and Handles | crow](https://www.youtube.com/watch?v=aNEqC-U5tHM)
+4. [Reverse Engineering/Game Patching Tutorial: Full Res RollerCoaster Tycoon with Ghidra+x64dbg+Python | jeFF0Falltrades](https://www.youtube.com/watch?v=cwBoUuy4nGc)
+5. [Multiplayer Cheating, explained | Kian Brose](https://www.youtube.com/watch?v=k_VV_nceRE0)
+6. 
