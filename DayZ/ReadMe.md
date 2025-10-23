@@ -43,4 +43,9 @@
 1. [WAR! - DayZ (Movie) | JLK](https://www.youtube.com/watch?v=G3rXsSG5gFg)
 2. [My 2015 - 2021 Experience | PolishedGuy](https://www.youtube.com/watch?v=ORlk6ZndXVg)
 3. [Mr. Moon: "Maverick" - DayZ Standalone | Mr. Moon](https://www.youtube.com/watch?v=HY8mOw7-RT8)
-4. 
+4. [Building my solo lakehouse base in DayZ... | Nash](https://www.youtube.com/watch?v=KX6HiBjod04)
+
+# Разное
+1. [What a 30+ SQUAD can achieve in DayZ... | Fresh Spawns](https://www.youtube.com/watch?v=jHG8gc26SEY)
+2. [DayZ :10 controller hints for playing on console | Chill Game Reviews](https://www.youtube.com/watch?v=I11AYQ_QPdo)
+3. 
