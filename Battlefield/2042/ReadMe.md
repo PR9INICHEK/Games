@@ -56,7 +56,10 @@
 # Интересные вещи, о которых можно рассказывать
 1. https://wiki.bfee.co/BF2042/Funny_messages
 2. https://wiki.bfee.co/BF2042/QR_Codes
-3. 
+
+# Открытые вопросы
+1. Как выполнить достижение у Бориса
+2. 
 
 # Руководства по самолётам или просто интересные видео, из которых можно поучиться
 1. [The Game Caused ATTACK JET NERFS… 129-0 in 24 minutes. | Silk](https://www.youtube.com/watch?v=Wt91GRloakg)
