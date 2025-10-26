@@ -40,7 +40,9 @@ Proper smoke positions are winning games. ONE person can literally make it easy 
 
 # Настройки игры
 1. [BATTLEFIELD 6 НАСТРОЙКИ - мышь, графика, геймплей | Splandor Game](https://www.youtube.com/watch?v=VclYDsJJGkw)
-2. 
+2. [Убираем задержку мышки в Battlefield 6 | SwayHiro](https://www.youtube.com/shorts/WgMB0FrLu0w)
+3. [The PRO Settings You Need in Battlefield 6... | Silk](https://www.youtube.com/watch?v=2B2i8z4906w)
+4. 
 
 # Самолёты
 1. [Battlefield 6 Quick Start Jet Guide! (Tips, Settings and Exploits?) | Silk](https://www.youtube.com/watch?v=wjuz1CIa9qg)
