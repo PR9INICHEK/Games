@@ -101,4 +101,11 @@
 63. [Учебный полёт](https://www.youtube.com/watch?v=u_3_yFknZ1Q&ab_channel=СергейБарбулат)
 64. [How to](https://www.youtube.com/watch?v=wRyni_xGjpI&ab_channel=Sheriff%27sSimShack)
 65. [Тренировочный полет по кругу](https://www.youtube.com/watch?v=_lQ3SPAddKg&ab_channel=1CGameStudios)
-66. 
+66. Эскадрильи
+    - [Будем жить / VirtualPilots (IL2 stats)](stats.virtualpilots.fi:8000/ru/squad/224/-=SMG=-/?tour=40)
+    - [JG601](https://forum.il2sturmovik.ru/topic/12449-jg601-снова-в-небе/)
+67. [Статистика на финском сервере](stats.virtualpilots.fi:8000/en/all_aircraft/?tour=40)
+68. [Finnish VirtualPilots - Dynamic War](https://forum.il2sturmovik.com/topic/21490-finnish-virtualpilots-dynamic-war/)
+69. [Финский сервер](ts3.virtualpilots.fi:8000/ru/)
+70. [Tactical Air War](taw.stg2.de/index.php)
+71. 
