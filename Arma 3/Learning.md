@@ -35,3 +35,12 @@
 34. https://community.bistudio.com/wiki/Category:Arma_3:_Editing
 35. https://community.bistudio.com/wiki/Debugging_Techniques
 36. 
+
+## Инструменты
+1. https://community.bistudio.com/wiki/Category:Community_Tools#Code_Edition
+2. https://community.bistudio.com/wiki/Arma_3:_Diagnostics_Exe
+3. https://www.armaholic.com/lander?id=22139
+4. https://community.bistudio.com/wiki/Performance_Profiling
+5. https://community.bistudio.com/wiki/Code_Optimisation
+6. https://forums.bohemia.net/forums/topic/169513-arma3diagexe-includes-diagnostic-tools-excludes-mp/
+7. https://community.bistudio.com/wiki/Arma_3:_Utilities
