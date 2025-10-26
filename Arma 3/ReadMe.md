@@ -1,3 +1,4 @@
+# Разное
 1. [Arma 3 CAS - GBUs and MACERs | The Diamonite](https://www.youtube.com/watch?v=yfGPXVl_Wpo)
 2. [Laser Designate + Bombing Tutorial (ARMA 3 A-164 Wipeout) | DockerzGaming](https://www.youtube.com/watch?v=-BjimhnTzrQ)
 3. [ArmA 3 Koth Pilot "Still Got It" | EliPlaysArma](https://www.youtube.com/watch?v=InVRNnFNu3I)
@@ -16,3 +17,8 @@
 16. [Mission Optimisation](https://community.bistudio.com/wiki/Mission_Optimisation)
 17. [Шрифт для Unit'a взять бы отсюда](https://i.imgur.com/3Aclxzd.jpg)
 18. 
+
+# Артиллерия
+1. [Вычисление угла.](https://docs.google.com/spreadsheet/ccc?key=0AqD6X-C6idIMdExXZDE2VXpGM0tQMnJZckRYeVpKRXc#gid=70)
+2. [Использование артиллерии без Бал. Комп.](www.youtube.com/watch?v=SCCvXfwzeAU)
+3. 
