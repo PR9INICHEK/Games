@@ -40,7 +40,23 @@
 11. [Аэрокобра - самый быстрый самолёт ВВС КА в 1942 году! Как реализовать возможности двигателя Элиссон? | Hunn](https://www.youtube.com/watch?v=HFNrIhmpgag)
 12. [How To: Fly the Bf-110 in Multiplayer | Bite Size Guide and Directional Approaches to the Zerstörer | Enigma](https://www.youtube.com/watch?v=Ldl4Trt0Bpg)
 13. [Two Soviets Fighters VS a German Bomber Squadron | IL-2 Sturmovik Flight Sim Realistic Missions | Renzic](https://www.youtube.com/watch?v=jmV6lUM1RUE)
-14. 
+14. [Виртуальная летная школа. Скворцы](https://forum.il2sturmovik.ru/topic/160-%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B5%D1%82%D0%BD%D0%B0%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D1%81%D0%BA%D0%B2%D0%BE%D1%80%D1%86%D1%8B/)
+15. [Общая теория о полетах для новичков.](https://forum.il2sturmovik.ru/topic/2055-%D0%BE%D0%B1%D1%89%D0%B0%D1%8F-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%BE-%D0%BF%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%85-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2/)
+16. [РПК-10. Инструкция!](https://forum.il2sturmovik.ru/topic/8443-%D1%80%D0%BF%D0%BA-10-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F/)
+17. [Воздушная стрельба в игре "Ил-2 ШТУРМОВИК" БЗХ | Hunn](https://www.youtube.com/watch?v=TkpqBMOE5Kk)
+18. [Настройка обзора в Ил-2 БЗС \ Увидеть все кольца прицела | Hunn](https://www.youtube.com/watch?v=5r16oYQJtJQ)
+19. [Ил-2 Штурмовик. Битва за Сталинград. Настройка обзора кабины. | ТАНКИСТ](https://www.youtube.com/watch?v=JRlOhNFVkrI)
+20. [Комплекс упражнений, позволяющий отработать взлет-посадку. | ТАНКИСТ](https://www.youtube.com/watch?v=ERW4N8KbFww)
+21. [Ил 2 БЗС основные нюансы эксплуатации советских истребителей | Isay50](https://www.youtube.com/watch?v=BwPlkUfBhGA)
+22. [Памятка Вирпилу- Кодекс чести русского офицера (1904 год)](https://19fab.ru/kpp/pamyatka-virpilu/)
+23. [IL-2: Sturmovik: BoX. Один из способов тренировки стрельбы. | Cherepaha (Cherepaha)](https://www.youtube.com/watch?v=WP0G0TuHZzI)
+24. [IL-2 Battle of Stalingrad Урок - "Як-1" (MK.Mr.X) | MK.Mr.X](https://www.youtube.com/watch?v=wLICg5RJQAw)
+25. [IL2 Sturmovik Cliffs of Dover "Видео урок №4 от MK.Mr.X | MK.Mr.X](https://www.youtube.com/watch?v=pSfd-rDyVjY)
+26. [Плейлист Стрельба | MK.Mr.X](https://www.youtube.com/playlist?list=PL3bgr39sCnDRvYbVVkoAsKw3LOzwfkGu2)
+27. [Плейлист Уроки | MK.Mr.X](https://www.youtube.com/playlist?list=PL3bgr39sCnDSeNu7ipRYu1M3_uuRs-yUr)
+28. [IL2 Sturmovik Cliffs of Dover "Видео урок от MK.Mr.X-cамолёт BF-109E1" | MK.Mr.X](https://www.youtube.com/watch?v=Q9gzaWfC-8Y)
+29. [Домашние задание - "Выдерживание на посадке" | MK.Mr.X](https://www.youtube.com/watch?v=8R5vNzVTahI)
+30. 
 
 # Плейлист
 1. [iluha](https://www.youtube.com/watch?v=JuFDL9h4xxE&list=PLFPwCmZWHukCrNkglN14Fv2bYWGRahZDy)
