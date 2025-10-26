@@ -1,5 +1,7 @@
 # Общее
 1. [В Battlefield 6 добавили русский язык? | BF6 INFO](https://www.youtube.com/watch?v=pmGWhbjPq-o)
+2. https://www.ea.com/games/battlefield/battlefield-6/onboarding-hub
+3. 
 
 # Лайфхаки
 1. [Battlefield 6 - Setting Rate of fire and scope switch to the same button - Very useful | Michael Antonio](https://www.youtube.com/watch?v=0WnXIuZ187w)
