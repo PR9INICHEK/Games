@@ -108,4 +108,11 @@
 68. [Finnish VirtualPilots - Dynamic War](https://forum.il2sturmovik.com/topic/21490-finnish-virtualpilots-dynamic-war/)
 69. [Финский сервер](ts3.virtualpilots.fi:8000/ru/)
 70. [Tactical Air War](taw.stg2.de/index.php)
-71. 
+71. [Выпуски журнала 2020 – журнал "Виртуальный пилот"](virtpilot.org/journal2020/)
+72. [Использование SRS for IL-2 (Voice Comms App)](https://forum.il2sturmovik.ru/topic/13613-использование-srs-for-il-2-voice-comms-app/)
+73. [Форум полка -DED-](ded-squad.ru/index.php)
+74. [Настройки игры и программ для Ил 2 БЗС - YouTube](https://www.youtube.com/watch?v=cAWCXdPkKLE&list=PLhXg1THvbslCbBoebUhvP9r4S54B5SBfw&index=2&ab_channel=SkyFreeman)
+75. [Сборник полезных ссылок и информации](https://forum.il2sturmovik.ru/topic/6210-сборник-полезных-ссылок-и-информации/)
+76. [Виды из кабины ИЛ-2 БзС/БзМ - YouTube](https://www.youtube.com/watch?v=oyR0Ydj8yAs)
+77. [Техника Союзников - Ил-2 Штурмовик Форум](https://forum.il2sturmovik.ru/forum/45-техника-союзников/)
+78. 
