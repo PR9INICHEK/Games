@@ -13,3 +13,12 @@
 12. [Arma 3 Scripting for Beginners #1 | Lance Paxton](https://www.youtube.com/watch?v=1Y7RsNuFHz0)
 13. https://community.bistudio.com/wiki/Category:Scripting_Commands_by_Functionality
 14. https://community.bistudio.com/wiki/Waypoints
+
+# Функции
+1. https://community.bistudio.com/wiki/BIS_fnc_spawnGroup
+2. https://community.bistudio.com/wiki/BIS_fnc_dynamicGroups
+
+## Интересные
+1. https://community.bistudio.com/wiki/BIS_fnc_drawBoundingBox
+2. https://community.bistudio.com/wiki/BIS_fnc_groupIndicator
+
