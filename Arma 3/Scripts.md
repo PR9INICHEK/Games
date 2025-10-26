@@ -22,3 +22,6 @@
 1. https://community.bistudio.com/wiki/BIS_fnc_drawBoundingBox
 2. https://community.bistudio.com/wiki/BIS_fnc_groupIndicator
 
+# Конфиги
+1. https://community.bistudio.com/wiki/Arma_3:_CfgGroups#Independent
+2. 
