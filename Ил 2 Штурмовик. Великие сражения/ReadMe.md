@@ -92,4 +92,13 @@
 54. [WarThunder жмёт в плечах? | Just Fly It](https://www.youtube.com/watch?v=K-c8NTHLXA0)
 55. [После титров | Продюсер «Ил-2» Даниил Тусеев | Выпуск 211 | После Титров](https://www.youtube.com/watch?v=EtNxH_N4kH8)
 56. [Интервью: Культ личности Олег Медокс | OLD Games Video](https://www.youtube.com/watch?v=UKu6X9ef34g)
-57. 
+57. [ЛаГГ-3, обучающие материалы - Шпаргалка](https://forum.il2sturmovik.ru/topic/2066-лагг-3-обучающие-материалы/page/2/?tab=comments#comment-280613)
+58. [Ил-2 штурмовик. Битва за Сталинград. В гостях у 72-ой АГ Лагг-3-29 Серии. - YouTube](https://www.youtube.com/watch?v=dn_EcFfDXlo)
+59. [Lagg-3.pdf](https://docviewer.yandex.ru/view/0/?*=ftkxdZNQbOVixOwDwRY7xqYOPBx7InVybCI6InlhLWRpc2stcHVibGljOi8vUmF6S0paTElybmphV0k0MThBeXRXSzVqN0REZ0Jzb3dGa3ZKNTRVM2tZbz0iLCJ0aXRsZSI6IkxhZ2ctMy5wZGYiLCJ1aWQiOiIwIiwieXUiOiI1NDkzNzg3ODExNTU0MTQ0Mjg1Iiwibm9pZnJhbWUiOmZhbHNlLCJ0cyI6MTU1NjEzNDk5NjgxOX0%3D)
+60. [ЛаГГ-3, обучающие материалы - Техника Союзников - Ил-2 Штурмовик Форум](https://forum.il2sturmovik.ru/topic/2066-лагг-3-обучающие-материалы/)
+61. [IL2BOS Documentary](https://www.youtube.com/watch?v=_wTZjYGyl-4&list=WL&index=8&t=2s&ab_channel=1CGameStudios)
+62. [МИГ-3](https://forum.il2sturmovik.ru/topic/3754-миг-3-обучающие-материалы/)
+63. [Учебный полёт](https://www.youtube.com/watch?v=u_3_yFknZ1Q&ab_channel=СергейБарбулат)
+64. [How to](https://www.youtube.com/watch?v=wRyni_xGjpI&ab_channel=Sheriff%27sSimShack)
+65. [Тренировочный полет по кругу](https://www.youtube.com/watch?v=_lQ3SPAddKg&ab_channel=1CGameStudios)
+66. 
