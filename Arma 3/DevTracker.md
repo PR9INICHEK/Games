@@ -9,3 +9,4 @@
 8. https://forums.bohemia.net/forums/topic/207472-etelkanarrowmediumpro-font-family-broken/
 9. https://feedback.bistudio.com/T157556
 10. https://feedback.bistudio.com/T152169
+11. [Чувак хорошо постит тикеты, можно брать в пример](https://feedback.bistudio.com/p/Uro/)
