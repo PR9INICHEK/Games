@@ -22,3 +22,36 @@
 1. [Вычисление угла.](https://docs.google.com/spreadsheet/ccc?key=0AqD6X-C6idIMdExXZDE2VXpGM0tQMnJZckRYeVpKRXc#gid=70)
 2. [Использование артиллерии без Бал. Комп.](www.youtube.com/watch?v=SCCvXfwzeAU)
 3. 
+
+# Интересные статьи о механиках
+1. [OPREP - WARLORDS | 09.11.2018](https://dev.arma3.com/post/oprep-warlords)
+2. https://community.bistudio.com/wiki/Arma_3_CfgBrains_Config_Reference
+3. https://community.bistudio.com/wiki/setBehaviourStrong
+4. [Пробиваемость патронов 1.94](https://i.redd.it/blusazo7i7h31.jpg)
+5. https://community.bistudio.com/wiki/Arma_3_Vehicle_Hitpoint_Creation
+6. https://community.bistudio.com/wiki/Arma_3_Soldier_Protection
+7. https://forums.bohemia.net/forums/topic/182339-warlords/?page=16&tab=comments#comment-3324656
+8. https://community.bistudio.com/wiki/MP_Warlords
+9. https://forums.bohemia.net/forums/topic/192265-tracking-shot-script-smooth-interpolated-spline-shots/?tab=comments#comment-3056728
+10. https://community.bistudio.com/wiki/ArmA_II_AI_Squad_Command
+11. https://community.bistudio.com/wiki/Arma_3_Dynamic_Simulation
+12. [Strider, Ifrit & Hunter Penetration Guide : arma](https://www.reddit.com/r/arma/comments/93tm5l/strider_ifrit_hunter_penetration_guide/)
+13. [Отключение команд в чате от командира при отдаче приказов на вождение ботам](https://forums.bohemia.net/forums/topic/143930-general-discussion-dev-branch/?page=949&tab=comments#comment-3274057)
+14. https://forums.bohemia.net/forums/topic/143930-general-discussion-dev-branch/?page=980&tab=comments#comment-3292190
+15. https://forums.bohemia.net/forums/topic/143930-general-discussion-dev-branch/?page=980&tab=comments#comment-3292184
+16. [Разница у стелс и не стелс самолетов](https://www.reddit.com/r/arma/comments/8j2en7/are_the_stealth_variants_of_the_jets_dlc_fighters/)
+17. [Что-то связанное с командным режимом](https://forums.bohemia.net/forums/topic/189310-cfgorbats-overhaul-request/)
+18. https://community.bistudio.com/wiki/Arma_3_Sensors#Precision_guided_munitions
+19. [Одна зенитка показывает свои цели для других, которые находятся от неё на большом расстоянии](https://forums.bohemia.net/forums/topic/211897-new-targeting-and-weapons-systems-effects-on-attack-helicopters/?tab=comments#comment-3278212)
+20. [Отслеживание полета ракеты](https://forums.bohemia.net/forums/topic/213601-tanks-missile-flight-profiles-and-weapon-improvements/?tab=comments#comment-3267235)
+21. killzonekid.com/arma-scripting-tutorials-fired-projectiles/
+22. https://community.bistudio.com/wiki/MP_End_Game
+23. https://arma3.com/news/report-in-nelson-duarte-mp-design#.WdJiNGi0OiM
+24. https://community.bistudio.com/wiki/Arma_3_Assets
+25. https://community.bistudio.com/wiki/Arma_3_Damage_Description
+26. https://forums.bistudio.com/forums/topic/203730-jets-dlc-rendering-distance-limitations/
+27. https://community.bistudio.com/wiki/Arma_3_Jets_Hitpoint_Configuration
+28. https://dev.arma3.com/post/oprep-sensor-overhaul
+29. [Хар-ки Jets DLC, возможно устаревшие](https://i.redd.it/y4dun930hwsy.png)
+30. https://community.bistudio.com/wiki/Arma_3_Targeting
+31. 
