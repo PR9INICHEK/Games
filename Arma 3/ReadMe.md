@@ -16,7 +16,15 @@
 15. [Performance Optimisation](https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation)
 16. [Mission Optimisation](https://community.bistudio.com/wiki/Mission_Optimisation)
 17. [Шрифт для Unit'a взять бы отсюда](https://i.imgur.com/3Aclxzd.jpg)
-18. 
+18. [⚓ T134655 Warlords Teams [Feature request]](https://feedback.bistudio.com/T134655)
+19. [⚓ T134694 Warlords Customization vehicles [Feature request]](https://feedback.bistudio.com/T134694)
+20. [⚓ T62287 AI don't keep up, and do not respond well to "move" or "get in" commands when in "danger" mode. (New movement command suggested)](https://feedback.bistudio.com/T62287)
+21. [⚓ T73095 AI can find dead body of other groups but won't change their mode from safe to aware or danger](https://feedback.bistudio.com/T73095)
+22. [БПЛА разбирает стационары](https://www.youtube.com/watch?v=yC60P-O1VXI)
+23. https://forums.bistudio.com/forums/topic/145599-audio-tweaking-dev-branch/?page=90#comment-3199866
+24. [SetUnitPos "UP" + Safe mode bug - YouTube](https://www.youtube.com/watch?v=dnmqTBL8alc)
+25. [SHORT: Arma 3 Titan AA Vs Super Sonic Jet - YouTube](https://www.youtube.com/watch?v=MnJ23hGFKNg)
+26. 
 
 # Артиллерия
 1. [Вычисление угла.](https://docs.google.com/spreadsheet/ccc?key=0AqD6X-C6idIMdExXZDE2VXpGM0tQMnJZckRYeVpKRXc#gid=70)
