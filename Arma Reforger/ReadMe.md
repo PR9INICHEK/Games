@@ -46,3 +46,7 @@
 # Game Design
 1. [Level Design Series (Objectives and Pre Production) | Piano_Man](https://www.youtube.com/watch?v=ijyjQHhsLjk)
 2. 
+
+# Вертолёты
+1. [Arma Reforger Custom HOTAS Bindings | Arma Platform](https://www.youtube.com/watch?v=C1_2qpGMVL4)
+2. 
