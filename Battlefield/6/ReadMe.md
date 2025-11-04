@@ -57,6 +57,10 @@ Proper smoke positions are winning games. ONE person can literally make it easy 
 7. [BATTLEFIELD 6 Как летать на самолете? Гайд для начинающих пилотов | Splandor Game](https://www.youtube.com/watch?v=2kbu_dcYQWo)
 8. 
 
+# Вертолёты
+1. [BATTLEFIELD 6 Как летать на вертолете? Гайд для начинающих пилотов | Splandor Game](https://www.youtube.com/watch?v=KnYsUYuMYIU)
+2. 
+
 # Бета
 1. [Battlefield 6 From a Tarkov Duo's POV | RamenStyle](https://www.youtube.com/watch?v=p2xDdYH6_g4)
 
