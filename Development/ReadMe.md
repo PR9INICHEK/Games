@@ -35,7 +35,7 @@
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
 2. [A* (A-Star) Pathfinding Algorithm Visualization on a Real Map | ones and zeros](https://www.youtube.com/watch?v=CgW0HPHqFE8)
 3. [How Dijkstra's Algorithm Works | Spanning Tree](https://www.youtube.com/watch?v=EFg3u_E6eHU)
-4. 
+4. [Грокаем алгоритмы. Адитья Бхаргава. Видеоконспект | by про АйТи | IT Pro](https://www.youtube.com/playlist?list=PLqD8mUEpKvP0YoOTzQUJSs0JQavCwyukl)
 
 # Успешный успех - для вдохновения
 1. [Как я заработал 100 тысяч долларов на своей первой игре в Steam | Indovers](https://www.youtube.com/watch?v=iLtRm6JqMIE)
