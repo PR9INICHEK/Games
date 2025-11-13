@@ -50,7 +50,8 @@
 5. [Roadmap to becoming a gamedev in 2025 | BiteMe Games](https://www.youtube.com/watch?v=6cU3ru8NSWQ)
 6. [Getting started with Enfusion Map making (initial setup and importing a terrain) | Jorgo32](https://www.youtube.com/watch?v=P8VTr-its0k)
 7. [Exploring Dead Games | Redlyne](https://www.youtube.com/watch?v=TNDfvNqPILg)
-8. 
+8. https://www.youtube.com/shorts/JLrNDDzK458
+9. 
 
 # QA
 1. [Unit Testing C# Code - Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=HYrXogLj7vg)
