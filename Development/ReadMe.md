@@ -29,7 +29,7 @@
 27. [2D Player Movement In Unity | bendux](https://www.youtube.com/watch?v=K1xZ-rycYY8)
 28. [In Video Games, The Player Never Moves | Josh's Channel](https://www.youtube.com/watch?v=wiYTxjJjfxs)
 29. [Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial) | Code Monkey](https://www.youtube.com/watch?v=AmGSEH7QcDg)
-30. 
+30. https://www.youtube.com/@DarkoSupe/videos
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
