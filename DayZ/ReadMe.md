@@ -14,7 +14,8 @@
 13. [7 СОВЕТОВ Которые ВЫ могли НЕ ЗНАТЬ в DayZ #dayz #дейз | KARAPAS](https://www.youtube.com/watch?v=QgleaoPimdU)
 14. [ТО, ЧТО НУЖНО ДЕЙЗУ - #1 | DAYZ STANDALONE 1.24 | ИДЕИ И ПРЕДЛОЖЕНИЯ | Lemonade ATTC](https://www.youtube.com/watch?v=CazBZFsi-rk)
 15. [How to Enjoy Yourself & Survive on DayZ as a New Player in 2024 | Simonb1471](https://www.youtube.com/watch?v=BmSdBFpYSUc)
-16. 
+16. [Прятаться от зомби в кустах](https://youtube.com/shorts/v4TK4M2-DqU?si=y6z7x6-yCl3R9Y8h)
+17. 
 
 # Места для баз
 1. [The top 5 BASE locations in DayZ | Tommy](https://www.youtube.com/watch?v=e4HbFRk3kkw)
