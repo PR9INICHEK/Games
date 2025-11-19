@@ -19,3 +19,5 @@
     - https://www.reddit.com/r/Battlefield2/wiki/clans/
 5. 
 6. https://www.facebook.com/bf2thoss - Тайское
+7. [Forgotten Hope 2](https://vk.com/forgottenhope)
+8. 
