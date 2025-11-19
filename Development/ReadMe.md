@@ -31,6 +31,7 @@
 29. [Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial) | Code Monkey](https://www.youtube.com/watch?v=AmGSEH7QcDg)
 30. https://www.youtube.com/@DarkoSupe/videos
 31. https://x.com/darkosupe/status/1988327736092619229
+32. https://vionixstudio.com/2022/11/04/2d-platformer-in-unity/
 
 # Алгоритмы
 1. [ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ | Alek OS](https://www.youtube.com/watch?v=cXCuXNwzdfY)
