@@ -89,4 +89,5 @@ These other components are the windows infrastructure needed to run the game, in
 5. Как изменить язык - https://web.archive.org/web/20171117214115mp_/https://battlelog.co/post.php?id=13636
 6. Описание карт с расположением различных мест - https://www.realtimerendering.com/erich/battlefield2/maps/maps.html
 7. Различные показания для оружия и техники - https://www.realtimerendering.com/erich/battlefield2/grid.html
-8. 
+8. [MOD для текста](https://forum.tgamer.ru/index.php?topic=31.0)
+9. 
