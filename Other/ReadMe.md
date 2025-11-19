@@ -11,4 +11,12 @@
 # Тетрис
 1. [Вот и прохождение на максимальной 12й скорости максимального 12го уровня! | Brick&pocket games](https://www.youtube.com/watch?v=xX-fFq6fu58)
 2. [Tetris Super Brick Game 96 in 1 E-23 Plus Mark II | Android 1996](https://www.youtube.com/watch?v=ceZkijEXx6w)
-3. 
+3. [Инструкция для тетриса](https://habrastorage.org/r/w1560/getpro/habr/post_images/3b0/fb1/575/3b0fb1575fa149aacb9ae40f25437e5a.jpg)
+4. [Тетрис: история одной игры](https://habr.com/ru/companies/timeweb/articles/669676/)
+5. [Тюнинг старого тетриса](https://habr.com/ru/companies/timeweb/articles/806469/)
+6. [Процессор, который использовался в «Тетрисе»: на каких SoC работала недорогая микроэлектроника в 90-х?](https://habr.com/ru/companies/timeweb/articles/762582/)
+7. [Как заново реализовать тетрис](https://habr.com/ru/companies/timeweb/articles/809077/)
+8. [В России стали больше покупать тамагочи и «Тетрис»](https://habr.com/ru/news/679182/)
+9. [Пажитнов и Роджерс рассказали про происхождение «песни Тетриса» и про проблемы с генератором случайных чисел](https://habr.com/ru/news/731928/)
+10. [Как Алексей Пажитнов сделал сиквел Тетриса и забыл про него](https://habr.com/ru/companies/timeweb/articles/807021/)
+11. 
