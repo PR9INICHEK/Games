@@ -76,6 +76,8 @@
     - https://forums.dayz.com/topic/236240-dayz-suggestions-part-1-with-pictures/?tab=comments#comment-2367692
     - https://forums.dayz.com/topic/236244-dayz-suggestions-part-2-with-pictures/
     - https://forums.dayz.com/topic/236889-dayz-suggestions-part-4-with-pictures/
+    - https://forums.dayz.com/topic/251715-dayz-50-qol-suggestions-part-3/
+    - https://forums.dayz.com/topic/252772-dayz-50-qol-suggestions-part-4/
 59. https://items.dayz.sk/
 60. Changed﻿: All energy based items with a potential for energy ﻿quantity(Gas Canisters, Power Generator, Road Flares....) can now have energy value set through types.xml (https://feedback.bistudio.com/T173500)
     - Это должно помочь для мода про заправки
@@ -86,3 +88,4 @@
 64. Отличие обойм, магазинов, клип…
 ![1000015686](https://github.com/user-attachments/assets/4390fdb1-b550-4387-ba70-3d09820e7dc4)
     - https://pbs.twimg.com/media/Bia3XkcCYAEsMp-.jpg:large
+65. [Как сделать стартовый экран своего мода Dayz Standalone. // EVERYDAYZ // | Snaret Games](https://www.youtube.com/watch?v=VY56xb19kzo)
