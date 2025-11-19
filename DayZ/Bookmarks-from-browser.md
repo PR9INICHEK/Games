@@ -23,128 +23,66 @@
     - https://s-platoon.ru/topic/7014-polnaya-dokumentaciya-servernyh-faylov-dayz-standalone-dayz-server-files-documentation/
     - https://helpthedeadreturn.wordpress.com/2019/07/17/how-to-create-your-own-dayz-sa-vanilla-server/
 16. Реклама сервера
-
-https://www.reddit.com/r/DayZServers/
-
-Администрирование
-
-https://wiki.cftools.de/display/CFTOOL/OmegaManager
-
-Steam ID to BattlEye GUID Converter
-
-https://armstalker.com/guid/
-
-Тепловая карта с местами смерти игроков
-
-https://github.com/SumrakDZN/DeathMap
-
-Логи присоединения к серверу 
-
-https://gitlab.com/-/snippets/1931166
-
-Правила монетизации сервера
-
-https://www.bohemia.net/monetization
-
-Чат-админка
-
-https://s-platoon.ru/topic/7834-chat-adminka/
-
-Хостинги:
-
-https://overhosting.ru/servers/order/dayzsa.php
-
-https://hostingrust.ru/dayz.html
-
-https://www.myarena.ru/vds_kvm.html
-
-https://m.vk.com/servercore
-
-https://my.survivalhost.org/login
-
-https://www.smartape.ru/arenda-servera
-
-https://selectel.ru/services/dedicated/chipcore/
-
-https://hosters.ru/dedicated-server.html
-
-Лайфхаки:
-
-Определение севера по звездам
-
-http://i.imgur.com/l7WsgIy.jpg
-
-Совместимость крови
-
-https://i.redd.it/adjl0e2io2l31.jpg
-
-Карта старого Электро с классными обозначениями. Можно переиспользовать и для других локаций
-
-http://www.reddit.com/r/dayz/comments/1y0uoj/map_of_elektro/
-
-
-Кто такой этот Дин Холл
-
-https://www.eurogamer.net/who-is-dayz-creator-dean-hall
-
-ЛОР Чернаруси
-
-https://imgur.com/a/chernarussian-history-wQWRLen#sYOYtkG
-
-Инструмент всё в одном 
-
-https://forums.dayz.com/topic/240311-dayztoolbox-editor/
-
-Улучшение сервера
-
-https://helpthedeadreturn.wordpress.com/2019/07/17/how-to-customize-your-dayz-sa-vanilla-server/
-
-Изменение спавна лута
-
-https://www.reddit.com/r/dayz/comments/ctkkls/loot_tables_with_mods_help/exllhyz/
-
-https://www.reddit.com/r/dayz/comments/ctdzce/is_this_a_problem_for_the_central_looteconomy/exkgj1x/
-
-https://www.reddit.com/r/dayz/comments/ct4kh7/some_weirdness_with_loot_respawn_on_server/exiwrcd/
-
-Айдишники предметов
-
-https://docs.google.com/spreadsheets/d/1sUITFdMsriex8_urZRlIPTULGUhkYFxchBmgPdec4SY/edit#gid=843778813
-
-Про заболевания
-
-https://www.reddit.com/r/dayz/comments/d6yp3l/infection_and_you_diseases_in_dayz/
-
-Настройка пространства для моддинга
-
-https://github.com/maxkunes/Enscript-Workbench-Project-Setup/wiki
-
-5 идей для модов:
-
-https://www.reddit.com/r/dayz/comments/b1tcqb/5_dayz_mod_ideas_you_can_steal/
-
-Идеи для улучшения
-
-https://forums.dayz.com/topic/236240-dayz-suggestions-part-1-with-pictures/?tab=comments#comment-2367692
-
-https://forums.dayz.com/topic/236244-dayz-suggestions-part-2-with-pictures/
-
-https://forums.dayz.com/topic/236889-dayz-suggestions-part-4-with-pictures/
-
-https://items.dayz.sk/
-
-Changed﻿: All energy based items with a potential for energy ﻿quantity(Gas Canisters, Power Generator, Road Flares....) can now have energy value set through types.xml (https://feedback.bistudio.com/T173500)
-
-Это должно помочь для мода про заправки
-
-https://forums.dayz.com/topic/255232-experimental-update-122-change-log/
-
-https://youtube.com/shorts/MVBcYNxADh0?si=pJ4T-yrKnbn0CV5t
-
-1. Поменять, чтобы игрок появлялся и смотрел в разные направления, а не только на север
-2. Очищать упавшие деревья или выталкивать игрока из них
-
-
-Отличие обойм, магазинов, клип…
+    - https://www.reddit.com/r/DayZServers/
+17. Администрирование
+18. https://wiki.cftools.de/display/CFTOOL/OmegaManager
+19. Steam ID to BattlEye GUID Converter
+20. https://armstalker.com/guid/
+21. Тепловая карта с местами смерти игроков
+22. https://github.com/SumrakDZN/DeathMap
+23. Логи присоединения к серверу
+24. https://gitlab.com/-/snippets/1931166
+25. Правила монетизации сервера
+26. https://www.bohemia.net/monetization
+27. Чат-админка
+28. https://s-platoon.ru/topic/7834-chat-adminka/
+29. Хостинги:
+    - https://overhosting.ru/servers/order/dayzsa.php
+    - https://hostingrust.ru/dayz.html
+    - https://www.myarena.ru/vds_kvm.html
+    - https://m.vk.com/servercore
+    - https://my.survivalhost.org/login
+    - https://www.smartape.ru/arenda-servera
+    - https://selectel.ru/services/dedicated/chipcore/
+    - https://hosters.ru/dedicated-server.html
+30. Лайфхаки:
+    - Определение севера по звездам
+    - http://i.imgur.com/l7WsgIy.jpg
+31. Совместимость крови
+32. https://i.redd.it/adjl0e2io2l31.jpg
+33. Карта старого Электро с классными обозначениями. Можно переиспользовать и для других локаций
+34. http://www.reddit.com/r/dayz/comments/1y0uoj/map_of_elektro/
+35. Кто такой этот Дин Холл
+36. https://www.eurogamer.net/who-is-dayz-creator-dean-hall
+37. ЛОР Чернаруси
+38. https://imgur.com/a/chernarussian-history-wQWRLen#sYOYtkG
+39. Инструмент всё в одном
+40. https://forums.dayz.com/topic/240311-dayztoolbox-editor/
+41. Улучшение сервера
+42. https://helpthedeadreturn.wordpress.com/2019/07/17/how-to-customize-your-dayz-sa-vanilla-server/
+43. Изменение спавна лута
+    - https://www.reddit.com/r/dayz/comments/ctkkls/loot_tables_with_mods_help/exllhyz/
+    - https://www.reddit.com/r/dayz/comments/ctdzce/is_this_a_problem_for_the_central_looteconomy/exkgj1x/
+46. https://www.reddit.com/r/dayz/comments/ct4kh7/some_weirdness_with_loot_respawn_on_server/exiwrcd/
+47. Айдишники предметов
+48. https://docs.google.com/spreadsheets/d/1sUITFdMsriex8_urZRlIPTULGUhkYFxchBmgPdec4SY/edit#gid=843778813
+49. Про заболевания
+50. https://www.reddit.com/r/dayz/comments/d6yp3l/infection_and_you_diseases_in_dayz/
+51. Настройка пространства для моддинга
+52. https://github.com/maxkunes/Enscript-Workbench-Project-Setup/wiki
+53. 5 идей для модов:
+54. https://www.reddit.com/r/dayz/comments/b1tcqb/5_dayz_mod_ideas_you_can_steal/
+55. Идеи для улучшения
+56. https://forums.dayz.com/topic/236240-dayz-suggestions-part-1-with-pictures/?tab=comments#comment-2367692
+57. https://forums.dayz.com/topic/236244-dayz-suggestions-part-2-with-pictures/
+58. https://forums.dayz.com/topic/236889-dayz-suggestions-part-4-with-pictures/
+59. https://items.dayz.sk/
+60. Changed﻿: All energy based items with a potential for energy ﻿quantity(Gas Canisters, Power Generator, Road Flares....) can now have energy value set through types.xml (https://feedback.bistudio.com/T173500)
+61. Это должно помочь для мода про заправки
+62. https://forums.dayz.com/topic/255232-experimental-update-122-change-log/
+63. https://youtube.com/shorts/MVBcYNxADh0?si=pJ4T-yrKnbn0CV5t
+    - Поменять, чтобы игрок появлялся и смотрел в разные направления, а не только на север
+    - Очищать упавшие деревья или выталкивать игрока из них
+64. Отличие обойм, магазинов, клип…
 ![1000015686](https://github.com/user-attachments/assets/4390fdb1-b550-4387-ba70-3d09820e7dc4)
 https://pbs.twimg.com/media/Bia3XkcCYAEsMp-.jpg:large
