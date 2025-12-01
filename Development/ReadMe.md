@@ -54,6 +54,7 @@
 7. [Exploring Dead Games | Redlyne](https://www.youtube.com/watch?v=TNDfvNqPILg)
 8. https://www.youtube.com/shorts/JLrNDDzK458
 9. [Почему важно иногда играть в свою игру с утра | xkoster](https://www.youtube.com/shorts/lsAGzYyzl-g)
+10. Игровой движок - [Leadwerks Game Engine 5 Introduction | Leadwerks Software](https://www.youtube.com/watch?v=IY6KlEw9MKc)
 
 # QA
 1. [Unit Testing C# Code - Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=HYrXogLj7vg)
