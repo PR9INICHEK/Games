@@ -24,7 +24,8 @@
    - "неровность земли на макс!"
    - "Сглаживание на 2 хотя бы!"
 7. [Скрины настроек графики](https://forum.il2sturmovik.ru/topic/16544-quest-3/page/57/#findComment-936109)
-8. 
+8. Тема на новом форуме - https://forum.il2-series.com/topic/138-meta-quest-3
+9. 
 
 
 # Видео
