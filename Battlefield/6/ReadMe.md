@@ -2,6 +2,18 @@
 1. [В Battlefield 6 добавили русский язык? | BF6 INFO](https://www.youtube.com/watch?v=pmGWhbjPq-o)
 2. https://www.ea.com/games/battlefield/battlefield-6/onboarding-hub
 3. [I Started a Fight With a PRO PILOT in Battlefield 6... | Silk](https://www.youtube.com/watch?v=rx3I7f7tnMc)
+4. [We Turned a Transport Heli into a War Machine – Battlefield 6 | BronVirtual](https://www.youtube.com/watch?v=DeewZSAUoDk)
+5. [НАСТРОЙКИ BATTLEFIELD 6 НА РУССКОМ ЯЗЫКЕ / СБОРКИ ОРУЖИЯ | BF6 INFO ](https://www.youtube.com/watch?v=7aYoGFSFtco)
+6. [ЛУЧШИЕ НАСТРОЙКИ в BATTLEFIELD 6 | segafive](https://www.youtube.com/watch?v=zBKhejtbgec)
+7. [BF6 BEAM - Aim Assist explanation - Part III | Cola Zero](https://www.youtube.com/watch?v=AHRlykSHTFk)
+8. [Battlefield 6 How to Cycle primary (change primary weapon) | sadeqe info](https://www.youtube.com/watch?v=3Kov0JsXIOA)
+9. [Battlefield 6: How to Enable Compass | Games & Apps Tutorials](https://www.youtube.com/watch?v=p7hsfNqU-Ig)
+
+## Исправление проблем с высоким потреблением CPU
+1. [Battlefield 6 High CPU Usage Fix (official game release) | Minnidot](https://www.youtube.com/watch?v=pGvyXENXFUk)
+2. [Высокая загрузка процессора в Battlefield 6 | Pillar Prescure](https://www.youtube.com/watch?v=U8J3qvx-WaU)
+3. [Important Battlefield 6 CPU Fix | GhostGaming](https://www.youtube.com/watch?v=v9cGr8rBjrI)
+4. [Battlefield 6 High CPU Usage FIX | Better performance | Compact FPS Counter | GUIDE | wild](https://www.youtube.com/watch?v=wUY15RAua6o)
 
 # Создание карт для Portal
 1. [How to CREATE MAPS in Battlefield 6 PORTAL | Battlefield Portal Hub and Matavatar](https://www.youtube.com/watch?v=l1LNorfPlNc)
@@ -11,7 +23,8 @@
 1. [Battlefield 6 - Setting Rate of fire and scope switch to the same button - Very useful | Michael Antonio](https://www.youtube.com/watch?v=0WnXIuZ187w)
 2. Как пропускать начальную заставку
    - Press and hold spacebar for 5 sec.
-3. 
+3. [The SECRET Attack Helicopter STRATEGY Behind Every Map in Battlefield 6 | ProLosco](https://www.youtube.com/watch?v=I-s_iub3b-8)
+4. 
 
 ## Советы по тактике
 1. [Правильное использование дымовых гранат](https://www.reddit.com/r/Battlefield6/comments/1o4zjvh/most_players_dont_actually_understand_how_to_use/)
