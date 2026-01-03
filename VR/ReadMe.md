@@ -13,3 +13,7 @@
 # Фильмы
 1. [Фильмы в VR](https://forum.il2sturmovik.ru/topic/17138-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-%D0%B2-vr/)
 2. 
+
+# Разное
+1. [Build a VR treadmill for $0. (Maratron) | fer sler](https://www.youtube.com/watch?v=7DYADTOS7_Y) - дешёвое создание платформы для передвижения
+2. 
