@@ -1,7 +1,11 @@
 # Общее
 1. [В Battlefield 6 добавили русский язык? | BF6 INFO](https://www.youtube.com/watch?v=pmGWhbjPq-o)
 2. https://www.ea.com/games/battlefield/battlefield-6/onboarding-hub
-3. 
+3. [I Started a Fight With a PRO PILOT in Battlefield 6... | Silk](https://www.youtube.com/watch?v=rx3I7f7tnMc)
+
+# Создание карт для Portal
+1. [How to CREATE MAPS in Battlefield 6 PORTAL | Battlefield Portal Hub and Matavatar](https://www.youtube.com/watch?v=l1LNorfPlNc)
+2. [How to Create Custom Battlefield 6 Portal Maps | DEWtheMCCOY](https://www.youtube.com/watch?v=6M-tckg0wUw)
 
 # Лайфхаки
 1. [Battlefield 6 - Setting Rate of fire and scope switch to the same button - Very useful | Michael Antonio](https://www.youtube.com/watch?v=0WnXIuZ187w)
