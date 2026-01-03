@@ -8,6 +8,9 @@
 7. [BF6 BEAM - Aim Assist explanation - Part III | Cola Zero](https://www.youtube.com/watch?v=AHRlykSHTFk)
 8. [Battlefield 6 How to Cycle primary (change primary weapon) | sadeqe info](https://www.youtube.com/watch?v=3Kov0JsXIOA)
 9. [Battlefield 6: How to Enable Compass | Games & Apps Tutorials](https://www.youtube.com/watch?v=p7hsfNqU-Ig)
+10. [BATTLEFIELD 6 НАСТРОЙКИ - мышь, графика, геймплей | Splandor Game](https://www.youtube.com/watch?v=VclYDsJJGkw)
+11. [КАК ВЫПОЛНЯТЬ ЧЕЛЛЕНДЖИ В BATTLEFIELD 6 | BF6 INFO ](https://www.youtube.com/watch?v=tH1VQYsgEiI)
+12. 
 
 ## Исправление проблем с высоким потреблением CPU
 1. [Battlefield 6 High CPU Usage Fix (official game release) | Minnidot](https://www.youtube.com/watch?v=pGvyXENXFUk)
@@ -74,6 +77,7 @@ Proper smoke positions are winning games. ONE person can literally make it easy 
 7. [BATTLEFIELD 6 Как летать на самолете? Гайд для начинающих пилотов | Splandor Game](https://www.youtube.com/watch?v=2kbu_dcYQWo)
 8. [Valak - крутой летун на контроллере от PS5 играющий на ПК](https://www.twitch.tv/rcr_valak)
 9. [ BF6 Jet Tutorial with a PERFECT Ending 😭✈️ | SilkOCE](https://www.youtube.com/shorts/jX5WXpbPQj8)
+10. [Tips for NEW Jet Players in Battlefield 6! | Silk](https://www.youtube.com/watch?v=s83P8gK2VpQ)
 
 # Вертолёты
 1. [BATTLEFIELD 6 Как летать на вертолете? Гайд для начинающих пилотов | Splandor Game](https://www.youtube.com/watch?v=KnYsUYuMYIU)
