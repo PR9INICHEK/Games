@@ -42,7 +42,8 @@
 
 # Успешный успех - для вдохновения
 1. [Как я заработал 100 тысяч долларов на своей первой игре в Steam | Indovers](https://www.youtube.com/watch?v=iLtRm6JqMIE)
-2. 
+2. [Живи. Вкалывай. Делай игры! | Mason](https://www.youtube.com/watch?v=nJmZEmdIwdQ)
+3. 
 
 # Разное
 1. [ASMR Programming - Calculator App Coding - No Talking | AsmrProg](https://www.youtube.com/watch?v=sBJmRD7kNTk)
