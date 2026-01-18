@@ -56,6 +56,8 @@
 9. [Почему важно иногда играть в свою игру с утра | xkoster](https://www.youtube.com/shorts/lsAGzYyzl-g)
 10. Игровой движок - [Leadwerks Game Engine 5 Introduction | Leadwerks Software](https://www.youtube.com/watch?v=IY6KlEw9MKc)
 11. [Разработчик игр должен делать любые игры | @xkoster](https://youtube.com/shorts/s1AV8ZU2vNs?is=S7TZX-D6zOVcpKVd)
+12. [Сколько я Заработал на Crazy Games, Яндекс Играх, Y8 и Lagged. Доход игры X10. | Сергей Эланд](https://www.youtube.com/watch?v=EUrYv0yEIqc)
+13. 
 
 # QA
 1. [Unit Testing C# Code - Tutorial for Beginners | Programming with Mosh](https://www.youtube.com/watch?v=HYrXogLj7vg)
