@@ -2,7 +2,7 @@
 
 1. В `mapgroupproto.xml`, в _defaults_, в <default name="container" изменил значение на кол-во точек у контейнера **lootmax="6"** />
 2. В `db/types.xml` изменил значения у следующих переменных, чтобы во всех зданиях **Land_House_2W02**, во всех точках заспавнились мётла
-   - <nominal>1000</nominal>
-   - <min>800</min>
+   - _nominal_ - 1000
+   - _min_ - 800
 3. 
         
