@@ -1,5 +1,8 @@
 https://community.bistudio.com/wiki/DayZ:Diag_Menu#Central_Economy
 
+# TO DO
+1. Добавить переопределение других файлов, чтобы не создавать зомби, грибы, яблоки и тп
+
 # Предложения
 1. Показывать цветом категории, какие предметы к каким категориям принадлежат
    - <img width="3440" height="1440" alt="unknown_2026 02 25-21 05" src="https://github.com/user-attachments/assets/33a1acea-4dbb-4833-bb91-f02ffbda7536" />
