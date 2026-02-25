@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prototype>
+		<defaults>
+				<default name="group" lootmax="6" />
+				<default name="container" lootmax="6" />
+		</defaults>
+		<group name="Land_House_2W02">
+				<usage name="Village" />
+				<container name="lootFloor">
+						<category name="tools" />
+						<tag name="floor" />
+						<point pos="-0.016602 -1.295158 -4.034179" range="0.851562" height="2.046677" />
+						<point pos="-1.289062 -1.295158 -6.186279" range="0.909424" height="2.046677" />
+						<point pos="1.258789 -1.295158 -2.503418" range="0.934082" height="2.046677" />
+						<point pos="3.303712 -1.292641 -5.909179" range="1.107910" height="2.046677" />
+						<point pos="-2.979979 -4.038292 -4.855958" range="1.199951" height="1.733353" />
+						<point pos="0.170899 -4.038437 -5.476074" range="1.199951" height="1.733353" />
+				</container>
+		</group>
+</prototype>
