@@ -1,5 +1,3 @@
-https://community.bistudio.com/wiki/DayZ:Diag_Menu#Central_Economy
-
 # TO DO
 1. Добавить переопределение других файлов, чтобы не создавать зомби, грибы, яблоки и тп
 
@@ -9,4 +7,7 @@ https://community.bistudio.com/wiki/DayZ:Diag_Menu#Central_Economy
    - <img width="384" height="109" alt="image" src="https://github.com/user-attachments/assets/aef8da5d-d1b1-485b-b33c-d97edd896e2e" />
 2. 
 
-
+# Полезные ссылки
+1. https://community.bistudio.com/wiki/DayZ:Diag_Menu#Central_Economy
+2. https://github.com/InclementDab/DayZ-Editor/wiki/%5B8.0%5D-Loot-Editing
+3. 
