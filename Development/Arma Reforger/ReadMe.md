@@ -429,4 +429,534 @@
 │ 8. Этап 8 и Этап 9 — финализация                                                                          │
 │                                                                                                           │
 │ Каждый этап заканчивается тестируемым результатом. Публиковать в Workshop можно уже после Этапа 1 как     │
-│ Early Alpha.                                                                                 
+│ Early Alpha.                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Project Structure — 37 files created
+
+  Location: Documents\My Games\ArmaReforgerWorkbench\addons\WastelandReforger\
+
+  Stage 0: Project Setup
+
+  - addon.gproj — Workbench project file with base game dependency
+
+  Stage 1: Core GameMode (4 files)
+
+  - WL_GameMode.c — Main game mode class (SCR_BaseGameMode) with player lifecycle events, singleton pattern,
+  component caching
+  - WL_FactionSetupComponent.c — 3 factions (BLUFOR/OPFOR/Independent), ally checking, friendly fire logic
+  - WL_SpawnHandlerComponent.c — Random/faction spawn, respawn timers, dynamic spawn point registration
+  - WL_LootManagerComponent.c — Loot tables (4 tiers), 14 spawn points across Everon, weighted random
+  selection, respawn cycle
+
+  Stage 2: Survival (4 files)
+
+  - WL_SurvivalComponent.c — Hunger/thirst with RplProp replication, damage at critical/zero levels
+  - WL_SurvivalManagerComponent.c — Server-side survival initialization
+  - WL_ConsumableAction.c — Eat/drink actions for food/water/MRE items
+  - WL_SurvivalHUD.c — Progress bars, color coding, blinking warnings
+
+  Stage 3: Economy (5 files)
+
+  - WL_MoneyComponent.c — Player balance with replication, purchase checks
+  - WL_EconomyManagerComponent.c — Kill rewards, death penalties, territory income, mission rewards
+  - WL_ShopComponent.c — Gun store (16 items) and general store (14 items), safe zones, buy/sell
+  - WL_VehicleShopComponent.c — 10 vehicles across 5 categories (light/truck/armed/APC/helicopter)
+  - WL_ShopUI.c — Shop menu with categories, item details, buy/sell buttons
+
+  Stage 4: Dynamic Missions (1 file)
+
+  - WL_MissionManagerComponent.c — 4 mission types (convoy, weapons cache, crash site, capture), 14
+  locations, AI spawning, rewards, timeouts
+
+  Stage 5: Base Building (3 files)
+
+  - WL_BuildingManagerComponent.c — 12-item building catalog, base ownership, placement validation,
+  cost/refund
+  - WL_BuildingPlacementComponent.c — Client-side preview with raycast, rotation, collision checking
+  - WL_StorageContainerComponent.c — Persistent storage with ownership and access codes
+
+  Stage 6: Territory Capture (1 file)
+
+  - WL_TerritoryManagerComponent.c — 8 capture points, progress/contested/owned states, passive income
+  payouts
+
+  Stage 7: Persistence (1 file)
+
+  - WL_PersistenceManagerComponent.c — JSON save/load for player data (position, inventory, money, stats),
+  bases, territories, auto-save
+
+  Stage 8: UI & Config (10 files)
+
+  - WL_MainHUD.c — Kill feed, mission indicators, territory status, money display
+  - WL_FactionSelectUI.c — 3-column faction selection screen
+  - WL_BuildingHUD.c — Building mode overlay with controls guide
+  - WL_Leaderboard.c — Per-faction scoreboard (kills, deaths, money)
+  - WL_NotificationSystem.c — Event notifications (missions, territories, economy, warnings)
+  - WL_Config.c — Central constants for all game settings
+  - WL_LoadoutManager.c — Faction-specific starting loadouts
+  - 4 .layout files (SurvivalHUD, FactionSelect, ShopMenu, MainHUD)
+  - 3 .conf config files (GameSettings, ShopPrices, LootTable)
+  - WL_ShopAction.c + WL_SafeZoneComponent.c — Shop interaction and safe zone protection
+
+  Important Next Steps
+
+  1. Open in Workbench and resolve any compile errors (some resource name GUIDs are placeholders and need to
+  be verified against actual vanilla content)
+  2. Create .et prefabs in World Editor for WL_GameMode, shop entities, loot containers
+  3. Create the Everon scenario — place the GameMode prefab, shops, spawn points in World Editor
+  4. Test the basic loop — spawn → loot → fight → die → respawn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Plan to implement                                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ Wasteland для Arma Reforger — План разработки                                                                                                                                                       │
+│                                                                                                                                                                                                     │
+│ Контекст                                                                                                                                                                                            │
+│                                                                                                                                                                                                     │
+│ Цель — создать собственный мод режима Wasteland для Arma Reforger на карте Everon, вдохновлённый классическим A3Wasteland. Подход: поэтапная разработка от минимального ядра PvP до полноценного    │
+│ sandbox-режима. Мод создаётся с нуля на Enforce Script с использованием архитектуры SCR_BaseGameMode + компонентов, но с предварительным изучением существующих решений (Wasteland Reforged,        │
+│ ArmaWasteland и др.).                                                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 0: Подготовка окружения и изучение                                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ 0.1 — Настройка проекта в Workbench                                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ - Установить Arma Reforger Tools через Steam (раздел Tools)                                                                                                                                         │
+│ - Создать новый проект мода через Addon Manager (File → New Addon)                                                                                                                                  │
+│ - Настроить .gproj: добавить модуль скриптов в Script Project Manager Settings → Modules                                                                                                            │
+│ - Создать базовую структуру директорий:                                                                                                                                                             │
+│ WastelandReforger/                                                                                                                                                                                  │
+│ ├── Scripts/                                                                                                                                                                                        │
+│ │   └── Game/                                                                                                                                                                                       │
+│ │       ├── GameMode/                                                                                                                                                                               │
+│ │       ├── Systems/                                                                                                                                                                                │
+│ │       ├── UI/                                                                                                                                                                                     │
+│ │       └── Components/                                                                                                                                                                             │
+│ ├── Prefabs/                                                                                                                                                                                        │
+│ │   ├── GameMode/                                                                                                                                                                                   │
+│ │   ├── Spawns/                                                                                                                                                                                     │
+│ │   └── Items/                                                                                                                                                                                      │
+│ ├── Configs/                                                                                                                                                                                        │
+│ └── UI/                                                                                                                                                                                             │
+│     └── Layouts/                                                                                                                                                                                    │
+│ - Настроить мод как зависимость от ванильного контента Arma Reforger                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ 0.2 — Изучение существующих модов                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ - Скачать и изучить исходники Wasteland Reforged из Workshop                                                                                                                                        │
+│ - Изучить https://github.com/BohemiaInteractive/Arma-Reforger-Samples на GitHub                                                                                                                     │
+│ - Изучить https://github.com/ekudmada/Reforger-Shop-System для понимания торговых систем                                                                                                            │
+│ - Проанализировать https://github.com/A3Wasteland/ArmA3_Wasteland.Altis для понимания архитектуры оригинального режима                                                                              │
+│                                                                                                                                                                                                     │
+│ 0.3 — Создание тестового сценария                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ - Создать пустой сценарий в World Editor на карте Everon                                                                                                                                            │
+│ - Добавить базовый SCR_BaseGameMode prefab                                                                                                                                                          │
+│ - Убедиться, что мод загружается и запускается без ошибок                                                                                                                                           │
+│ - Настроить быстрый workflow тестирования (запуск из Workbench)                                                                                                                                     │
+│                                                                                                                                                                                                     │
+│ Результат: работающий пустой сценарий на Everon, готовая структура проекта.                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 1: Ядро игрового режима (Minimal Viable Wasteland)                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ 1.1 — Кастомный GameMode класс                                                                                                                                                                      │
+│                                                                                                                                                                                                     │
+│ - Создать WL_GameMode : SCR_BaseGameMode — главный класс режима                                                                                                                                     │
+│ - Переопределить ключевые события:                                                                                                                                                                  │
+│   - OnPlayerConnected — обработка подключения                                                                                                                                                       │
+│   - OnPlayerDisconnected — обработка отключения                                                                                                                                                     │
+│   - OnPlayerSpawned — инициализация игрока                                                                                                                                                          │
+│   - OnPlayerKilled — обработка смерти                                                                                                                                                               │
+│   - OnGameModeStart / OnGameModeEnd                                                                                                                                                                 │
+│ - Создать prefab WL_GameMode.et в World Editor с RplComponent для репликации                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ 1.2 — Система фракций (3 команды)                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ - Настроить SCR_FactionManager с тремя фракциями:                                                                                                                                                   │
+│   - BLUFOR (US) — командная фракция                                                                                                                                                                 │
+│   - OPFOR (USSR) — командная фракция                                                                                                                                                                │
+│   - Independents — свободные игроки (каждый сам за себя)                                                                                                                                            │
+│ - Создать WL_FactionSetupComponent : SCR_BaseGameModeComponent                                                                                                                                      │
+│ - Реализовать выбор фракции через UI при подключении                                                                                                                                                │
+│ - Independents не видят друг друга как союзников (friendly fire включён между ними)                                                                                                                 │
+│ - Создать prefab-ы фракций с настроенными конфигами                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ 1.3 — Система спавна                                                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ - Создать WL_SpawnHandlerComponent : SCR_BaseGameModeComponent                                                                                                                                      │
+│ - Реализовать SCR_SpawnLogic для режима Wasteland:                                                                                                                                                  │
+│   - Начальный спавн: случайная точка на карте (или выбор из нескольких зон)                                                                                                                         │
+│   - Респавн после смерти: таймер + выбор точки                                                                                                                                                      │
+│   - Для команд: спавн на базе команды или на спавн-точке союзника                                                                                                                                   │
+│ - Разместить спавн-точки на карте Everon через World Editor                                                                                                                                         │
+│ - Проверить что спавн реплицируется корректно (Authority/Proxy)                                                                                                                                     │
+│                                                                                                                                                                                                     │
+│ 1.4 — Базовая экипировка при спавне                                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ - Создать WL_LoadoutManager                                                                                                                                                                         │
+│ - Определить стартовые лоадауты:                                                                                                                                                                    │
+│   - Минимальный набор: пистолет, нож, фляга, бинт, рюкзак                                                                                                                                           │
+│   - Различные варианты для разных фракций (визуальная идентификация)                                                                                                                                │
+│ - Создать prefab-ы лоадаутов                                                                                                                                                                        │
+│ - Привязать к спавн-системе                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ 1.5 — Лут на карте (Static Loot)                                                                                                                                                                    │
+│                                                                                                                                                                                                     │
+│ - Создать WL_LootSpawnerComponent                                                                                                                                                                   │
+│ - Определить типы лута:                                                                                                                                                                             │
+│   - Оружие и боеприпасы                                                                                                                                                                             │
+│   - Медикаменты                                                                                                                                                                                     │
+│   - Еда/вода                                                                                                                                                                                        │
+│   - Снаряжение (бронежилеты, шлемы, рюкзаки)                                                                                                                                                        │
+│ - Создать prefab лут-контейнера (ящик/сумка)                                                                                                                                                        │
+│ - Расставить лут-точки по карте Everon в ключевых локациях:                                                                                                                                         │
+│   - Города и деревни                                                                                                                                                                                │
+│   - Военные объекты                                                                                                                                                                                 │
+│   - Промзоны                                                                                                                                                                                        │
+│ - Рандомизация содержимого при каждом рестарте сервера                                                                                                                                              │
+│ - Таймер респавна лута                                                                                                                                                                              │
+│                                                                                                                                                                                                     │
+│ Результат: играбельный PvP-режим с 3 командами, спавном, стартовой экипировкой и лутом на карте.                                                                                                    │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 2: Система выживания                                                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ 2.1 — Голод и жажда                                                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ - Создать WL_SurvivalComponent (прикрепляется к игроку)                                                                                                                                             │
+│ - Два параметра: hunger (0-100) и thirst (0-100)                                                                                                                                                    │
+│ - Плавное уменьшение со временем (настраиваемая скорость)                                                                                                                                           │
+│ - При hunger/thirst < 20: урон здоровью (медленный)                                                                                                                                                 │
+│ - При hunger/thirst = 0: быстрый урон → смерть                                                                                                                                                      │
+│ - Реплицировать значения через RplProp (Authority → Proxy)                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ 2.2 — Еда и вода (предметы)                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ - Создать prefab-ы еды (консервы, рационы) и воды (фляга, бутылка)                                                                                                                                  │
+│ - WL_ConsumableAction — действие "Использовать" через Action Manager                                                                                                                                │
+│ - Восстановление hunger/thirst при употреблении                                                                                                                                                     │
+│ - Еда и вода спавнятся в лут-точках и продаются в магазинах (позже)                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ 2.3 — HUD выживания                                                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ - Создать UI layout для HUD (WL_SurvivalHUD.layout)                                                                                                                                                 │
+│ - Индикаторы голода и жажды (иконки + прогресс-бар)                                                                                                                                                 │
+│ - Визуальные эффекты при критических уровнях (vignette, blur)                                                                                                                                       │
+│ - Интеграция в основной HUD без конфликтов с ванильным UI                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ Результат: игроки должны искать еду и воду для выживания, мотивация исследовать карту.                                                                                                              │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 3: Экономика и магазины                                                                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ 3.1 — Валюта                                                                                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ - Создать WL_MoneyComponent (прикрепляется к игроку)                                                                                                                                                │
+│ - Стартовая сумма при спавне (настраиваемая)                                                                                                                                                        │
+│ - Заработок денег за:                                                                                                                                                                               │
+│   - Убийство вражеского игрока                                                                                                                                                                      │
+│   - Выполнение миссий (позже)                                                                                                                                                                       │
+│   - Захват территорий (позже)                                                                                                                                                                       │
+│ - Потеря части денег при смерти (% настраивается)                                                                                                                                                   │
+│ - Реплицировать баланс через RplProp                                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ 3.2 — Магазины оружия (Gun Stores)                                                                                                                                                                  │
+│                                                                                                                                                                                                     │
+│ - Создать WL_ShopComponent — общий компонент магазина                                                                                                                                               │
+│ - Создать WL_ShopUI — UI для покупки/продажи                                                                                                                                                        │
+│ - Типы магазинов:                                                                                                                                                                                   │
+│   - Оружейный — оружие, боеприпасы, оптика                                                                                                                                                          │
+│   - Общий — еда, вода, медикаменты, снаряжение                                                                                                                                                      │
+│ - Расставить 3-5 магазинов на карте Everon (в крупных городах)                                                                                                                                      │
+│ - Магазины — нейтральные зоны (Safe Zone, нельзя стрелять)                                                                                                                                          │
+│ - Предметы имеют настроенные цены через конфиг                                                                                                                                                      │
+│                                                                                                                                                                                                     │
+│ 3.3 — Магазин техники (Vehicle Store)                                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ - Создать WL_VehicleShopComponent                                                                                                                                                                   │
+│ - Покупка транспорта:                                                                                                                                                                               │
+│   - Легковые машины (дешёвые)                                                                                                                                                                       │
+│   - Грузовики                                                                                                                                                                                       │
+│   - Бронетехника (дорогая)                                                                                                                                                                          │
+│   - Вертолёты (очень дорого, если доступны в игре)                                                                                                                                                  │
+│ - Спавн техники на парковке рядом с магазином                                                                                                                                                       │
+│ - Владелец техники — покупатель (lock система)                                                                                                                                                      │
+│                                                                                                                                                                                                     │
+│ Результат: работающая экономика, игроки покупают снаряжение и технику, мотивация зарабатывать деньги.                                                                                               │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 4: Динамические миссии                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ 4.1 — Менеджер миссий                                                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ - Создать WL_MissionManagerComponent : SCR_BaseGameModeComponent                                                                                                                                    │
+│ - Система случайных миссий:                                                                                                                                                                         │
+│   - Пул доступных типов миссий                                                                                                                                                                      │
+│   - Автоматический запуск каждые N минут (настраиваемо)                                                                                                                                             │
+│   - Одновременно активно от 1 до 3 миссий                                                                                                                                                           │
+│   - Уведомление всех игроков о новой миссии                                                                                                                                                         │
+│   - Маркер на карте с зоной миссии                                                                                                                                                                  │
+│                                                                                                                                                                                                     │
+│ 4.2 — Типы миссий (базовые)                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ - Захват конвоя — AI-конвой движется по дороге, охраняет ценный груз                                                                                                                                │
+│ - Оружейный тайник — ящик с редким оружием, охраняемый AI                                                                                                                                           │
+│ - Сбитый вертолёт — крашнувшийся транспорт с лутом и AI-охраной                                                                                                                                     │
+│ - Захват точки — удержать зону N минут для получения награды                                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ 4.3 — AI-противники для миссий                                                                                                                                                                      │
+│                                                                                                                                                                                                     │
+│ - Использовать ванильную AI систему Arma Reforger                                                                                                                                                   │
+│ - Создать prefab-ы AI-групп разной сложности                                                                                                                                                        │
+│ - Патрулирование зоны миссии                                                                                                                                                                        │
+│ - Различная экипировка в зависимости от ценности миссии                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ 4.4 — Награды за миссии                                                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ - Денежная награда (бонус для первой команды)                                                                                                                                                       │
+│ - Лут-ящики с редким оружием/техникой                                                                                                                                                               │
+│ - XP/рейтинг (позже)                                                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ Результат: динамический контент, который стимулирует PvPvE-столкновения на карте.                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 5: Строительство баз                                                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ 5.1 — Система размещения объектов                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ - Создать WL_BuildingSystem                                                                                                                                                                         │
+│ - Режим строительства: включение через Action/горячую клавишу                                                                                                                                       │
+│ - Предпросмотр объекта (прозрачная модель)                                                                                                                                                          │
+│ - Привязка к поверхности (ground snapping)                                                                                                                                                          │
+│ - Проверка коллизий (нельзя ставить в другие объекты)                                                                                                                                               │
+│ - Подтверждение размещения                                                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ 5.2 — Строительные объекты                                                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ - Создать prefab-ы:                                                                                                                                                                                 │
+│   - Мешки с песком (sandbags)                                                                                                                                                                       │
+│   - Заграждения (barriers)                                                                                                                                                                          │
+│   - Снайперские вышки                                                                                                                                                                               │
+│   - Стены (камень, дерево)                                                                                                                                                                          │
+│   - Ворота                                                                                                                                                                                          │
+│   - Контейнеры для хранения                                                                                                                                                                         │
+│   - Палатки / бункеры                                                                                                                                                                               │
+│ - Каждый объект имеет стоимость (или требует ресурсы)                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ 5.3 — Владение и защита базы                                                                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ - WL_BaseOwnership — привязка базы к команде/игроку                                                                                                                                                 │
+│ - Код-замок для объектов (другие игроки не могут открыть/переместить)                                                                                                                               │
+│ - Радиус базы: максимальное количество объектов в зоне                                                                                                                                              │
+│ - Объекты базы разрушаемы (взрывчатка, тяжёлое оружие)                                                                                                                                              │
+│                                                                                                                                                                                                     │
+│ 5.4 — Хранилище на базе                                                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ - Создать WL_StorageContainer — ящик для хранения предметов                                                                                                                                         │
+│ - Персистентное хранилище (сохраняется между сессиями)                                                                                                                                              │
+│ - Только владелец / союзники могут открыть (или взломать)                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ Результат: команды и одиночки могут строить укреплённые базы, хранить лут, создавать стратегические точки.                                                                                          │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 6: Захват территорий                                                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ 6.1 — Точки захвата                                                                                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ - Создать WL_CapturePointComponent                                                                                                                                                                  │
+│ - Разместить 5-10 стратегических точек на карте Everon                                                                                                                                              │
+│ - Механика захвата: присутствие в зоне N секунд                                                                                                                                                     │
+│ - Визуальный индикатор прогресса захвата                                                                                                                                                            │
+│ - Маркер на карте (цвет = фракция-владелец)                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ 6.2 — Бонусы за территории                                                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ - Пассивный доход денег для фракции-владельца                                                                                                                                                       │
+│ - Возможность респавна на захваченной точке                                                                                                                                                         │
+│ - Бонус к лут-спавну в зоне                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ 6.3 — Борьба за территории                                                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ - Уведомление фракции-владельцу при начале захвата врагом                                                                                                                                           │
+│ - Таймер оспаривания (contest): захват останавливается если обе фракции в зоне                                                                                                                      │
+│ - Визуальные эффекты (дым, флаг)                                                                                                                                                                    │
+│                                                                                                                                                                                                     │
+│ Результат: стратегический слой: команды борются за контрольные точки ради ресурсов и позиций.                                                                                                       │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 7: Сохранение прогресса (Persistence)                                                                                                                                                          │
+│                                                                                                                                                                                                     │
+│ 7.1 — Сохранение игрока                                                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ - Создать WL_PlayerSaveManager                                                                                                                                                                      │
+│ - Сохранять при отключении:                                                                                                                                                                         │
+│   - Позиция на карте                                                                                                                                                                                │
+│   - Инвентарь (оружие, снаряжение, предметы)                                                                                                                                                        │
+│   - Деньги                                                                                                                                                                                          │
+│   - Фракция                                                                                                                                                                                         │
+│   - Hunger/thirst                                                                                                                                                                                   │
+│ - При повторном подключении: восстановить состояние                                                                                                                                                 │
+│ - Использовать серверное хранилище (JSON или binary)                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ 7.2 — Сохранение баз                                                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ - Сохранять все размещённые объекты баз:                                                                                                                                                            │
+│   - Позиция, ориентация                                                                                                                                                                             │
+│   - Тип объекта                                                                                                                                                                                     │
+│   - Владелец                                                                                                                                                                                        │
+│   - Содержимое хранилищ                                                                                                                                                                             │
+│ - Восстановление при рестарте сервера                                                                                                                                                               │
+│ - Можно изучить https://github.com/Arkensor/EnfusionPersistenceFramework как основу                                                                                                                 │
+│                                                                                                                                                                                                     │
+│ 7.3 — Сохранение техники                                                                                                                                                                            │
+│                                                                                                                                                                                                     │
+│ - Сохранять купленную/захваченную технику:                                                                                                                                                          │
+│   - Позиция, состояние повреждений                                                                                                                                                                  │
+│   - Содержимое инвентаря                                                                                                                                                                            │
+│   - Владелец                                                                                                                                                                                        │
+│ - Удалять брошенную технику через N минут (антиспам)                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ Результат: игроки не теряют прогресс при перезаходе, базы и техника сохраняются между сессиями.                                                                                                     │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 8: Полировка и UI                                                                                                                                                                              │
+│                                                                                                                                                                                                     │
+│ 8.1 — Главное меню режима                                                                                                                                                                           │
+│                                                                                                                                                                                                     │
+│ - Экран выбора фракции с описаниями                                                                                                                                                                 │
+│ - Таблица лидеров (kills, deaths, money, territories)                                                                                                                                               │
+│ - Карта с отмеченными магазинами, территориями, миссиями                                                                                                                                            │
+│                                                                                                                                                                                                     │
+│ 8.2 — Расширенный HUD                                                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ - Маркеры союзников                                                                                                                                                                                 │
+│ - Индикатор зоны миссии                                                                                                                                                                             │
+│ - Статус захвата территории                                                                                                                                                                         │
+│ - Баланс денег                                                                                                                                                                                      │
+│ - Kill Feed                                                                                                                                                                                         │
+│                                                                                                                                                                                                     │
+│ 8.3 — Звуки и эффекты                                                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ - Звуковые оповещения (новая миссия, захват территории, покупка)                                                                                                                                    │
+│ - Ambient-звуки для атмосферы                                                                                                                                                                       │
+│                                                                                                                                                                                                     │
+│ 8.4 — Балансировка                                                                                                                                                                                  │
+│                                                                                                                                                                                                     │
+│ - Цены предметов и техники                                                                                                                                                                          │
+│ - Скорость голода/жажды                                                                                                                                                                             │
+│ - Частота и сложность миссий                                                                                                                                                                        │
+│ - Стартовая экипировка и деньги                                                                                                                                                                     │
+│ - Доход с территорий                                                                                                                                                                                │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Этап 9: Тестирование и публикация                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ 9.1 — Тестирование                                                                                                                                                                                  │
+│                                                                                                                                                                                                     │
+│ - Локальное тестирование через Workbench (одиночная игра)                                                                                                                                           │
+│ - Тестирование мультиплеера на выделенном сервере                                                                                                                                                   │
+│ - Стресс-тест: 20+ игроков, все системы одновременно                                                                                                                                                │
+│ - Проверка репликации: клиент не может читерить                                                                                                                                                     │
+│ - Проверка persistence: рестарт сервера не ломает данные                                                                                                                                            │
+│                                                                                                                                                                                                     │
+│ 9.2 — Публикация                                                                                                                                                                                    │
+│                                                                                                                                                                                                     │
+│ - Написать описание мода для Workshop                                                                                                                                                               │
+│ - Добавить скриншоты и превью                                                                                                                                                                       │
+│ - Опубликовать через Addon Manager → Publish                                                                                                                                                        │
+│ - Создать Discord-сервер для сообщества                                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ ---                                                                                                                                                                                                 │
+│ Ключевые технические ресурсы                                                                                                                                                                        │
+│                                                                                                                                                                                                     │
+│ ┌──────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────┐                                                                     │
+│ │          Ресурс          │                                              Ссылка                                              │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Официальная wiki         │ https://community.bistudio.com/wiki/Category:Arma_Reforger                                       │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Game Mode Setup          │ https://community.bistudio.com/wiki/Arma_Reforger:General_Game_Mode_Setup                        │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Скриптинг                │ https://community.bistudio.com/wiki/Arma_Reforger:Scripting_Modding                              │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Мультиплеер/репликация   │ https://community.bistudio.com/wiki/Arma_Reforger:Multiplayer_Scripting                          │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Script API               │ https://community.bistudio.com/wikidata/external-data/arma-reforger/ArmaReforgerScriptAPIPublic/ │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Сценарный фреймворк      │ https://community.bistudio.com/wiki/Arma_Reforger:Scenario_Framework                             │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Bohemia Samples (GitHub) │ https://github.com/BohemiaInteractive/Arma-Reforger-Samples                                      │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Shop System (GitHub)     │ https://github.com/ekudmada/Reforger-Shop-System                                                 │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ Persistence Framework    │ https://github.com/Arkensor/EnfusionPersistenceFramework                                         │                                                                     │
+│ ├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┤                                                                     │
+│ │ A3Wasteland исходники    │ https://github.com/A3Wasteland/ArmA3_Wasteland.Altis                                             │                                                                     │
+│ └──────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                     │
+│                                                                                                                                                                                                     │
+│ Архитектура (ключевые классы)                                                                                                                                                                       │
+│                                                                                                                                                                                                     │
+│ WL_GameMode : SCR_BaseGameMode                                                                                                                                                                      │
+│ ├── WL_FactionSetupComponent : SCR_BaseGameModeComponent                                                                                                                                            │
+│ ├── WL_SpawnHandlerComponent : SCR_BaseGameModeComponent                                                                                                                                            │
+│ ├── WL_MissionManagerComponent : SCR_BaseGameModeComponent                                                                                                                                          │
+│ ├── WL_EconomyManagerComponent : SCR_BaseGameModeComponent                                                                                                                                          │
+│ ├── WL_TerritoryManagerComponent : SCR_BaseGameModeComponent                                                                                                                                        │
+│ ├── WL_SurvivalManagerComponent : SCR_BaseGameModeComponent                                                                                                                                         │
+│ ├── WL_BuildingManagerComponent : SCR_BaseGameModeComponent                                                                                                                                         │
+│ ├── WL_PersistenceManagerComponent : SCR_BaseGameModeComponent                                                                                                                                      │
+│ └── WL_LootManagerComponent : SCR_BaseGameModeComponent                                                                                                                                             │
+│                                                                                                                                                                                                     │
+│ // Компоненты игрока (прикрепляются к entity игрока)                                                                                                                                                │
+│ WL_SurvivalComponent : ScriptComponent  (hunger, thirst)                                                                                                                                            │
+│ WL_MoneyComponent : ScriptComponent     (баланс)                                                                                                                                                    │
+│ WL_PlayerDataComponent : ScriptComponent (статистика)                                                                                                                                               │
+│                                                                                                                                                                                                     │
+│ Порядок разработки (рекомендация)                                                                                                                                                                   │
+│                                                                                                                                                                                                     │
+│ 1. Этап 0 → Этап 1 (1.1 → 1.2 → 1.3 → 1.4 → 1.5) — играбельный прототип                                                                                                                             │
+│ 2. Этап 2 (2.1 → 2.2 → 2.3) — выживание                                                                                                                                                             │
+│ 3. Этап 3 (3.1 → 3.2 → 3.3) — экономика                                                                                                                                                             │
+│ 4. Этап 4 (4.1 → 4.2 → 4.3 → 4.4) — миссии                                                                                                                                                          │
+│ 5. Этап 5 (5.1 → 5.2 → 5.3 → 5.4) — строительство                                                                                                                                                   │
+│ 6. Этап 6 (6.1 → 6.2 → 6.3) — территории                                                                                                                                                            │
+│ 7. Этап 7 (7.1 → 7.2 → 7.3) — сохранение                                                                                                                                                            │
+│ 8. Этап 8 и Этап 9 — финализация                                                                                                                                                                    │
+│                                                                                                                                                                                                     │
+│ Каждый этап заканчивается тестируемым результатом. Публиковать в Workshop можно уже после Этапа 1 как Early Alpha.  
