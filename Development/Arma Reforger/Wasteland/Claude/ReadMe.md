@@ -1316,3 +1316,103 @@
 │ 6. Restart server — confirm different items appear (randomization works)  
 
 # Ответ 6
+Ready to code?
+
+ Here is Claude's plan:
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Plan: Per-Point Loot Configuration in Workbench
+
+ Context
+
+ Loot spawning works, but item tables are hardcoded inside WL_LootManagerComponent.c. To balance loot, you have to edit script code and recompile. The goal: move item + weight configuration onto each
+ WL_LootSpawnPoint entity so it's editable directly in the Workbench property panel.
+
+ Base path: C:\Users\Phil\Documents\My Games\ArmaReforgerWorkbench\addons\Claude_WastelandReforger\
+
+ ---
+ Step 1: Make WL_LootItemConfig a Workbench-editable class
+
+ File: Scripts/Game/Components/WL_LootManagerComponent.c
+
+ Currently WL_LootItemConfig is a plain script class with a constructor. Convert it to a [BaseContainerProps()] class with [Attribute()] decorators so the Workbench can display it in property panels:
+
+ [BaseContainerProps()]
+ class WL_LootItemConfig
+ {
+     [Attribute("", UIWidgets.ResourcePickerThumbnail, "Item prefab", params: "et")]
+     ResourceName m_sPrefab;
+
+     [Attribute("10", UIWidgets.Slider, "Spawn weight (higher = more likely)", params: "1 100 1")]
+     int m_iWeight;
+ }
+
+ Remove the m_eCategory field and constructor — category is determined by the spawn point subclass, and items are now configured per-point in the editor, not created in code.
+
+ ---
+ Step 2: Add per-point loot configuration to WL_LootSpawnPoint
+
+ File: Scripts/Game/Entities/WL_LootSpawnPoint.c
+
+ Add two new [Attribute()] fields to the base class:
+
+ [Attribute("", UIWidgets.Object, "Possible items (empty = use category defaults)")]
+ ref array<ref WL_LootItemConfig> m_aLootItems;
+
+ [Attribute("1.0", UIWidgets.Slider, "Chance this point spawns an item (0.0-1.0)", params: "0 1 0.05")]
+ float m_fSpawnChance;
+
+ Add a getter GetLootItems() that returns m_aLootItems.
+
+ Workbench result: Selecting any loot spawn point in the editor shows:
+ - m_aLootItems — expandable array, click "+" to add items, each with a prefab picker + weight slider
+ - m_fSpawnChance — slider from 0 to 1
+
+ ---
+ Step 3: Refactor WL_LootManagerComponent.SpawnItemAtPoint() — hybrid approach
+
+ File: Scripts/Game/Components/WL_LootManagerComponent.c
+
+ Change SpawnItemAtPoint() to check per-point items first, falling back to category defaults:
+
+ 1. pointItems = sp.GetLootItems()
+ 2. if pointItems is not empty → use those for weighted random
+ 3. else → fall back to m_aLootTables[sp.GetCategory()] (existing hardcoded table)
+ 4. Check sp.GetSpawnChance() — if Math.RandomFloat01() > chance, skip this point
+
+ This is backwards compatible: all 46 existing spawn points have empty m_aLootItems, so they continue using category defaults. The user configures points one by one in Workbench — no need to set up all 46 at
+ once.
+
+ Also: detect weapon rotation by checking the spawned entity for WeaponComponent instead of using IsWeaponCategory(). This way a rifle placed at a Medical spawn point still lies flat correctly.
+
+ Keep InitializeLootTables() and the hardcoded tables as fallback defaults. They can be removed later when all points are configured.
+
+ ---
+ Step 4: Add GetSpawnChance() and GetLootItems() to WL_LootSpawnPoint
+
+ File: Scripts/Game/Entities/WL_LootSpawnPoint.c
+
+ float GetSpawnChance() { return m_fSpawnChance; }
+ array<ref WL_LootItemConfig> GetLootItems() { return m_aLootItems; }
+
+ ---
+ Files modified
+
+ 1. Scripts/Game/Components/WL_LootManagerComponent.c — Convert WL_LootItemConfig to BaseContainerProps, update SpawnItemAtPoint() to use per-point items with category fallback, weapon rotation by component
+ 2. Scripts/Game/Entities/WL_LootSpawnPoint.c — Add m_aLootItems, m_fSpawnChance attributes + getters
+
+ What stays unchanged
+
+ - 12 category subclasses (color-coding in editor is useful)
+ - WL_LootCategory enum (used for fallback table indexing)
+ - Hardcoded InitializeLootTables() (fallback for unconfigured points)
+ - GameMode prefab, map layers, all 46 existing spawn points
+
+ Verification
+
+ 1. Load world in Workbench → Play → loot still spawns as before (fallback works)
+ 2. Select any WL_LootSpawnPoint_* entity in editor → property panel shows m_aLootItems array and m_fSpawnChance slider
+ 3. Add an item to a point: click "+", pick a prefab via resource picker, set weight → Play → that point spawns only configured items
+ 4. Set m_fSpawnChance to 0.5 → ~half the time that point spawns nothing
+ 5. Leave m_aLootItems empty → point uses category defaults (backwards compat)
+
+# Ответ 7
