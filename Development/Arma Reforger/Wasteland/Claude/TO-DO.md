@@ -11,4 +11,5 @@
 8. (опц.) Может сократить эту строчку и вместо item писать название предмета, без ссылки на его адрес
    - `[WL_LootManager] Spawned "Magazine_9x19_M9_15rnd" at Arleville Mag`
       - вместо `[WL_LootManager] Spawned item at Arleville Mag (prefab: {9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd.et)`
-9. 
+9. Soldier в окне спавна надо локализовать
+10. 
