@@ -117,4 +117,5 @@
 77. [Техника Союзников - Ил-2 Штурмовик Форум](https://forum.il2sturmovik.ru/forum/45-техника-союзников/)
 78. http://ftp.vkb-sim.pro/Documentations/
 79. [Педали T-Rudder Инструкция по сборке и регулировке](http://ftp.vkb-sim.pro/Documentations/Pedals_RU.pdf)
-80. 
+80. [How to Energy Trap | Bf 109 vs Yak | How To Dogfight | Brigadier Fox](https://www.youtube.com/watch?v=aqC_xNDJ4zQ)
+81. [](url)
