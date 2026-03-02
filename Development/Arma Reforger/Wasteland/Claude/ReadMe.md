@@ -7,6 +7,7 @@
 2. В C:\Users\Phil\Documents\My Games\ArmaReforgerWorkbench\addons\Claude_WastelandReforger лежит собранный тобой мод Wasteland для игры Arma Reforger. Но он пока что не работает. Давай начнём с основы и ты создашь под него миссию, чтобы можно было запустить игровой мир
 ```
 
+## Ответ 1
 
  Plan to implement                                                                                         │
 │                                                                                                           │
@@ -440,19 +441,7 @@
 │ Early Alpha.                       
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Ответ 2
 
  Project Structure — 37 files created
 
@@ -529,26 +518,7 @@
   3. Create the Everon scenario — place the GameMode prefab, shops, spawn points in World Editor
   4. Test the basic loop — spawn → loot → fight → die → respawn
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Ответ 3
 
  Plan to implement                                                                                                                                                                                   │
 │                                                                                                                                                                                                     │
