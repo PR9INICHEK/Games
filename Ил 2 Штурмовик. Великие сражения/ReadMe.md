@@ -119,4 +119,6 @@
 79. [Педали T-Rudder Инструкция по сборке и регулировке](http://ftp.vkb-sim.pro/Documentations/Pedals_RU.pdf)
 80. [How to Energy Trap | Bf 109 vs Yak | How To Dogfight | Brigadier Fox](https://www.youtube.com/watch?v=aqC_xNDJ4zQ)
 81. [A-20 Low Level Bombing Run of German Port | WingalingDragon](https://www.youtube.com/watch?v=kvsceAleqPo)
-82. [](url)
+82. [IL2 Sturmovik Great Battles \ TACTICAL AIR WAR\ 72AG # 19 | 72AG_TARANTUL](https://www.youtube.com/watch?v=7hDzXCEwam8)
+83. [⭐IL2 Sturmovik Great Battles⭐🔴LIVE The Soviet Pilot Custom / 🚩PvP🚩/ 🏆Master of the Air🏆 | TUZ GUN](https://www.youtube.com/watch?v=MHQ8pjUUuQ8)
+84. [](url)
