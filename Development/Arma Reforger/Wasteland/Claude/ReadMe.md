@@ -1,5 +1,13 @@
 # Claude
 
+## Prompts
+```
+1. Я хочу сделать мод на Arma Reforger - режим Wasteland из Arma 3, напиши структурированный план поделенный на
+  минимальные части для реализации этого мода. Ориентируйся на последнюю документацию для моддинга Arma Reforger
+2. В C:\Users\Phil\Documents\My Games\ArmaReforgerWorkbench\addons\Claude_WastelandReforger лежит собранный тобой мод Wasteland для игры Arma Reforger. Но он пока что не работает. Давай начнём с основы и ты создашь под него миссию, чтобы можно было запустить игровой мир
+```
+
+
  Plan to implement                                                                                         │
 │                                                                                                           │
 │ Wasteland для Arma Reforger — План разработки                                                             │
