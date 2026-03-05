@@ -12,7 +12,17 @@
 
 👥 3 фракции — свободный PvP без ограничений
 
+## Ещё всякое
+🗺️ Wasteland Reforger — готово к запуску на Arland
+Что настроено под Arland
 
+6 захватываемых зон по всему острову: Village, Airstrip, Town Center, Industrial Port, Southern Fort, Coastal Outpost
+
+6 точек спавна миссий — равномерно разбросаны по ~4км острову
+
+Цикл миссий 90 сек вместо 120 — остров маленький, темп выше
+
+Таймаут миссии 10 минут — не успел, задание сгорает
 
 # Полезные ссылки
 1. https://github.com/ekudmada/Reforger-Shop-System
