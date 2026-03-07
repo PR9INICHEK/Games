@@ -98,5 +98,9 @@
   2. WL_GameMode.c:62 — OnPlayerDisconnected нельзя перегружать напрямую
   3. WL_RespawnComponent.c:17,24 — OnPlayerKilled/OnPlayerSpawned не существуют в SCR_BaseGameModeComponent
 
+Теперь вижу точные сигнатуры. Исправляю оба файла:
+
+  1. WL_GameMode.c: endData вместо data, KickCauseCode cause, int timeout вместо KickCauseGroup2
+  2. WL_RespawnComponent.c: OnPlayerKilled принимает SCR_InstigatorContextData, не те аргументы
 
 # Prompt 4
