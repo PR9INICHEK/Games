@@ -531,8 +531,7 @@
   │ Arleville Heights │ Высоты Арлвиля  │
   └───────────────────┴─────────────────┘
 
-  Если позже понадобится больше языков — можно перейти на .st string table через String Editor в Workbench. Но для EN+RU
-   скриптовый подход проще и не требует runtime .conf файлов.
+Если позже понадобится больше языков — можно перейти на .st string table через String Editor в Workbench. Но для EN+RU скриптовый подход проще и не требует runtime .conf файлов.
 
 # Prompt 
 
