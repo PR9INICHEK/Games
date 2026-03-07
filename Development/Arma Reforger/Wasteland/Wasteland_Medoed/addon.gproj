@@ -1,0 +1,8 @@
+GameProject {
+ ID "WastelandMedoed"
+ GUID "68CEF26C39DF139B"
+ TITLE "Wasteland_Medoed"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
