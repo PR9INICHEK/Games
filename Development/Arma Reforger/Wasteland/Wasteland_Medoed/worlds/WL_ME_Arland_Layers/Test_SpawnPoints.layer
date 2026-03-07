@@ -1,30 +1,16 @@
 SCR_SpawnPoint : "{2B1758F237E4820E}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
  coords 2041.58 56.213 2121.712
 }
-$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- {
-  coords 3161.529 12.402 2740.114
-  angles -1.488 121.397 -6.127
-  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
-   Name "#AR-MapLocation_Beauregard"
-  }
-  m_bUseNearbySpawnPositions 1
+SCR_SpawnPoint Random_SpawnPoint_USSR : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 2048 39.438 2048
+ angles 0.543 122.084 18.669
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "Random TO-DO Localize"
  }
- Random_SpawnPoint_USSR {
-  coords 2048 39.438 2048
-  angles 0.543 122.084 18.669
-  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
-   Name "Random TO-DO Localize"
-  }
-  m_bRandomizedSpawn 1
- }
+ m_bRandomizedSpawn 1
 }
 SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  coords 3066.889 11.563 2892.551
  angles 0 -3.577 0
  m_bUseNearbySpawnPositions 1
-}
-GenericEntity : "{EFA7233213E77C2E}Prefabs/Systems/SpawnPoints/SpawnPosition.et" {
- coords 3163.228 11.977 2753.006
- angles -4.463 -0.14 1.795
 }

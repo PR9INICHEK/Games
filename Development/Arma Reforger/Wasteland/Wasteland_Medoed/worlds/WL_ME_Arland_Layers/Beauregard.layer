@@ -1,0 +1,18 @@
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 3165.956 11.563 2800.028
+ angles -0.764 121.391 -0.466
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "#AR-MapLocation_Beauregard"
+ }
+ m_bUseNearbySpawnPositions 1
+}
+$grp GenericEntity : "{EFA7233213E77C2E}Prefabs/Systems/SpawnPoints/SpawnPosition.et" {
+ {
+  coords 3163.228 11.977 2753.006
+  angles -4.463 -0.14 1.795
+ }
+ {
+  coords 3160.528 13.091 2719.826
+  angles 0.895 -0.14 -0.002
+ }
+}
