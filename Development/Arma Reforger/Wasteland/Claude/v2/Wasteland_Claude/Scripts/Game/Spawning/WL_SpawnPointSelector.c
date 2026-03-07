@@ -21,13 +21,15 @@ class WL_LocationDef
 class WL_SpawnPointSelector
 {
 	static const int VISIBLE_COUNT = 5;
+	protected static const int DETECT_THROTTLE_MS = 200;
 
 	protected static ref array<ref WL_LocationDef> s_aLocations;
 	protected static ref map<int, ref array<int>> s_mPlayerLocations; // pid -> allowed location indices
 	protected static ref map<int, bool> s_mPlayerWasAlive;           // pid -> seen alive since cache built
+	protected static int s_iLastDetectTime;                          // throttle for DetectPlayerDeath
 
 	//------------------------------------------------------------------------------------------------
-	//! Initialize the 16 location definitions with weights
+	//! Initialize the 16 location definitions with weights (called once)
 	protected static void InitLocations()
 	{
 		if (s_aLocations)
@@ -59,8 +61,9 @@ class WL_SpawnPointSelector
 	}
 
 	//------------------------------------------------------------------------------------------------
-	//! Find the nearest known location index for a world position (2D distance)
-	protected static int FindNearestLocation(vector pos)
+	//! Find the nearest known location index for a world position (2D distance).
+	//! Public so modded SCR_SpawnPoint can call it to cache the result.
+	static int FindNearestLocation(vector pos)
 	{
 		InitLocations();
 
@@ -94,15 +97,15 @@ class WL_SpawnPointSelector
 		if (!pc || pc.GetPlayerId() != pid)
 			return true;
 
-		// Detect death to invalidate stale cache
+		// Detect death to invalidate stale cache (throttled, not every call)
 		DetectPlayerDeath(pid);
 
 		// Build cache on first access
 		if (!s_mPlayerLocations || !s_mPlayerLocations.Contains(pid))
 			BuildCacheForPlayer(pid);
 
-		// Find which location this spawn point belongs to
-		int locIdx = FindNearestLocation(point.GetOrigin());
+		// Use cached location index from the spawn point (avoids recalculating every call)
+		int locIdx = point.WL_GetLocationIdx();
 		if (locIdx < 0)
 			return true;
 
@@ -116,11 +119,18 @@ class WL_SpawnPointSelector
 
 	//------------------------------------------------------------------------------------------------
 	//! Detect if the player died since the cache was built.
-	//! When a player had an alive entity but now has none, they died — invalidate cache.
+	//! Throttled to run at most once per DETECT_THROTTLE_MS to avoid redundant engine calls
+	//! when IsSpawnPointVisibleForPlayer is called 48 times in a single frame.
 	protected static void DetectPlayerDeath(int pid)
 	{
 		if (!s_mPlayerLocations || !s_mPlayerLocations.Contains(pid))
 			return;
+
+		// Throttle: skip if we checked recently
+		int now = System.GetTickCount();
+		if (now - s_iLastDetectTime < DETECT_THROTTLE_MS)
+			return;
+		s_iLastDetectTime = now;
 
 		IEntity controlled = GetGame().GetPlayerManager().GetPlayerControlledEntity(pid);
 
@@ -208,14 +218,6 @@ class WL_SpawnPointSelector
 		s_mPlayerLocations.Set(pid, picked);
 		s_mPlayerWasAlive.Set(pid, false);
 
-		// Debug log
-		string names = "";
-		for (int k = 0; k < picked.Count(); k++)
-		{
-			if (k > 0)
-				names += ", ";
-			names += s_aLocations[picked[k]].m_sName;
-		}
-		PrintFormat("[WL_SpawnPointSelector] Player %1: %2", pid, names);
+		PrintFormat("[WL_SpawnPointSelector] Player %1: picked %2 locations", pid, picked.Count());
 	}
 }
