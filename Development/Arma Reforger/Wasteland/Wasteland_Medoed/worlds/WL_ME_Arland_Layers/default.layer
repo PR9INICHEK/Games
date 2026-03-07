@@ -1,0 +1,20 @@
+SCR_BaseGameMode GameMode_Deathmatch_Selection1 : "{23B931640D22C50A}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Selection.et" {
+ coords 2022.708 60.174 2159.089
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 2017.514 55.491 2142.459
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_bIsPlayable 1
+  }
+  SCR_Faction "{56DEAC40D3C2E623}" {
+   m_bIsPlayable 1
+  }
+  SCR_Faction "{56DEAC40D132400B}" {
+   m_bIsPlayable 1
+  }
+ }
+}
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 2031.556 61.387 2166.894
+}
