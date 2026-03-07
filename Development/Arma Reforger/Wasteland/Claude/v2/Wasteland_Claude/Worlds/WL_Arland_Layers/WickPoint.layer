@@ -1,0 +1,9 @@
+SCR_SpawnPoint WL_Spawn_WickPoint_US : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 3665 18 2720
+}
+SCR_SpawnPoint WL_Spawn_WickPoint_USSR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 3663 18 2720
+}
+SCR_SpawnPoint WL_Spawn_WickPoint_FIA : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 3664 18 2721
+}

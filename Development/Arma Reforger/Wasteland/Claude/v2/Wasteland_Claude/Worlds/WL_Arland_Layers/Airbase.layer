@@ -1,0 +1,9 @@
+SCR_SpawnPoint WL_Spawn_Airbase_US : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 1366 38 2939
+}
+SCR_SpawnPoint WL_Spawn_Airbase_USSR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 1364 38 2939
+}
+SCR_SpawnPoint WL_Spawn_Airbase_FIA : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 1365 38 2940
+}

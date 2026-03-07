@@ -2,7 +2,7 @@ SCR_BaseGameMode WL_GameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base
  coords 2048 40 2048
  components {
   SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
-   m_SpawnLogic SCR_AutoSpawnLogic "{5D36888CC966608A}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5D36888CC966608A}" {
    }
   }
  }
@@ -22,15 +22,6 @@ SCR_FactionManager WL_FactionManager : "{B6B0AA477E91A164}Prefabs/MP/Managers/Fa
   }
  }
 }
-SCR_SpawnPoint WL_Spawn_OPFOR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 2900 18 1200
-}
-SCR_SpawnPoint WL_Spawn_BLUFOR : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 1500 38 2500
-}
 SCR_LoadoutManager WL_LoadoutManager : "{B1A7B8E052858CEE}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
  coords 2048 40 2052
-}
-SCR_SpawnPoint WL_Spawn_INDFOR : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
- coords 2500 46 3000
 }

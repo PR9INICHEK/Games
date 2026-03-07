@@ -1,0 +1,9 @@
+SCR_SpawnPoint WL_Spawn_NorthHead_US : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 2044 50 3396
+}
+SCR_SpawnPoint WL_Spawn_NorthHead_USSR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 2042 50 3396
+}
+SCR_SpawnPoint WL_Spawn_NorthHead_FIA : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 2043 50 3397
+}
