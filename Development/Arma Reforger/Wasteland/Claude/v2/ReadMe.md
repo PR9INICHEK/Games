@@ -412,6 +412,26 @@
  3. Spawn → die (debug kill) → deploy screen should show a different random set of 5
  4. Repeat several times — towns/military should appear more frequently than remote POIs
 ```
+● Done. Here's what was implemented:
+
+  3 files created:
+
+  1. Scripts/Game/Spawning/WL_SpawnPointSelector.c — Core logic. Defines 16 locations with weights (3/2/1) and manages
+  per-player cache of 5 randomly selected locations. Uses nearest-location matching (2D distance) to assign spawn points
+   to locations — handles Harbor's spread-out points cleanly. Detects player death client-side by tracking alive state
+  transitions.
+  2. Scripts/Game/Spawning/WL_SpawnPointModded.c — modded class SCR_SpawnPoint overrides IsSpawnPointVisibleForPlayer.
+  Base faction filter runs first, then our location filter.
+  3. Scripts/Game/WL_GameModeModded.c — modded class SCR_BaseGameMode overrides OnPlayerKilled to invalidate the spawn
+  cache (server-side supplement to client-side death detection).
+
+  Key design improvement over the plan: Instead of caching spawn point references with a guard flag to prevent
+  recursion, the cache stores location indices. Since every location has all 3 faction points, we just pick 5 random
+  locations and let the base class handle faction filtering. This eliminates the recursive call problem entirely.
+
+  To test: Reload the world in Workbench → Play → select faction → deploy screen should show 5 spawn points. Spawn → die
+   → deploy should show a different set of 5.
+
 
 # Prompt 
 
