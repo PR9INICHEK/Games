@@ -104,3 +104,30 @@
   2. WL_RespawnComponent.c: OnPlayerKilled принимает SCR_InstigatorContextData, не те аргументы
 
 # Prompt 4
+
+## Answer
+● Этапы 0–2 завершены! Вот итог:
+
+  Что сделано
+
+  Wasteland_Claude/
+  ├── addon.gproj
+  ├── Scripts/Game/
+  │   ├── WL_GameMode.c              — GameMode с экономикой ($500 старт, $100 за килл, -$50 за смерть)
+  │   └── WL_RespawnComponent.c      — Компонент респавна
+  ├── Prefabs/
+  │   ├── GameModes/WL_GameMode.et
+  │   ├── Managers/WL_FactionManager.et, WL_LoadoutManager.et
+  │   └── Spawning/WL_SpawnPoint_{BLUFOR,OPFOR,INDFOR}.et
+  ├── Missions/
+  │   └── WL_Arland.conf             — Сценарий Wasteland на Arland
+  └── worlds/
+      ├── WL_Arland.ent              — SubScene от Arland с 6 сущностями
+      └── WL_Arland_Layers/default.layer
+
+  Что нужно доделать вручную в Workbench
+
+  Одна вещь — API не может менять свойства внутри массивов. Нужно в Workbench:
+  - Выбери WL_FactionManager → в свойствах найди Factions → для US, USSR и FIA поставь m_bIsPlayable = 1
+
+  После этого можно тестировать через Play в World Editor. Хочешь продолжить со следующими этапами?
