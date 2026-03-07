@@ -1,5 +1,5 @@
-//! Modded SCR_SpawnPoint to limit the deploy menu to 5 weighted random locations.
-//! The base class faction filter runs first, then our location filter.
+//! Modded SCR_SpawnPoint to limit the deploy menu to 5 weighted random locations
+//! and display location names instead of generic spawn point names.
 //! Location index is cached per spawn point (computed once, never changes).
 modded class SCR_SpawnPoint
 {
@@ -13,6 +13,17 @@ modded class SCR_SpawnPoint
 			m_iWL_LocationIdx = WL_SpawnPointSelector.FindNearestLocation(GetOrigin());
 
 		return m_iWL_LocationIdx;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	//! Return the location display name instead of the default spawn point name
+	override string GetSpawnPointName()
+	{
+		string locName = WL_SpawnPointSelector.GetLocationDisplayName(WL_GetLocationIdx());
+		if (!locName.IsEmpty())
+			return locName;
+
+		return super.GetSpawnPointName();
 	}
 
 	//------------------------------------------------------------------------------------------------

@@ -2,13 +2,17 @@
 class WL_LocationDef
 {
 	string m_sName;
+	string m_sDisplayName_en;
+	string m_sDisplayName_ru;
 	float m_fX;
 	float m_fZ;
 	float m_fWeight;
 
-	void WL_LocationDef(string name, float x, float z, float weight)
+	void WL_LocationDef(string name, string displayEN, string displayRU, float x, float z, float weight)
 	{
 		m_sName = name;
+		m_sDisplayName_en = displayEN;
+		m_sDisplayName_ru = displayRU;
 		m_fX = x;
 		m_fZ = z;
 		m_fWeight = weight;
@@ -27,6 +31,7 @@ class WL_SpawnPointSelector
 	protected static ref map<int, ref array<int>> s_mPlayerLocations; // pid -> allowed location indices
 	protected static ref map<int, bool> s_mPlayerWasAlive;           // pid -> seen alive since cache built
 	protected static int s_iLastDetectTime;                          // throttle for DetectPlayerDeath
+	protected static string s_sLanguage;                             // cached language code
 
 	//------------------------------------------------------------------------------------------------
 	//! Initialize the 16 location definitions with weights (called once)
@@ -38,26 +43,36 @@ class WL_SpawnPointSelector
 		s_aLocations = new array<ref WL_LocationDef>();
 
 		// Weight 3: Major towns and strategic points
-		s_aLocations.Insert(new WL_LocationDef("Arleville",        2777, 1623, 3));
-		s_aLocations.Insert(new WL_LocationDef("Beauregard",       3165, 2787, 3));
-		s_aLocations.Insert(new WL_LocationDef("Airbase",          1366, 2939, 3));
+		s_aLocations.Insert(new WL_LocationDef("Arleville",        "Arleville",         "Арлвиль",             2777, 1623, 3));
+		s_aLocations.Insert(new WL_LocationDef("Beauregard",       "Beauregard",        "Борегар",             3165, 2787, 3));
+		s_aLocations.Insert(new WL_LocationDef("Airbase",          "Airbase",           "Авиабаза",            1366, 2939, 3));
 
 		// Weight 2: Military / industrial areas
-		s_aLocations.Insert(new WL_LocationDef("MilitaryBase",     1389, 2376, 2));
-		s_aLocations.Insert(new WL_LocationDef("Harbor",           1166, 3311, 2));
-		s_aLocations.Insert(new WL_LocationDef("TrainingArea",     1414, 1836, 2));
-		s_aLocations.Insert(new WL_LocationDef("SignalHill",       2509, 2260, 2));
+		s_aLocations.Insert(new WL_LocationDef("MilitaryBase",     "Military Base",     "Военная база",        1389, 2376, 2));
+		s_aLocations.Insert(new WL_LocationDef("Harbor",           "Harbor",            "Гавань",              1166, 3311, 2));
+		s_aLocations.Insert(new WL_LocationDef("TrainingArea",     "Training Area",     "Полигон",             1414, 1836, 2));
+		s_aLocations.Insert(new WL_LocationDef("SignalHill",       "Signal Hill",       "Сигнальный холм",     2509, 2260, 2));
 
 		// Weight 1: Remote POIs
-		s_aLocations.Insert(new WL_LocationDef("MossHill",         2384, 1298, 1));
-		s_aLocations.Insert(new WL_LocationDef("BaldRidge",        1979, 1135, 1));
-		s_aLocations.Insert(new WL_LocationDef("TimberRidge",      2646, 2634, 1));
-		s_aLocations.Insert(new WL_LocationDef("NorthHead",        2044, 3396, 1));
-		s_aLocations.Insert(new WL_LocationDef("AnglerBluff",      1337, 1934, 1));
-		s_aLocations.Insert(new WL_LocationDef("Highfield",        2602, 1833, 1));
-		s_aLocations.Insert(new WL_LocationDef("Newfield",         2008, 2888, 1));
-		s_aLocations.Insert(new WL_LocationDef("WickPoint",        3665, 2720, 1));
-		s_aLocations.Insert(new WL_LocationDef("ArlevilleHeights", 3360, 1540, 1));
+		s_aLocations.Insert(new WL_LocationDef("MossHill",         "Moss Hill",         "Мшистый холм",        2384, 1298, 1));
+		s_aLocations.Insert(new WL_LocationDef("BaldRidge",        "Bald Ridge",        "Лысый хребет",        1979, 1135, 1));
+		s_aLocations.Insert(new WL_LocationDef("TimberRidge",      "Timber Ridge",      "Лесной хребет",       2646, 2634, 1));
+		s_aLocations.Insert(new WL_LocationDef("NorthHead",        "North Head",        "Северный мыс",        2044, 3396, 1));
+		s_aLocations.Insert(new WL_LocationDef("AnglerBluff",      "Angler Bluff",      "Рыбацкий утёс",       1337, 1934, 1));
+		s_aLocations.Insert(new WL_LocationDef("Highfield",        "Highfield",         "Хайфилд",             2602, 1833, 1));
+		s_aLocations.Insert(new WL_LocationDef("Newfield",         "Newfield",          "Ньюфилд",             2008, 2888, 1));
+		s_aLocations.Insert(new WL_LocationDef("WickPoint",        "Wick Point",        "Мыс Уик",             3665, 2720, 1));
+		s_aLocations.Insert(new WL_LocationDef("ArlevilleHeights", "Arleville Heights", "Высоты Арлвиля",      3360, 1540, 1));
+	}
+
+	//------------------------------------------------------------------------------------------------
+	//! Get the cached language code (resolved once)
+	protected static string GetLanguageCode()
+	{
+		if (s_sLanguage.IsEmpty())
+			WidgetManager.GetLanguage(s_sLanguage);
+
+		return s_sLanguage;
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -85,6 +100,23 @@ class WL_SpawnPointSelector
 		}
 
 		return bestIdx;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	//! Get the localized display name for a location by index. Returns empty string if invalid.
+	static string GetLocationDisplayName(int locIdx)
+	{
+		InitLocations();
+
+		if (locIdx < 0 || locIdx >= s_aLocations.Count())
+			return string.Empty;
+
+		WL_LocationDef loc = s_aLocations[locIdx];
+
+		if (GetLanguageCode() == "ru_ru")
+			return loc.m_sDisplayName_ru;
+
+		return loc.m_sDisplayName_en;
 	}
 
 	//------------------------------------------------------------------------------------------------
