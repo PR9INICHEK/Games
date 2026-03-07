@@ -537,7 +537,20 @@
 > А ты можешь откатить последние изменения и сделать так, чтобы случайный выбор групп точек для появления включался по флажку и по умолчанию он выключен?
 
 ## Answer
+● Готово. Что изменилось:
 
+  1. Откат — убраны GetSpawnPointName(), m_sDisplayName, локализация EN/RU. WL_LocationDef вернулся к простой форме
+  (name, x, z, weight).
+  2. Флаг включения — WL_SpawnPointSelector.s_bEnabled (по умолчанию false):
+    - SetEnabled(bool) / IsEnabled() — публичные static-методы
+    - IsPointVisibleForPlayer() первым делом проверяет флаг — если выключен, сразу return true (все точки видны)
+  3. WL_GameModeModded.c — добавлен [Attribute] чекбокс:
+  [Attribute("0", UIWidgets.CheckBox, "Enable weighted random spawn point selection...")]
+  protected bool m_bWL_RandomSpawnPoints;
+  3. Конструктор вызывает WL_SpawnPointSelector.SetEnabled(m_bWL_RandomSpawnPoints).
+
+  Чтобы включить: в Workbench выбери GameMode entity → в свойствах появится чекбокс "Enable weighted random spawn point
+  selection" → поставь галку → сохрани.
 
 # Prompt 
 
