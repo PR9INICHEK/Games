@@ -24,6 +24,14 @@
 
 Таймаут миссии 10 минут — не успел, задание сгорает
 
+## В целом механики
+1. Выбор фракции
+   - Красные
+   - Синие
+   - Зелёные
+2. 
+
+
 # Полезные ссылки
 1. https://github.com/ekudmada/Reforger-Shop-System
 2. https://github.com/Wasteland-Reforged/WastelandReforged
