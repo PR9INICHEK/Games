@@ -1,0 +1,8 @@
+GameProject {
+ ID "WastelandClaude"
+ GUID "68CEBA302E875E3C"
+ TITLE "Wasteland Claude"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
