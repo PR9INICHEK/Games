@@ -471,7 +471,15 @@
 > Давай для локаций, что у нас собраны по группам добавим локализованные названия, а то сейчас игрок не видит различий. Все точки названы одинаково
 
 ## Answer
+● Готово. Изменения:
 
+  1. WL_LocationDef — добавлено поле m_sDisplayName с читаемыми названиями (пробелы: "Military Base", "Signal Hill",
+  "Arleville Heights" и т.д.)
+  2. WL_SpawnPointSelector — новый метод GetLocationDisplayName(locIdx) возвращает display name по индексу локации
+  3. SCR_SpawnPoint (modded) — override GetSpawnPointName() возвращает название локации вместо дефолтного имени. Если
+  индекс не найден — fallback на super.GetSpawnPointName()
+
+  Теперь в деплой-меню вместо одинаковых "Spawn Point" будут отображаться "Arleville", "Harbor", "Military Base" и т.д.
 
 # Prompt 13
 
