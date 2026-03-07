@@ -292,10 +292,126 @@
   Перезагрузи мир в Workbench — в списке слоёв увидишь каждую локацию отдельно, можно включать/выключать.
 
 # Prompt 
-
+> Просто великолепно! Заметил, что в Harbor точки создались прямо в море из-за того, что там отметка локации находится, я их вручную поправил. И у нас теперь получилось слишком много точек для выбора. Давай сделаем их с различным весом и после смерти будем показывать их в случайном виде, какие-то чаще, какие-то реже. Не более 5 за раз
 
 ## Answer
+```
+ Ready to code?
 
+ Here is Claude's plan:
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Plan: Weighted Random Spawn Point Selection (max 5)
+
+ Context
+
+ There are 16 locations × 3 factions = 48 spawn points. The deploy menu shows all 16 points for the player's faction,
+ which is overwhelming. Need to show only 5 randomly selected points per player, with weights so towns/military appear
+ more often than remote POIs. Re-randomize on each death.
+
+ Approach
+
+ - Modded SCR_SpawnPoint — override IsSpawnPointVisibleForPlayer() to filter on client
+ - WL_SpawnPointSelector — static class managing weighted random selection per player
+ - Modded SCR_BaseGameMode — hook OnPlayerKilled to re-randomize
+
+ No layer file changes needed. The modded class applies to all existing SCR_SpawnPoint entities automatically.
+
+ How It Works
+
+ 1. Deploy screen opens → UI calls IsSpawnPointVisibleForPlayer(pid) on each spawn point
+ 2. Base implementation filters by faction (only player's faction points pass)
+ 3. Our override additionally checks WL_SpawnPointSelector
+ 4. Selector (on first call per player): groups all faction-valid spawn points by proximity into "locations", picks 5
+ weighted random locations, caches result
+ 5. Only spawn points at those 5 locations return true
+ 6. On death → OnPlayerKilled → invalidate cache → next deploy gets fresh 5
+
+ Location Grouping
+
+ Spawn points within 10m of each other = same location. This matches our layout (3 faction points offset by 1m at each
+ location).
+
+ Weights
+
+ ┌────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │ Weight │                                                Locations                                                │
+ ├────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+ │ 3      │ Arleville, Beauregard, Airbase                                                                          │
+ ├────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+ │ 2      │ MilitaryBase, Harbor, TrainingArea, SignalHill                                                          │
+ ├────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+ │ 1      │ MossHill, BaldRidge, TimberRidge, NorthHead, AnglerBluff, Highfield, Newfield, WickPoint,               │
+ │        │ ArlevilleHeights                                                                                        │
+ └────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+ Client/Server
+
+ - Filter only on client (Replication.IsClient()). Server always allows valid faction spawns.
+ - No replication needed — this is purely a UI filter to reduce clutter.
+
+ Files to Create
+
+ 1. Scripts/Game/Spawning/WL_SpawnPointSelector.c
+
+ class WL_LocationGroup {
+     vector m_vCenter;
+     float m_fWeight;
+     ref array<SCR_SpawnPoint> m_aPoints;  // faction-filtered
+ }
+
+ class WL_SpawnPointSelector {
+     // Location weights defined by center coordinate
+     static ref array<ref WL_LocationWeight> s_aWeights;  // 16 entries
+
+     // Per-player cache: player ID → set of allowed SCR_SpawnPoint refs
+     static ref map<int, ref set<SCR_SpawnPoint>> s_mPlayerCache;
+
+     static bool IsPointVisibleForPlayer(SCR_SpawnPoint point, int pid);
+     static void InvalidatePlayer(int pid);
+     static void BuildCacheForPlayer(int pid);  // groups, picks 5 weighted
+ }
+
+ Key logic in BuildCacheForPlayer:
+ 1. SCR_SpawnPoint.GetSpawnPoints() → all 48 points
+ 2. For each point, call super.IsSpawnPointVisibleForPlayer(pid) — BUT we can't call super from outside. Instead, use a
+  static s_bBuilding guard flag. During build, IsPointVisibleForPlayer() returns true to let the base faction filter be
+  the only gate.
+ 3. Group surviving points by proximity (< 10m from each other)
+ 4. Weighted random pick of 5 groups (without replacement)
+ 5. All points in those 5 groups go into the cache set
+
+ 2. Scripts/Game/Spawning/WL_SpawnPointModded.c
+
+ modded class SCR_SpawnPoint {
+     override bool IsSpawnPointVisibleForPlayer(int pid) {
+         if (!super.IsSpawnPointVisibleForPlayer(pid))
+             return false;
+
+         // Only filter on client
+         if (!Replication.IsClient())
+             return true;
+
+         return WL_SpawnPointSelector.IsPointVisibleForPlayer(this, pid);
+     }
+ }
+
+ 3. Scripts/Game/WL_GameModeModded.c
+
+ modded class SCR_BaseGameMode {
+     override void OnPlayerKilled(int playerId, IEntity playerEntity,
+                                   IEntity killerEntity, notnull Instigator killer) {
+         super.OnPlayerKilled(playerId, playerEntity, killerEntity, killer);
+         WL_SpawnPointSelector.InvalidatePlayer(playerId);
+     }
+ }
+
+ Verification
+
+ 1. Reload world in Workbench
+ 2. Press Play → select faction → deploy screen should show exactly 5 spawn points on the map
+ 3. Spawn → die (debug kill) → deploy screen should show a different random set of 5
+ 4. Repeat several times — towns/military should appear more frequently than remote POIs
+```
 
 # Prompt 
 
