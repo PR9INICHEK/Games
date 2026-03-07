@@ -131,3 +131,61 @@
   - Выбери WL_FactionManager → в свойствах найди Factions → для US, USSR и FIA поставь m_bIsPlayable = 1
 
   После этого можно тестировать через Play в World Editor. Хочешь продолжить со следующими этапами?
+
+
+## Answer
+● Что дальше — подключаем скрипт экономики (WL_GameMode) к рабочему миру?
+
+# Prompt 5
+> Не, давай улучшим текущие этапы и добавим выбор фракции после загрузки миссии. Сейчас она выбирается случайно
+
+## Answer
+```
+ Ready to code?
+
+ Here is Claude's plan:
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Plan: Faction Selection Menu
+
+ Context
+
+ Currently players are auto-assigned a random faction via SCR_AutoSpawnLogic. Need to show a faction/deploy selection
+ screen instead.
+
+ Change
+
+ Edit worlds/WL_Arland_Layers/default.layer — replace SCR_AutoSpawnLogic with SCR_MenuSpawnLogic in the
+ SCR_RespawnSystemComponent override.
+
+ Before:
+
+ m_SpawnLogic SCR_AutoSpawnLogic "{5D36888CC966608A}" {
+ }
+
+ After:
+
+ m_SpawnLogic SCR_MenuSpawnLogic "{5D36888CC966608A}" {
+ }
+
+ This is exactly how GameMode_TeamDeathmatch_Selection.et does it vs GameMode_TeamDeathmatch_Auto.et in the base game.
+
+ What happens automatically
+
+ - Player joins → SCR_RoleSelectionMenu opens (faction selection screen)
+ - Shows 3 playable factions (US, USSR, FIA) with player counts
+ - Player selects faction → server assigns it
+ - Player spawns at the faction's spawn point
+ - On death → deploy menu with map opens for respawn
+
+ Files modified
+
+ - worlds/WL_Arland_Layers/default.layer (1 line change)
+
+ Verification
+
+ 1. Reload world in Workbench
+ 2. Press Play
+ 3. Should see faction selection screen instead of auto-spawn
+```
+
+# Prompt 6
