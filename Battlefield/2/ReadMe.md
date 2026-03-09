@@ -9,7 +9,8 @@
 8. [Battlefield 2 In a Nutshell | TRBatuhanKara](https://www.youtube.com/watch?v=O8bN-5OtzTw)
 9. [BATTLEFIELD 2 EPIC KILLS 2022 | [revive project]](https://www.youtube.com/watch?v=vAZ_qvdlPJU)
 10. [#2 Battlefield 2 Jet J10 Dragon valley | Lazysh00t](https://www.youtube.com/watch?v=JP-3NwSX02g)
-11. 
+11. [BF2 | Carrier beep beep strike | SkyDistress](https://www.youtube.com/watch?v=E5yXR1GVBBY)
+12. 
 
 # Приколы
 1. [BF2- Enemy Boat Spotted (Sparta Remix) | thriftyh4xx](https://www.youtube.com/watch?v=sGzmeihdTFA)
