@@ -15,6 +15,23 @@ SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Manage
   }
  }
 }
-SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
- coords 2031.556 61.387 2166.894
+SCR_LoadoutManager : "{B15F5DEE0EEA0925}Prefabs/MP/Managers/Loadouts/WL_ME_LoadoutManager.et" {
+ coords 2031.851 61.185 2166.157
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{68D2D04B60AE5DBB}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{7DE1CBA32A0225EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Randomized.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{68D2D04B66E60CAD}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{5EFC243926EE6808}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Randomized.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{68D2D04B7DF5C66B}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{8515E8BD26A5D5F8}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Randomized.et"
+   m_sAffiliatedFaction "FIA"
+  }
+ }
 }
