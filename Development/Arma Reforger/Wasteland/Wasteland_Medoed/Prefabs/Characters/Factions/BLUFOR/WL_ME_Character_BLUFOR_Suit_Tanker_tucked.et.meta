@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E168080091686463}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Suit_Tanker_tucked.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

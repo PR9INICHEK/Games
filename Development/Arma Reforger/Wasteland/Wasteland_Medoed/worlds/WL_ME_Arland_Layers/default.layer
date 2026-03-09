@@ -25,7 +25,7 @@ SCR_LoadoutManager : "{B15F5DEE0EEA0925}Prefabs/MP/Managers/Loadouts/WL_ME_Loado
   }
   SCR_FactionPlayerLoadout "{68D2D04B66E60CAD}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{5EFC243926EE6808}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Randomized.et"
+   m_sLoadoutResource "{5E380D78550710B7}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Randomized.et"
    m_sAffiliatedFaction "US"
   }
   SCR_FactionPlayerLoadout "{68D2D04B7DF5C66B}" {

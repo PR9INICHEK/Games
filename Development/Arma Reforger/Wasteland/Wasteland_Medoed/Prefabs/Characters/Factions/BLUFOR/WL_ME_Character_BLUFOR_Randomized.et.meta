@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5E380D78550710B7}Prefabs/Characters/Factions/BLUFOR/US_Army/WL_ME_Character_BLUFOR_Randomized.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68D2D0402CBE72FA}" {
+    m_iDefaultVariantRandomizerWeight 5
+    m_aVariants {
+     SCR_EditableEntityVariant "{68D2D0402E16E92A}" {
+      m_sVariantPrefab "{00FA5039DB9658CB}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_BDU.et"
+      m_iRandomizerWeight 20
+     }
+     SCR_EditableEntityVariant "{68D2D04018633F9E}" {
+      m_sVariantPrefab "{E60A9EAB91554C89}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_M65.et"
+      m_iRandomizerWeight 18
+     }
+     SCR_EditableEntityVariant "{68D2D04078675DDC}" {
+      m_sVariantPrefab "{5A519FAEB8C46D44}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_BDU_TigerStripe.et"
+      m_iRandomizerWeight 16
+     }
+     SCR_EditableEntityVariant "{68D2D0404E8A092E}" {
+      m_sVariantPrefab "{A3400FED132E64F8}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_BDU.et"
+      m_iRandomizerWeight 14
+     }
+     SCR_EditableEntityVariant "{68D2D0405D68E332}" {
+      m_sVariantPrefab "{70F20B29E674EAA8}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_rolledup_BDU.et"
+      m_iRandomizerWeight 13
+     }
+     SCR_EditableEntityVariant "{68D2D0405D32C0CA}" {
+      m_sVariantPrefab "{45B0C17F59ED70BA}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_M65.et"
+      m_iRandomizerWeight 12
+     }
+     SCR_EditableEntityVariant "{68D2D0405D2EC536}" {
+      m_sVariantPrefab "{9602C5BBACB7FEEA}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_rolledup_M65.et"
+      m_iRandomizerWeight 11
+     }
+     SCR_EditableEntityVariant "{68D2D0405D044855}" {
+      m_sVariantPrefab "{EBF5EB03796A3BC5}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_BDU_TigerStripe.et"
+      m_iRandomizerWeight 10
+     }
+     SCR_EditableEntityVariant "{68D2D0405CFDFE15}" {
+      m_sVariantPrefab "{63B9468696413555}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_rolledup_BDU_TigerStripe.et"
+      m_iRandomizerWeight 9
+     }
+     SCR_EditableEntityVariant "{68D2D0405CDB7FE4}" {
+      m_sVariantPrefab "{CBC51DFFDF750527}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Suit_Pilot.et"
+      m_iRandomizerWeight 4
+     }
+     SCR_EditableEntityVariant "{68D2D0405CB203E9}" {
+      m_sVariantPrefab "{09161C87016B90B8}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Suit_Tanker.et"
+      m_iRandomizerWeight 3
+     }
+     SCR_EditableEntityVariant "{68D2D0405CAB8901}" {
+      m_sVariantPrefab "{E168080091686463}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Suit_Tanker_tucked.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+   }
+  }
+ }
+}

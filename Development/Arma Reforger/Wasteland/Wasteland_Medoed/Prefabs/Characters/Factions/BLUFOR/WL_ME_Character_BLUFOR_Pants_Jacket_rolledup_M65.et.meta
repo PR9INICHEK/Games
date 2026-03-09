@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9602C5BBACB7FEEA}Prefabs/Characters/Factions/BLUFOR/WL_ME_Character_BLUFOR_Pants_Jacket_rolledup_M65.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
