@@ -8,7 +8,8 @@
 7. [Battlefield 2 in 2023 (004 - WW server) | Rasec Mouggier](https://www.youtube.com/watch?v=OEdUNkw797U)
 8. [Battlefield 2 In a Nutshell | TRBatuhanKara](https://www.youtube.com/watch?v=O8bN-5OtzTw)
 9. [BATTLEFIELD 2 EPIC KILLS 2022 | [revive project]](https://www.youtube.com/watch?v=vAZ_qvdlPJU)
-10. 
+10. [#2 Battlefield 2 Jet J10 Dragon valley | Lazysh00t](https://www.youtube.com/watch?v=JP-3NwSX02g)
+11. 
 
 # Приколы
 1. [BF2- Enemy Boat Spotted (Sparta Remix) | thriftyh4xx](https://www.youtube.com/watch?v=sGzmeihdTFA)
@@ -52,7 +53,8 @@
 7. [SU-30 Daqing OilFields Quality Test | CrazySaVaunT](https://www.youtube.com/watch?v=UvBDnpfsrdY)
 8. [BattleField 2 F35 Flying High Spiral Effect | CrazySaVaunT](https://www.youtube.com/watch?v=tqcZ85CQzVM)
 9. [BattleField 2 Crazy Pilot First Person (No Hud) | CrazySaVaunT](https://www.youtube.com/watch?v=vMfL1s1-6Qs)
-10. 
+10. [BattleField 2 Crazy Pilot | CrazySaVaunT](https://www.youtube.com/watch?v=wIFhSbxeYZU)
+11. [](url)
 
 ### Трюки
 1. [Battlefield 2 - Jet Stunts | NuKe](https://www.youtube.com/watch?v=5bDqsRYIWec)
