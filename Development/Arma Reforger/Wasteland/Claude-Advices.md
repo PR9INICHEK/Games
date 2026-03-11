@@ -196,7 +196,7 @@ _Plan mode on_
 
                                   Notes: press n to add notes
 
-    ```
+```
      Ready to code?
 
  Here is Claude's plan:
