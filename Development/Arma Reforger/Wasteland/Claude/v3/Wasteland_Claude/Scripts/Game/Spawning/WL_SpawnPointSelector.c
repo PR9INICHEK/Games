@@ -34,7 +34,12 @@ class WL_SpawnPointSelector
 	static void SetEnabled(bool enabled)
 	{
 		s_bEnabled = enabled;
-		PrintFormat("[WL_SpawnPointSelector] %1", enabled ? "Enabled" : "Disabled");
+		string state;
+		if (enabled)
+			state = "Enabled";
+		else
+			state = "Disabled";
+		PrintFormat("[WL_SpawnPointSelector] %1", state);
 	}
 
 	//------------------------------------------------------------------------------------------------

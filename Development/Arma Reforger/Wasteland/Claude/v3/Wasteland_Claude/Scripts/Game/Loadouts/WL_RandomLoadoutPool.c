@@ -10,7 +10,12 @@ class WL_RandomLoadoutPool
 	static void SetEnabled(bool enabled)
 	{
 		s_bEnabled = enabled;
-		PrintFormat("[WL_RandomLoadoutPool] %1", enabled ? "Enabled" : "Disabled");
+		string state;
+		if (enabled)
+			state = "Enabled";
+		else
+			state = "Disabled";
+		PrintFormat("[WL_RandomLoadoutPool] %1", state);
 	}
 
 	//------------------------------------------------------------------------------------------------
