@@ -7,8 +7,9 @@ SCR_BaseGameMode WL_GameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base
   }
  }
  m_bUseSpawnPreload 0
+ m_sWL_LoadoutConfigPath "{1B2E1F07A2D01168}Configs/Loadouts/WL_RandomLoadouts.conf"
 }
-SCR_FactionManager WL_FactionManager : "{B6B0AA477E91A164}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+SCR_FactionManager WL_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
  coords 2048 40 2050
  Factions {
   SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -22,6 +23,6 @@ SCR_FactionManager WL_FactionManager : "{B6B0AA477E91A164}Prefabs/MP/Managers/Fa
   }
  }
 }
-SCR_LoadoutManager WL_LoadoutManager : "{B1A7B8E052858CEE}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+SCR_LoadoutManager WL_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
  coords 2048 40 2052
 }

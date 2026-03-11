@@ -4,6 +4,17 @@
 modded class SCR_FactionPlayerLoadout
 {
 	//------------------------------------------------------------------------------------------------
+	//! Factory: create a loadout instance at runtime (bypasses config serialization)
+	static SCR_FactionPlayerLoadout Create(string name, ResourceName resource, string faction)
+	{
+		SCR_FactionPlayerLoadout loadout = new SCR_FactionPlayerLoadout();
+		loadout.m_sLoadoutName = name;
+		loadout.m_sLoadoutResource = resource;
+		loadout.m_sAffiliatedFaction = faction;
+		return loadout;
+	}
+
+	//------------------------------------------------------------------------------------------------
 	override ResourceName GetLoadoutResource()
 	{
 		if (!WL_RandomLoadoutPool.IsEnabled())

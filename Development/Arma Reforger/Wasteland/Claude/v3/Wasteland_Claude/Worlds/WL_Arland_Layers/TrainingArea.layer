@@ -1,9 +1,9 @@
-SCR_SpawnPoint WL_Spawn_TrainingArea_US : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+SCR_SpawnPoint WL_Spawn_TrainingArea_US : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  coords 1414 12 1836
 }
-SCR_SpawnPoint WL_Spawn_TrainingArea_USSR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+SCR_SpawnPoint WL_Spawn_TrainingArea_USSR : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
  coords 1412 12 1836
 }
-SCR_SpawnPoint WL_Spawn_TrainingArea_FIA : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+SCR_SpawnPoint WL_Spawn_TrainingArea_FIA : "{2B1758F237E4820E}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
  coords 1413 12 1837
 }
