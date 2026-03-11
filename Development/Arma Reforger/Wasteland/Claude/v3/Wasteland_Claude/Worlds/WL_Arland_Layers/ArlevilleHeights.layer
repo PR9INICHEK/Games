@@ -1,0 +1,9 @@
+SCR_SpawnPoint WL_Spawn_ArlevilleHeights_US : "{46B8A668B034D7E4}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 3360 13 1540
+}
+SCR_SpawnPoint WL_Spawn_ArlevilleHeights_USSR : "{2CF8ECB3EBE5E53D}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 3358 13 1540
+}
+SCR_SpawnPoint WL_Spawn_ArlevilleHeights_FIA : "{F7B8E3A68B3CA28C}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 3359 13 1541
+}

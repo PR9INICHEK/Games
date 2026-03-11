@@ -1,0 +1,12 @@
+SCR_SpawnPoint WL_Spawn_Harbor_FIA : "{2B1758F237E4820E}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 1116.012 1.699 3202.762
+ angles -6.168 0.677 -6.278
+}
+SCR_SpawnPoint WL_Spawn_Harbor_USSR : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 1140.728 10.641 3431.385
+ angles 16.148 -2.178 -10.803
+}
+SCR_SpawnPoint WL_Spawn_Harbor_US : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 1240.75 1.537 3299.587
+ angles 6.168 -0.677 -6.278
+}

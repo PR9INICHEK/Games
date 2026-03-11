@@ -1,0 +1,27 @@
+SCR_BaseGameMode WL_GameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ coords 2048 40 2048
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5D36888CC966608A}" {
+   }
+  }
+ }
+ m_bUseSpawnPreload 0
+}
+SCR_FactionManager WL_FactionManager : "{B6B0AA477E91A164}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 2048 40 2050
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_bIsPlayable 1
+  }
+  SCR_Faction "{56DEAC40D3C2E623}" {
+   m_bIsPlayable 1
+  }
+  SCR_Faction "{56DEAC40D132400B}" {
+   m_bIsPlayable 1
+  }
+ }
+}
+SCR_LoadoutManager WL_LoadoutManager : "{B1A7B8E052858CEE}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 2048 40 2052
+}
