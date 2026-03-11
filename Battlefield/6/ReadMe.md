@@ -9,7 +9,7 @@
 8. [KORD 6P67 ЛУЧШАЯ СБОРКА в Battlefield 6 | Мета гайд | taker inc](https://www.youtube.com/watch?v=ybehHegFGFQ)
 9. [Battlefield 6 is INSANE on a Samsung Odyssey Ark 2nd Gen | HDR Gameplay | udubultra](https://www.youtube.com/shorts/KACNVsoJMsA)
 10. [Why your GRENADES never kill anyone in Battlefield 6. | Zerk](https://www.youtube.com/watch?v=PhzRL8IEkyk)
-11. 
+11. https://www.youtube.com/watch?v=ZbKpDTZ98p4
 
 
 # Общее
