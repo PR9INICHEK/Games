@@ -206,10 +206,89 @@
 ```
 
 # Prompt 4
-
+> В C:\Users\Phil\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-03-11_22-14-14 какие-то ошибки всё равно остались
 
 ## Answer
+```
+ Ready to code?
 
+ Here is Claude's plan:
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Fix: LoadoutManager "Unknown class" + Deploy Menu Crash
+
+ Context
+
+ After fixing GUID errors (FactionManager, LoadoutManager, SpawnPoints), two linked issues remain:
+
+ 1. "Unknown class 'SCR_FactionPlayerLoadout'" (×7) — LoadoutManager_Editor.et has pre-baked loadout data that fails to
+  deserialize. The LoadoutManager ends up with zero loadouts.
+ 2. NULL pointer crash in deploy menu — SCR_LoadoutRequestUIComponent::CreatePlayerLoadoutButton crashes because there
+ are no loadouts to display. This is the actual gameplay blocker.
+
+ The working Medoed mod avoids this by using LoadoutManager_Base.et (clean, no pre-baked data) + explicit
+ m_aPlayerLoadouts entries in the .layer file.
+
+ ---
+ Fix: Switch to LoadoutManager_Base + Add Loadout Entries
+
+ File: Worlds/WL_Arland_Layers/default.layer
+
+ Replace the LoadoutManager block (lines 26-28):
+
+ SCR_LoadoutManager WL_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+  coords 2048 40 2052
+ }
+
+ With (using LoadoutManager_Base.et + 3 faction loadouts):
+
+ SCR_LoadoutManager WL_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+  coords 2048 40 2052
+  m_aPlayerLoadouts {
+   SCR_FactionPlayerLoadout "{68CE0001A0000001}" {
+    m_sLoadoutName "US Soldier"
+    m_sLoadoutResource
+ "{C5574DAD3956486C}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_Rifleman.et"
+    m_sAffiliatedFaction "US"
+   }
+   SCR_FactionPlayerLoadout "{68CE0001A0000002}" {
+    m_sLoadoutName "USSR Soldier"
+    m_sLoadoutResource
+ "{9BDC3AC0BDB50019}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Rifleman.et"
+    m_sAffiliatedFaction "USSR"
+   }
+   SCR_FactionPlayerLoadout "{68CE0001A0000003}" {
+    m_sLoadoutName "FIA Fighter"
+    m_sLoadoutResource "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+    m_sAffiliatedFaction "FIA"
+   }
+  }
+ }
+
+ Why this works
+
+ - LoadoutManager_Base.et ({AA4E7419A1FF65B0}) — verified from working Medoed mod's WL_ME_LoadoutManager.et
+ - Character prefab GUIDs — same ones already used in WL_RandomLoadoutPool.c (lines 52, 63, 74), proven valid
+ - m_sLoadoutResource serves as fallback when random loadouts are disabled; when enabled,
+ WL_FactionPlayerLoadoutModded.GetLoadoutResource() overrides it at runtime
+ - Pattern matches exactly what Medoed does (their default.layer lines 18-37)
+
+ No script changes needed
+
+ - WL_FactionPlayerLoadoutModded.c — already hooks GetLoadoutResource() and OnLoadoutSpawned(), works with any
+ SCR_FactionPlayerLoadout instance
+ - WL_RandomLoadoutPool.c — unchanged, provides random prefab selection
+ - WL_SlotRandomizer.c — unchanged, already loads config with 3 factions
+
+ ---
+ Verification
+
+ After edit, reload world in Workbench → Play:
+ 1. No Unknown class 'SCR_FactionPlayerLoadout' errors (no pre-baked data to deserialize)
+ 2. No NULL crash in SCR_LoadoutRequestUIComponent (loadouts now exist)
+ 3. Deploy menu shows faction selection + loadout button
+ 4. Player can spawn with random loadout (if m_bWL_RandomLoadouts enabled)
+ 5. Script log shows [WL_SlotRandomizer] Loaded config with 3 factions (already working)
+```
 
 # Prompt N
 
