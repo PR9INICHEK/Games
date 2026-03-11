@@ -98,10 +98,112 @@
   LoadoutManager_Editor) are a separate fix — those will need the layer files updated with correct base-game GUIDs.
 
 # Prompt 3
-
+> Посмотри, пожалуйста, что в C:\Users\Phil\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-03-11_21-43-57 за ошибки остались?
 
 ## Answer
+```
+ Ready to code?
 
+ Here is Claude's plan:
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Fix: Layer GUID Errors + Config Recreation
+
+ Context
+
+ Логи logs_2026-03-11_21-43-57 показывают три группы ошибок нашего мода. Файл .conf уже удалён (предыдущий шаг).
+ Основная проблема — неверные GUID'ы в .layer файлах, из-за чего ломаются loadouts и spawn points.
+
+ ---
+ Ошибка 1: Wrong GUID — FactionManager & LoadoutManager (default.layer)
+
+ Файл: Worlds/WL_Arland_Layers/default.layer
+
+ ┌───────────────────────┬─────────────────────────┬───────────────────────────┐
+ │        Entity         │ Текущий (неверный) GUID │ Правильный GUID (из лога) │
+ ├───────────────────────┼─────────────────────────┼───────────────────────────┤
+ │ FactionManager_Editor │ {B6B0AA477E91A164}      │ {4A188E44289B9A50}        │
+ ├───────────────────────┼─────────────────────────┼───────────────────────────┤
+ │ LoadoutManager_Editor │ {B1A7B8E052858CEE}      │ {B54D08AEA74A5354}        │
+ └───────────────────────┴─────────────────────────┴───────────────────────────┘
+
+ Действие: Заменить GUID'ы в default.layer (2 строки). Правильные GUID'ы подтверждены логом — Workbench резолвит по
+ пути и показывает GetResourceObject @"{4A188E44289B9A50}..." и @"{B54D08AEA74A5354}...".
+
+ Каскадные ошибки, которые исправятся:
+ - Unknown class 'SCR_FactionPlayerLoadout' (×7) — LoadoutManager грузился с неверного GUID, не находил класс
+ - NULL pointer crash в SCR_LoadoutRequestUIComponent.CreatePlayerLoadoutButton — следствие отсутствия loadouts
+ - Can't open config file "" — SlotRandomizer без пути к .conf (не критично, отдельный вопрос)
+
+ ---
+ Ошибка 2: Wrong GUID — SpawnPoint_US/USSR/FIA (16 location layers)
+
+ Файлы: Все 16 Worlds/WL_Arland_Layers/{Location}.layer
+
+ ┌────────────────────┬─────────────────────────┐
+ │       Prefab       │ Текущий (неверный) GUID │
+ ├────────────────────┼─────────────────────────┤
+ │ SpawnPoint_US.et   │ {46B8A668B034D7E4}      │
+ ├────────────────────┼─────────────────────────┤
+ │ SpawnPoint_USSR.et │ {2CF8ECB3EBE5E53D}      │
+ ├────────────────────┼─────────────────────────┤
+ │ SpawnPoint_FIA.et  │ {F7B8E3A68B3CA28C}      │
+ └────────────────────┴─────────────────────────┘
+
+ Проблема: В отличие от менеджеров, лог НЕ показывает правильные GUID'ы spawn point'ов (нет строки GetResourceObject
+ после ошибки). Это значит Workbench не смог их зарезолвить. Нужно получить правильные GUID'ы.
+
+ Действие (требует запущенный Workbench):
+ 1. Запустить Workbench с NET API
+ 2. Выполнить wb_prefabs getGuid для Prefabs/MP/Spawning/SpawnPoint_US.et, SpawnPoint_USSR.et, SpawnPoint_FIA.et
+ 3. Заменить GUID'ы во всех 16 layer файлах (48 замен: 3 prefab × 16 layers)
+
+ ---
+ Ошибка 3: WL_RandomLoadouts.conf (уже удалён)
+
+ Статус: Файл удалён с диска. Нужно пересоздать через Workbench.
+
+ Действие (в Workbench):
+ 1. Resource Browser → Configs/Loadouts/ → ПКМ → New Resource → WL_RandomLoadoutConfig → имя WL_RandomLoadouts
+ 2. Заполнить фракции (US, USSR, FIA) и слоты через Config Editor
+ 3. Прописать путь к .conf в GameMode (чтобы [WL_SlotRandomizer] No config path specified ушло)
+
+ ---
+ Не наши ошибки (base game)
+
+ Эти ошибки из ванильного ArmaReforger, игнорируем:
+ - Wrong GUID/name для M113 vehicle prefabs (4 шт.) — битые ссылки в US EntityCatalog
+ - Unknown keyword 'Operation' в animation graph (×50+) — base game animation
+ - Steamworks: RequestCurrentStats failed — Steam не подключен в Workbench
+ - duplicate GUID found (×20+) — дубликаты в base game ресурсах
+ - Door distances are not set, RadioManagerEntity, AIWorld is missing — base game world warnings
+ - Все SCRIPT (W) об obsolete API, duplicate notifications, Slot_* Has no Content — base game UI
+
+ ---
+ План выполнения
+
+ Шаг 1: Fix default.layer GUIDs (можно сейчас)
+
+ Отредактировать Worlds/WL_Arland_Layers/default.layer:
+ - Строка 11: "{B6B0AA477E91A164}" → "{4A188E44289B9A50}"
+ - Строка 25: "{B1A7B8E052858CEE}" → "{B54D08AEA74A5354}"
+
+ Шаг 2: Fix SpawnPoint GUIDs (нужен Workbench)
+
+ 1. Запустить Workbench
+ 2. Получить правильные GUID'ы через wb_prefabs getGuid
+ 3. Заменить во всех 16 location layers (sed/replace)
+
+ Шаг 3: Recreate .conf (нужен Workbench)
+
+ 1. Создать WL_RandomLoadouts.conf через Config Editor
+ 2. Наполнить данными
+
+ ---
+ Проверка
+
+ После шагов 1-2: перезапустить Play в Workbench → в логах не должно быть Wrong GUID для наших ресурсов, Unknown class,
+  и NULL pointer crash. Deploy menu должен показать loadouts и позволить спавн.
+```
 
 # Prompt 4
 
