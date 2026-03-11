@@ -58,6 +58,45 @@
  После пересоздания .conf — в Workbench открыть Config Editor, убедиться что файл открывается и сохраняется без ошибок.
 ```
 
+● Let me first check the current state of the conf file, then delete and recreate it.
+
+● Read 1 file (ctrl+o to expand)
+
+● The config_create MCP tool only supports mission-header, faction, entity-catalog, and editor-placeables types — not
+  custom config classes like WL_RandomLoadoutConfig. So I can't recreate it via MCP.
+
+  The correct approach is:
+
+  1. Delete the file from disk
+  2. Recreate it manually in Workbench Config Editor
+
+  Let me delete the file now.
+
+● Bash(rm "C:/Users/Phil/Documents/My
+      Games/ArmaReforgerWorkbench/addons/Wasteland_Claude/Configs/Loadouts/WL_RandomLoadouts.conf")
+  ⎿  Done
+
+● Read 1 file (ctrl+o to expand)
+
+● File deleted. The directory is now empty.
+
+  Next steps (manual in Workbench):
+
+  1. Open Workbench with the Wasteland_Claude addon loaded
+  2. In Resource Browser, navigate to Configs/Loadouts/
+  3. Right-click → New Resource → Pick class WL_RandomLoadoutConfig → name it WL_RandomLoadouts
+  4. Workbench will assign a GUID and register it in the resource database
+  5. Open it in Config Editor and populate factions/slots using the resource picker for item GUIDs
+  6. Save — should succeed now since Workbench owns the file
+
+  The structure you'll want to recreate:
+  - 3 factions: US, USSR, FIA
+  - Each with slot pools (Helmet, Vest, Weapon, etc.) with m_bEnabled 1
+  - Fill m_aItems arrays with WL_WeightedItem entries using the resource picker for prefab GUIDs
+
+  The sidebar GUID issues in the .layer files (wrong GUIDs for SpawnPoint prefabs, FactionManager_Editor,
+  LoadoutManager_Editor) are a separate fix — those will need the layer files updated with correct base-game GUIDs.
+
 # Prompt 3
 
 
