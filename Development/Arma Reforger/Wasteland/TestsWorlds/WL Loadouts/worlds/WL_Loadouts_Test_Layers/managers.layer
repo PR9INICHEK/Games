@@ -20,17 +20,17 @@ SCR_LoadoutManager LoadoutManager : "{47543DFAF85809C5}Prefabs/MP/Managers/Loado
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{68D90C22C0DC227A}" {
    m_sLoadoutName "OPF-Loadout"
-   m_sLoadoutResource "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   m_sLoadoutResource "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_OPFOR_Base.et"
    m_sAffiliatedFaction "OPFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22C64C3871}" {
    m_sLoadoutName "BLU-Loadout"
-   m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   m_sLoadoutResource "{5F584F1066658643}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_BLUFOR_Base.et"
    m_sAffiliatedFaction "BLUFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22D9243A92}" {
    m_sLoadoutName "IND-Loadout"
-   m_sLoadoutResource "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+   m_sLoadoutResource "{BDFE5C82D2010877}Prefabs/Characters/Factions/INDFOR/FIA/Character_INDEPENDENT_base.et"
    m_sAffiliatedFaction "INDEPENDENT"
   }
  }
