@@ -1,23 +1,37 @@
-SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
- coords 116.417 1 110.551
+SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Factions/FactionManager_OPFORxBLUFORxINDEPENDENT.et" {
+ coords 117.448 1 111.279
+ Factions {
+  SCR_Faction "{68D90C240A962FAD}" {
+   FactionKey "OPFOR"
+   FactionColor 0.855 0.031 0.028 1
+  }
+  SCR_Faction "{68D90C240CF0CE71}" {
+   FactionKey "BLUFOR"
+   FactionColor 0.016 0.552 0.905 1
+  }
+  SCR_Faction "{68D90C240FEF4B8E}" {
+   FactionKey "INDEPENDENT"
+   FactionColor 0 0.44 0.078 1
+  }
+ }
 }
 SCR_LoadoutManager LoadoutManager : "{47543DFAF85809C5}Prefabs/MP/Managers/Loadouts/LoadoutManager_OPFORxBLUFORxINDEPENDENT.et" {
  coords 116.809 1 111.022
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{68D90C22C0DC227A}" {
-   m_sLoadoutName "USSR-Loadout"
+   m_sLoadoutName "OP-Loadout"
    m_sLoadoutResource "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
-   m_sAffiliatedFaction "USSR"
+   m_sAffiliatedFaction "OPFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22C64C3871}" {
-   m_sLoadoutName "US-Loadout"
+   m_sLoadoutName "BLU-Loadout"
    m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
-   m_sAffiliatedFaction "US"
+   m_sAffiliatedFaction "BLUFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22D9243A92}" {
-   m_sLoadoutName "FIA-Loadout"
+   m_sLoadoutName "IND-Loadout"
    m_sLoadoutResource "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
-   m_sAffiliatedFaction "FIA"
+   m_sAffiliatedFaction "INDEPENDENT"
   }
  }
 }
