@@ -163,6 +163,342 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
        }
       }
      }
+     VisualIdentity "{570CE64C790A3C7D}" {
+      Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+      Headcamo {
+       "{FDF3993A05C780B0}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_USSR_01.et"
+       "{91A7ADDAB9030F9E}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2D666543F3}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB835A380222}" {
+      Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+      Headcamo {
+       "{CA2D11DB52BBE611}Prefabs/Characters/Heads/Head_White_04/Head_White_04_camo_USSR_01.et"
+       "{A679253BEE7F693F}Prefabs/Characters/Heads/Head_White_04/Head_White_04_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2D5C68FBFA}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB8350DB33B8}" {
+      Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+      Headcamo {
+       "{B64F0403AD3C4D77}Prefabs/Characters/Heads/Head_White_05/Head_White_05_camo_USSR_01.et"
+       "{DA1B30E311F8C259}Prefabs/Characters/Heads/Head_White_05/Head_White_05_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2DAA856756}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB8357A47107}" {
+      Head "{BB90449192005AB8}Prefabs/Characters/Heads/Head_White_06.et"
+      Headcamo {
+       "{32E93A6AADB4B0DD}Prefabs/Characters/Heads/Head_White_06/Head_White_06_camo_USSR_01.et"
+       "{5EBD0E8A11703FF3}Prefabs/Characters/Heads/Head_White_06/Head_White_06_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2DB94433CB}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB8327826007}" {
+      Head "{C1F80EE178D948D6}Prefabs/Characters/Heads/Head_White_08.et"
+      Headcamo {
+       "{5D542BA8034C7D9F}Prefabs/Characters/Heads/Head_White_08/Head_White_08_camo_USSR_01.et"
+       "{31001F48BF88F2B1}Prefabs/Characters/Heads/Head_White_08/Head_White_08_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2DB7B2CCA3}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB83254045EE}" {
+      Head "{24644218743CDFBD}Prefabs/Characters/Heads/Head_White_09.et"
+      Headcamo {
+       "{21363E70FCCBD6F9}Prefabs/Characters/Heads/Head_White_09/Head_White_09_camo_USSR_01.et"
+       "{4D620A90400F59D7}Prefabs/Characters/Heads/Head_White_09/Head_White_09_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2D854FB3F9}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+     VisualIdentity "{570EDB832452CCD8}" {
+      Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+      Headcamo {
+       "{B0575E76CB6D8165}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_01.et"
+       "{DC036A9677A90E4B}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2D90F28DC9}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
     }
     SoundIdentityArray {
      SoundIdentity "{68D90C2BF5F65151}" {
@@ -241,6 +577,7 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
      }
     }
    }
+   "Radio encryption key" "deliciousPelmeni"
    m_OutlineFactionColor 0.168 0.006 0.007 1
    m_NotificationFactionColor 0.855 0.031 0.028 1
    m_NotificationTextFactionColor 0.521 0.021 0.019 1
