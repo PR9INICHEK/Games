@@ -1,6 +1,21 @@
-SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 113.187 1 110.807
+SCR_SpawnPoint : "{3A8780EEC01B18A8}Prefabs/MP/Spawning/SpawnPoint_OPF.et" {
+ coords 117.454 1 111.316
+ m_sFaction "OPFOR"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "OPFOR Point"
+ }
 }
-SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 118.186 1 103.632
+SCR_SpawnPoint : "{83E4F8BE338E34A6}Prefabs/MP/Spawning/SpawnPoint_BLU.et" {
+ coords 117.981 1 110.125
+ m_sFaction "BLUFOR"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "BLUFOR Point"
+ }
+}
+SCR_SpawnPoint : "{FF9492247C7E291F}Prefabs/MP/Spawning/SpawnPoint_IND.et" {
+ coords 117.091 1 108.825
+ m_sFaction "INDEPENDENT"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "INDEPENDENT Point"
+ }
 }
