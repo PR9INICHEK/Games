@@ -125,40 +125,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2AABBEDBA9}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -173,40 +227,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2D666543F3}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -221,40 +329,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2D5C68FBFA}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -269,40 +431,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2DAA856756}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -317,40 +533,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2DB94433CB}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -365,40 +635,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2DB7B2CCA3}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -413,40 +737,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2D854FB3F9}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
@@ -461,40 +839,94 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
       BodyMeshesConfig MeshConfig "{68D90C2D90F28DC9}" {
        SubmeshesOfBody {
         IdentityBodyMesh "{5584CBC7983D908C}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
         }
         IdentityBodyMesh "{5594A187B7350302}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
         }
         IdentityBodyMesh "{5584CBC798F6E9F4}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
         }
         IdentityBodyMesh "{5594A187A1415184}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
         }
         IdentityBodyMesh "{5584CBC798D23CB9}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
         }
         IdentityBodyMesh "{5594A1879DBEE58D}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B2E35C0}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
         }
         IdentityBodyMesh "{5594A187880A1390}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B1F07EF}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
         }
         IdentityBodyMesh "{5584CBC79B7D8296}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
         }
         IdentityBodyMesh "{5594A187E3BB44A4}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
         }
         IdentityBodyMesh "{5584CBC79B5B6879}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
         }
         IdentityBodyMesh "{5594A187DD1DCF47}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
         }
         IdentityBodyMesh "{5584CBC79BB8432B}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
         }
         IdentityBodyMesh "{5584CBC774E4D721}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
         }
         IdentityBodyMesh "{5910EB00D547F09C}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
         }
         IdentityBodyMesh "{5910EE66381C53D3}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
         }
         IdentityBodyMesh "{592881A375F2E74C}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
         }
        }
       }
