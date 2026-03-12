@@ -1013,6 +1013,54 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
    m_OutlineFactionColor 0.168 0.006 0.007 1
    m_NotificationFactionColor 0.855 0.031 0.028 1
    m_NotificationTextFactionColor 0.521 0.021 0.019 1
+   m_iFactionRadioFrequency 43000
+   m_aRanks {
+    SCR_CharacterRank "{68D928DFAAFD2CF6}" {
+     m_iRank RENEGADE
+     m_sRankName "OP-Renegade-localize-me"
+     m_sRankNameUpper "OP-Renegade-localize-me-UP"
+     m_sRankNameShort "OP-Renegade-localize-me-Short"
+     m_sInsignia "OP-Insignia-Renegade"
+    }
+    SCR_CharacterRank "{68D928DFEB9A47FE}" {
+     m_sRankName "OP-Private-localize-me"
+     m_sRankNameUpper "OP-Private-localize-me-UP"
+     m_sRankNameShort "OP-Private-localize-me-Short"
+     m_sInsignia "OP-Insignia-Private"
+    }
+    SCR_CharacterRank "{68D928DFEB401380}" {
+     m_iRank CORPORAL
+    }
+    SCR_CharacterRank "{68D928DFEB1582EA}" {
+     m_iRank SERGEANT
+    }
+    SCR_CharacterRank "{68D928DFEAE25A8B}" {
+     m_iRank LIEUTENANT
+    }
+    SCR_CharacterRank "{68D928DFEAA08CE1}" {
+     m_iRank CAPTAIN
+    }
+    SCR_CharacterRank "{68D928DFE73C89DA}" {
+     m_iRank MAJOR
+    }
+    SCR_CharacterRank "{68D928DFE706FB1B}" {
+     m_iRank COLONEL
+    }
+    SCR_CharacterRank "{68D928DFE6D08745}" {
+     m_iRank GENERAL
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalog "{68D928DF59467D5E}" {
+     m_eEntityCatalogType CHARACTER
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{68D928DC3894163A}" {
+       m_sEntityPrefab "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_OPFOR_Base.et"
+      }
+     }
+    }
+   }
+   m_iIdentityVoiceSignal 100
   }
   SCR_Faction "{68D90C240CF0CE71}" {
    FactionKey "BLUFOR"
