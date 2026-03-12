@@ -1,17 +1,267 @@
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 119.648 1 114.341
+}
 SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Factions/FactionManager_OPFORxBLUFORxINDEPENDENT.et" {
  coords 117.448 1 111.279
  Factions {
   SCR_Faction "{68D90C240A962FAD}" {
    FactionKey "OPFOR"
    FactionColor 0.855 0.031 0.028 1
+   UIInfo SCR_FactionUIInfo "{68D90C2939839BBC}" {
+    Name "OPFOR-Localize-me"
+    m_sNameUpper "OPFOR-Localize-me-UC"
+   }
+   "Identity of soldiers" FactionIdentity "{68D90C28672B43F7}" {
+    VisualIdentityArray {
+     VisualIdentity "{68D90C287396E439}" {
+      Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+      Headcamo {
+       "{76AB07B1EC86DEC1}Prefabs/Characters/Heads/Head_Asian_02/Head_Asian_02_camo_USSR_01.et"
+       "{1AFF3351504251EF}Prefabs/Characters/Heads/Head_Asian_02/Head_Asian_02_camo_USSR_02.et"
+      }
+      Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+      BodyMeshesConfig MeshConfig "{68D90C2897904425}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{68D90C28E21F7780}" {
+         PartType "Arm_L"
+         HealthyVersion "Basebody_Arm_L"
+         WoundVersion "Basebody_Arm_L_wound"
+        }
+        IdentityBodyMesh "{68D90C28F1AFFC10}" {
+         PartType "Arm_R"
+         HealthyVersion "Basebody_Arm_R"
+         WoundVersion "Basebody_Arm_R_wound"
+        }
+        IdentityBodyMesh "{68D90C28C389877C}" {
+         PartType "ArmUpper_L"
+         HealthyVersion "Basebody_ArmUpper_L"
+         WoundVersion "Basebody_ArmUpper_L_wound"
+        }
+        IdentityBodyMesh "{68D90C28D22A0C73}" {
+         PartType "ArmUpper_R"
+         HealthyVersion "Basebody_ArmUpper_R"
+         WoundVersion "Basebody_ArmUpper_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2B2312D24C}" {
+         PartType "Calf_L"
+         HealthyVersion "Basebody_Calf_L"
+         WoundVersion "Basebody_Calf_L_wound"
+        }
+        IdentityBodyMesh "{68D90C2B30E4AFC6}" {
+         PartType "Calf_R"
+         HealthyVersion "Basebody_Calf_R"
+         WoundVersion "Basebody_Calf_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2B01E73A5E}" {
+         PartType "Foot_L"
+         HealthyVersion "Basebody_Foot_L"
+         WoundVersion "Basebody_Foot_L_wound"
+        }
+        IdentityBodyMesh "{68D90C2B1F948F2D}" {
+         PartType "Foot_R"
+         HealthyVersion "Basebody_Foot_R"
+         WoundVersion "Basebody_Foot_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2B6DCC2E8E}" {
+         PartType "Groin"
+         HealthyVersion "Basebody_Groin"
+         WoundVersion "Basebody_Groin_wound"
+        }
+        IdentityBodyMesh "{68D90C2B7809C9DD}" {
+         PartType "Hand_L"
+         HealthyVersion "Basebody_Hand_L"
+         WoundVersion "Basebody_Hand_L_wound"
+        }
+        IdentityBodyMesh "{68D90C2B4A5CFA4F}" {
+         PartType "Hand_R"
+         HealthyVersion "Basebody_Hand_R"
+         WoundVersion "Basebody_Hand_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2B589EE9F3}" {
+         PartType "Leg_L"
+         HealthyVersion "Basebody_Leg_L"
+         WoundVersion "Basebody_Leg_L_wound"
+        }
+        IdentityBodyMesh "{68D90C2BA9D4B267}" {
+         PartType "Leg_R"
+         HealthyVersion "Basebody_Leg_R"
+         WoundVersion "Basebody_Leg_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2BA6B1E4C4}" {
+         PartType "Torso"
+         HealthyVersion "Basebody_Torso"
+         WoundVersion "Basebody_Torso_wound"
+        }
+        IdentityBodyMesh "{68D90C2BB4E2DEB1}" {
+         PartType "Head"
+         HealthyVersion "Head"
+         WoundVersion "Head_wound"
+        }
+        IdentityBodyMesh "{68D90C2B80A43F87}" {
+         PartType "CalfLower_L"
+         HealthyVersion "Basebody_CalfLower_L"
+         WoundVersion "Basebody_CalfLower_L_wound"
+        }
+        IdentityBodyMesh "{68D90C2B9CCD8F2F}" {
+         PartType "CalfLower_R"
+         HealthyVersion "Basebody_CalfLower_R"
+         WoundVersion "Basebody_CalfLower_R_wound"
+        }
+        IdentityBodyMesh "{68D90C2BE82969A3}" {
+         PartType "Head_neck"
+         HealthyVersion "Head_neck"
+         WoundVersion "Head_wound_neck"
+        }
+       }
+      }
+     }
+     VisualIdentity "{68D90C2A50F2CAB5}" {
+      Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+      Headcamo {
+       "{FEAFB8C6203A0B82}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_USSR_01.et"
+       "{EDC5B8024684A4F8}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_USSR_02.et"
+      }
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+      BodyMeshesConfig MeshConfig "{68D90C2AABBEDBA9}" {
+       SubmeshesOfBody {
+        IdentityBodyMesh "{5584CBC7983D908C}" {
+        }
+        IdentityBodyMesh "{5594A187B7350302}" {
+        }
+        IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        }
+        IdentityBodyMesh "{5594A187A1415184}" {
+        }
+        IdentityBodyMesh "{5584CBC798D23CB9}" {
+        }
+        IdentityBodyMesh "{5594A1879DBEE58D}" {
+        }
+        IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        }
+        IdentityBodyMesh "{5594A187880A1390}" {
+        }
+        IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        }
+        IdentityBodyMesh "{5584CBC79B7D8296}" {
+        }
+        IdentityBodyMesh "{5594A187E3BB44A4}" {
+        }
+        IdentityBodyMesh "{5584CBC79B5B6879}" {
+        }
+        IdentityBodyMesh "{5594A187DD1DCF47}" {
+        }
+        IdentityBodyMesh "{5584CBC79BB8432B}" {
+        }
+        IdentityBodyMesh "{5584CBC774E4D721}" {
+        }
+        IdentityBodyMesh "{5910EB00D547F09C}" {
+        }
+        IdentityBodyMesh "{5910EE66381C53D3}" {
+        }
+        IdentityBodyMesh "{592881A375F2E74C}" {
+        }
+       }
+      }
+     }
+    }
+    SoundIdentityArray {
+     SoundIdentity "{68D90C2BF5F65151}" {
+      VoiceID 101
+     }
+     SoundIdentity "{68D90C2BDD8EDD93}" {
+      VoiceID 101
+      VoicePitch 0.8
+     }
+     SoundIdentity "{68D90C2BDAADCF1E}" {
+      VoiceID 101
+      VoicePitch -1
+     }
+     SoundIdentity "{68D90C2A211B4EF6}" {
+      VoiceID 102
+     }
+     SoundIdentity "{68D90C2A272BAA47}" {
+      VoiceID 102
+      VoicePitch 0.9
+     }
+     SoundIdentity "{68D90C2A240C1CF0}" {
+      VoiceID 102
+      VoicePitch -1
+     }
+    }
+    SocialIdentity SocialIdentity "{68D90C2A1D8C47B6}" {
+     NamesConfig {
+      "#AR-FirstName_RU_Alexander"
+      "#AR-FirstName_RU_Alexey"
+      "#AR-FirstName_RU_Andrei"
+      "#AR-FirstName_RU_Arkady"
+      "#AR-FirstName_RU_Artyom"
+      "#AR-FirstName_RU_Boris"
+      "#AR-FirstName_RU_Dmitry"
+      "#AR-FirstName_RU_Evgeny"
+      "#AR-FirstName_RU_Fyodor"
+      "#AR-FirstName_RU_Grigory"
+      "#AR-FirstName_RU_Iosif"
+      "#AR-FirstName_RU_Ivan"
+      "#AR-FirstName_RU_Lev"
+      "#AR-FirstName_RU_Maxim"
+      "#AR-FirstName_RU_Mikhail"
+      "#AR-FirstName_RU_Oleg"
+      "#AR-FirstName_RU_Rodion"
+      "#AR-FirstName_RU_Roman"
+      "#AR-FirstName_RU_Sergei"
+      "#AR-FirstName_RU_Vasily"
+      "#AR-FirstName_RU_Victor"
+      "#AR-FirstName_RU_Vladimir"
+      "#AR-FirstName_RU_Yury"
+     }
+     SurnamesConfig {
+      "#AR-Surname_RU_Abramov"
+      "#AR-Surname_RU_Agafonov"
+      "#AR-Surname_RU_Baranov"
+      "#AR-Surname_RU_Fedorov"
+      "#AR-Surname_RU_Golubev"
+      "#AR-Surname_RU_Ivanov"
+      "#AR-Surname_RU_Koganovich"
+      "#AR-Surname_RU_Kuznetsov"
+      "#AR-Surname_RU_Lebedev"
+      "#AR-Surname_RU_Levin"
+      "#AR-Surname_RU_Morozov"
+      "#AR-Surname_RU_Nikitin"
+      "#AR-Surname_RU_Orlov"
+      "#AR-Surname_RU_Pasternak"
+      "#AR-Surname_RU_Petrov"
+      "#AR-Surname_RU_Popov"
+      "#AR-Surname_RU_Semenov"
+      "#AR-Surname_RU_Shevchenko"
+      "#AR-Surname_RU_Smirnov"
+      "#AR-Surname_RU_Sokolov"
+      "#AR-Surname_RU_Turgenev"
+      "#AR-Surname_RU_Volkov"
+      "#AR-Surname_RU_Zaitsev"
+     }
+    }
+   }
+   m_OutlineFactionColor 0.168 0.006 0.007 1
+   m_NotificationFactionColor 0.855 0.031 0.028 1
+   m_NotificationTextFactionColor 0.521 0.021 0.019 1
   }
   SCR_Faction "{68D90C240CF0CE71}" {
    FactionKey "BLUFOR"
    FactionColor 0.016 0.552 0.905 1
+   UIInfo SCR_FactionUIInfo "{68D90C2906FD5D96}" {
+    Name "BLUFOR-Localize-me"
+    m_sNameUpper "BLUFOR-Localize-me-UC"
+   }
+   m_iOrder 1
   }
   SCR_Faction "{68D90C240FEF4B8E}" {
    FactionKey "INDEPENDENT"
    FactionColor 0 0.44 0.078 1
+   UIInfo SCR_FactionUIInfo "{68D90C291EB8D0CB}" {
+    Name "INDEPENDENT-Localize-me"
+    m_sNameUpper "INDEPENDENT-Localize-me-UC"
+   }
+   m_iOrder 2
   }
  }
 }
