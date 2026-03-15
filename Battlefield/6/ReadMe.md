@@ -7,9 +7,9 @@
 6. [Battlefield 6 - Weapon Audio Behind The Scenes | Tactical7 Audio](https://www.youtube.com/watch?v=XpgChpQRwjY)
 7. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Weapons Showcase | Erik Öhman](https://www.youtube.com/watch?v=ouaKNXDpYZ4)
 8. [KORD 6P67 ЛУЧШАЯ СБОРКА в Battlefield 6 | Мета гайд | taker inc](https://www.youtube.com/watch?v=ybehHegFGFQ)
-9. [Battlefield 6 is INSANE on a Samsung Odyssey Ark 2nd Gen | HDR Gameplay | udubultra](https://www.youtube.com/shorts/KACNVsoJMsA)
+9. https://www.youtube.com/watch?v=C7LAyoPtZgI
 10. [Why your GRENADES never kill anyone in Battlefield 6. | Zerk](https://www.youtube.com/watch?v=PhzRL8IEkyk)
-11. https://www.youtube.com/watch?v=ZbKpDTZ98p4
+11. 
 
 
 # Общее
