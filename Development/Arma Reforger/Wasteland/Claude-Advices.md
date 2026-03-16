@@ -575,6 +575,48 @@ Ready to code?
  5. Умереть и проверить что при следующем спавне снаряжение другое
 ```
 
+```
+All three changes are complete. Here's a summary of what was done:
+
+  ---
+  Changes made
+
+  1. WL_RandomLoadoutConfig.c
+
+  Added Jacket and Pants to EWL_LoadoutArea enum (values 5 and 6).
+
+  2. WL_SlotRandomizer.c
+
+  Added two new case branches in RandomizeLoadout():
+  - EWL_LoadoutArea.Jacket → RandomizeClothSlot(..., LoadoutJacketArea)
+  - EWL_LoadoutArea.Pants → RandomizeClothSlot(..., LoadoutPantsArea)
+
+  3. WL_RandomLoadouts.conf
+
+  Completely rewritten with 3 factions (US/USSR/FIA), all with identical pools across 7 slot types:
+
+  ┌──────────┬─────────────────────────────────────────────────────────────────────────┬────────────────────┐
+  │   Slot   │                                  Items                                  │       Notes        │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Weapon   │ M16A2, AK74 (w4), M249, RPK74 (w2), SVD, M21, RPG7, M72 (w1), none (w2) │ Rare heavy weapons │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Handgun  │ M9, PM (w3), none (w2)                                                  │                    │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Vest     │ none (w3), ALICE rifleman (w3), PASGT/6B2 (w2), 6B3 (w1)                │                    │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Helmet   │ none (w3), Hat_M70 (w3), M1/SSh68 (w2), PASGT (w1)                      │                    │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Backpack │ none (w3), ALICE/Veshmeshok (w3), Kolobok (w2), IIFS (w1)               │                    │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Jacket   │ M88, M88 TTsKO, KZS, M70, Denim (equal w1)                              │ New slot           │
+  ├──────────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
+  │ Pants    │ M88, M88 TTsKO, KZS, M70, M70 Dirty (equal w1)                          │ New slot           │
+  └──────────┴─────────────────────────────────────────────────────────────────────────┴────────────────────┘
+
+  Note on prefab GUIDs: The conf uses path-only m_sPrefab references (no {GUID} prefix). Workbench will add resource GUIDs automatically when you open and resave the file. Runtime
+  loading via BaseContainerTools.LoadContainer resolves by path, so this works correctly.
+```
+
 
 ## Prompt N
 
