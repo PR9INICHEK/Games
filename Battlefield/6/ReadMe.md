@@ -3,7 +3,7 @@
 2. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Vehicle Showcase | Erik Öhman](https://www.youtube.com/watch?v=w-JtWe_0D5k)
 3. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Gadget Showcase | Erik Öhman](https://www.youtube.com/watch?v=-ZTpvvV-6GI)
 4. 
-5. [BATTLEFIELD 6 КАКиум AH-6 Little Bird. Как летать, с чем летать, как взять и где тренироваться. | Splandor Game](https://www.youtube.com/watch?v=_zCGzcJWJuQ)
+5. 
 6. [Battlefield 6 - Weapon Audio Behind The Scenes | Tactical7 Audio](https://www.youtube.com/watch?v=XpgChpQRwjY)
 7. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Weapons Showcase | Erik Öhman](https://www.youtube.com/watch?v=ouaKNXDpYZ4)
 8. [KORD 6P67 ЛУЧШАЯ СБОРКА в Battlefield 6 | Мета гайд | taker inc](https://www.youtube.com/watch?v=ybehHegFGFQ)
