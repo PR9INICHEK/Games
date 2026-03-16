@@ -11,7 +11,11 @@
 10. [Why your GRENADES never kill anyone in Battlefield 6. | Zerk](https://www.youtube.com/watch?v=PhzRL8IEkyk)
 11. https://www.youtube.com/watch?v=hfskL9Ie1J8
 12. https://www.youtube.com/watch?v=sRcr1nHPfHo
-13. 
+13. https://x.com/Battlefield6hub/status/2024486780364296344
+14. https://x.com/BF6Media/status/2024472518673776687
+15. https://x.com/GhostGamingG/status/2024248563161849985
+16. https://x.com/Battlefield/status/2024152211119300910
+17. 
 
 
 # Общее
