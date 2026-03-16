@@ -2,14 +2,16 @@
 1. [Joar Engberg - Procedural Animation and Tech Showcase - Battlefield 6 | Joar Engberg](https://www.youtube.com/watch?v=CuJR2Rxj7-g)
 2. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Vehicle Showcase | Erik Öhman](https://www.youtube.com/watch?v=w-JtWe_0D5k)
 3. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Gadget Showcase | Erik Öhman](https://www.youtube.com/watch?v=-ZTpvvV-6GI)
-4. [Прокачал всё оружие в Battlefield 6 - что я понял | Механики, сборки и т.д. | m9tchell](https://www.youtube.com/watch?v=Lq4xYXcWpLQ)
+4. 
 5. [BATTLEFIELD 6 КАКиум AH-6 Little Bird. Как летать, с чем летать, как взять и где тренироваться. | Splandor Game](https://www.youtube.com/watch?v=_zCGzcJWJuQ)
 6. [Battlefield 6 - Weapon Audio Behind The Scenes | Tactical7 Audio](https://www.youtube.com/watch?v=XpgChpQRwjY)
 7. [Erik Öhman - Battlefield 6 Core Gameplay VFX - Weapons Showcase | Erik Öhman](https://www.youtube.com/watch?v=ouaKNXDpYZ4)
 8. [KORD 6P67 ЛУЧШАЯ СБОРКА в Battlefield 6 | Мета гайд | taker inc](https://www.youtube.com/watch?v=ybehHegFGFQ)
 9. https://www.youtube.com/watch?v=C7LAyoPtZgI
 10. [Why your GRENADES never kill anyone in Battlefield 6. | Zerk](https://www.youtube.com/watch?v=PhzRL8IEkyk)
-11. 
+11. https://www.youtube.com/watch?v=hfskL9Ie1J8
+12. https://www.youtube.com/watch?v=sRcr1nHPfHo
+13. 
 
 
 # Общее
