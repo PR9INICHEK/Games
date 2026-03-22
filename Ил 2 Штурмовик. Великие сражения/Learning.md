@@ -56,7 +56,8 @@
 27. [Плейлист Уроки | MK.Mr.X](https://www.youtube.com/playlist?list=PL3bgr39sCnDSeNu7ipRYu1M3_uuRs-yUr)
 28. [IL2 Sturmovik Cliffs of Dover "Видео урок от MK.Mr.X-cамолёт BF-109E1" | MK.Mr.X](https://www.youtube.com/watch?v=Q9gzaWfC-8Y)
 29. [Домашние задание - "Выдерживание на посадке" | MK.Mr.X](https://www.youtube.com/watch?v=8R5vNzVTahI)
-30. 
+30. [Учебка: Применение пушки Вк-37 на Bf-110G-2 | 72AG_TARANTUL](https://www.youtube.com/watch?v=qvCRhrT89gc)
+31. 
 
 # Плейлист
 1. [iluha](https://www.youtube.com/watch?v=JuFDL9h4xxE&list=PLFPwCmZWHukCrNkglN14Fv2bYWGRahZDy)
