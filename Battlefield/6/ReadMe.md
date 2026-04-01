@@ -15,7 +15,9 @@
 14. https://x.com/BF6Media/status/2024472518673776687
 15. https://x.com/GhostGamingG/status/2024248563161849985
 16. https://x.com/Battlefield/status/2024152211119300910
-17. 
+17. https://youtube.com/shorts/vhRE4o9iSWs?is=4_826-LOBSPRQqcq
+18. https://youtube.com/shorts/PPTJPy5f4hw?is=stfz3Kn6bE-oFHZO
+19. 
 
 
 # Общее
