@@ -17,7 +17,8 @@
 16. https://x.com/Battlefield/status/2024152211119300910
 17. https://youtube.com/shorts/vhRE4o9iSWs?is=4_826-LOBSPRQqcq
 18. https://youtube.com/shorts/PPTJPy5f4hw?is=stfz3Kn6bE-oFHZO
-19. 
+19. https://youtube.com/shorts/Q6a9Jls6WEM?is=6MyS3VcFDWqksVaz
+20. 
 
 
 # Общее
