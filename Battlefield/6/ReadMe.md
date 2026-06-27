@@ -47,7 +47,9 @@
 51. https://x.com/Dexerto/status/2056963128164831376
 52. https://x.com/Flakfire/status/2056813206530674695
 53. https://x.com/BattlefieldInte/status/2058641884025671939
-54. 
+54. https://www.youtube.com/shorts/giW8rFlIc3Y
+55. https://www.youtube.com/shorts/syIV_rAmfPM
+56. 
 
 
 # Общее
