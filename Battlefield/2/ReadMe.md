@@ -70,7 +70,8 @@
 9. [BattleField 2 Crazy Pilot First Person (No Hud) | CrazySaVaunT](https://www.youtube.com/watch?v=vMfL1s1-6Qs)
 10. [BattleField 2 Crazy Pilot | CrazySaVaunT](https://www.youtube.com/watch?v=wIFhSbxeYZU)
 11. [Farewell Battlefield 2 | End](https://www.youtube.com/watch?v=60mpoPephxo)
-12. [](url)
+12. [BF2 bombing guide | FullMetalRedfield](https://www.youtube.com/watch?v=YVbcbusTctI)
+13. 
 
 ### Трюки
 1. [Battlefield 2 - Jet Stunts | NuKe](https://www.youtube.com/watch?v=5bDqsRYIWec)
