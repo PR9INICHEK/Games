@@ -15,6 +15,8 @@
 # Советы
 1. [10 Great Tips in Arma Reforger | spartank](https://www.youtube.com/watch?v=iQcjXSUSlEk)
 2. [Arma Reforger Tips I Wish I Knew Sooner | Short | Ironbeard](https://www.youtube.com/shorts/DASwFhfQtVU)
+3. https://www.youtube.com/shorts/1KDCNNigcac
+4. 
 
 
 # Руководства
