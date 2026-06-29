@@ -16,7 +16,8 @@
 15. [How to Enjoy Yourself & Survive on DayZ as a New Player in 2024 | Simonb1471](https://www.youtube.com/watch?v=BmSdBFpYSUc)
 16. [Прятаться от зомби в кустах](https://youtube.com/shorts/v4TK4M2-DqU?si=y6z7x6-yCl3R9Y8h)
 17. [Про спавн зомби, статичные и динамичные зоны](https://www.youtube.com/watch?v=i0DGtAk9_ig)
-18. [](url)
+18. [How to STASH LOOT in DayZ | Beginners Tips & Tricks | Beanz](https://www.youtube.com/watch?v=aabwzHGTSyE)
+19. [](url)
 
 # Места для баз
 1. [The top 5 BASE locations in DayZ | Tommy](https://www.youtube.com/watch?v=e4HbFRk3kkw)
@@ -52,4 +53,5 @@
 # Разное
 1. [What a 30+ SQUAD can achieve in DayZ... | Fresh Spawns](https://www.youtube.com/watch?v=jHG8gc26SEY)
 2. [DayZ :10 controller hints for playing on console | Chill Game Reviews](https://www.youtube.com/watch?v=I11AYQ_QPdo)
-3. 
+3. [Don't Run From DayZ | Taktos](https://www.youtube.com/watch?v=V7NhcKRYLfM)
+4. 
