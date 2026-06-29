@@ -37,6 +37,8 @@
 3. [Calculated – Battlefield 2 Dogfight Highlights | NuKe](https://www.youtube.com/watch?v=7g7-6Pp3sN0)
 4. [BF2 - DogFighTer | -617- DesTRoYer](https://www.youtube.com/watch?v=F49uMTiBR30)
 5. [](https://www.youtube.com/watch?v=6UIUW_WVIOY)
+6. [](https://www.youtube.com/watch?v=AnjfuhUCyK4)
+7. [](url)
 
 # A Machinima movie
 1. [Battlefield 2 :Behind Enemy Lines | KorsaSS](https://www.youtube.com/watch?v=Hb4Fh0I2iWc)
