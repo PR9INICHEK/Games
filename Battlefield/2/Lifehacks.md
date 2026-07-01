@@ -90,4 +90,5 @@ These other components are the windows infrastructure needed to run the game, in
 6. Описание карт с расположением различных мест - https://www.realtimerendering.com/erich/battlefield2/maps/maps.html
 7. Различные показания для оружия и техники - https://www.realtimerendering.com/erich/battlefield2/grid.html
 8. [MOD для текста](https://forum.tgamer.ru/index.php?topic=31.0)
-9. 
+9. [BF2 Wake Island Secrets | BF2 Memories](https://www.youtube.com/watch?v=HooWq_KyGYk)
+10. 
