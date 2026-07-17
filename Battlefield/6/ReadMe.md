@@ -59,7 +59,8 @@
 63. https://www.youtube.com/shorts/FI2sulds-Xw
 64. https://www.youtube.com/shorts/D2oopO9Z1ZM
 65. https://www.youtube.com/shorts/i5CqE9gZbcM
-66. 
+66. https://x.com/BattlefieldInte/status/2074527590103056470
+67. 
 
 
 # Общее
