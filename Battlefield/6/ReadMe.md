@@ -61,7 +61,8 @@
 65. https://www.youtube.com/shorts/i5CqE9gZbcM
 66. https://x.com/BattlefieldInte/status/2074527590103056470
 67. https://x.com/BF6Updates/status/2066419142509645910
-68. 
+68. https://x.com/BFBulletin/status/2066092546569158933
+69. 
 
 
 # Общее
