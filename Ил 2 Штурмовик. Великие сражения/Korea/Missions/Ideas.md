@@ -8,4 +8,5 @@
 3. Учитывать временные промежутки и ограничения
    - Например, ППК был у СССР только с 1953 года
    - https://il2-series.com/ru/faq/question_answer/
+      - <img width="1097" height="298" alt="image" src="https://github.com/user-attachments/assets/6b7c45d0-5000-44d3-bc81-092b23bf53b9" />
 4. 
