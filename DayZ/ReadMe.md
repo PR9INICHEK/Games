@@ -17,7 +17,8 @@
 16. [Прятаться от зомби в кустах](https://youtube.com/shorts/v4TK4M2-DqU?si=y6z7x6-yCl3R9Y8h)
 17. [Про спавн зомби, статичные и динамичные зоны](https://www.youtube.com/watch?v=i0DGtAk9_ig)
 18. [How to STASH LOOT in DayZ | Beginners Tips & Tricks | Beanz](https://www.youtube.com/watch?v=aabwzHGTSyE)
-19. [](url)
+19. [ШТУРМ ВОЕННЫХ ЗДАНИЙ В DayZ: Тактики, о которых знают только про-игроки | psikopat](https://www.youtube.com/watch?v=LRVuHWSA4b0)
+20. [](url)
 
 # Места для баз
 1. [The top 5 BASE locations in DayZ | Tommy](https://www.youtube.com/watch?v=e4HbFRk3kkw)
