@@ -1,6 +1,7 @@
 # Обучение работы с редактором
 
 1. Серия видео по GB от **Alexander Derevyanko** - https://www.youtube.com/playlist?list=PLGXEnmqeD0-WILaVRuQsgwa2MOAel9Nbi
+2. 
 
 
 ## Остальное
