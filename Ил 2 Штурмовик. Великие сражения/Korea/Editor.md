@@ -1,7 +1,8 @@
 # Обучение работы с редактором
 
 1. Серия видео по GB от **Alexander Derevyanko** - https://www.youtube.com/playlist?list=PLGXEnmqeD0-WILaVRuQsgwa2MOAel9Nbi
-2. 
+2. [Ил-2 Штурмовик: Великие битвы. Редактор миссий. Введение | Full Mission Builder](https://www.youtube.com/watch?v=6_Qq4EaQjEk)
+3. 
 
 
 ## Остальное
