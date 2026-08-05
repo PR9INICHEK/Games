@@ -16,7 +16,8 @@
 4. [Старый форум тема по редактору](https://forum.il2sturmovik.ru/topic/2609-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B9/)
 5. [BoS_editor_v1104.pdf](https://drive.google.com/file/d/19Dri6X3XIDXEBC5yuYsKedQQJqp7hnx_/view)
 6. ROF_Mission_Editor_User_Manual_rus.pdf
-7. 
+7. [IL-2 Korea Mission Editor Beginner Tutorial](https://forum.il2-series.com/topic/4137-il-2-korea-mission-editor-beginner-tutorial)
+8. 
 
 ## Идеи
 
