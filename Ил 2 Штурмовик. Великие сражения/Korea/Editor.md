@@ -5,7 +5,8 @@
 3. [Редактор миссий Ил-2. Зона сервисного обслуживания | Full Mission Builder](https://www.youtube.com/watch?v=5CRWdzNOcvI)
 4. [Тема для предложений по инструменту](https://forum.il2-series.com/topic/4483-mission-editoril2editorexe-suggestions/)
 5. [Тема по шерингу различных шаблонов групп объектов](https://forum.il2-series.com/topic/4269-templates-sharing-corner-il2-series-editor/)
-6. 
+6. [Редактор миссий Ил-2 БзС. Делаем случайные события в миссиях | Full Mission Builder](https://www.youtube.com/watch?v=Bq_P0m7oXNY)
+7. 
 
 
 ## Остальное
