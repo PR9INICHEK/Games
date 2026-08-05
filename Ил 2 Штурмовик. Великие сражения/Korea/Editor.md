@@ -3,7 +3,8 @@
 1. Серия видео по GB от **Alexander Derevyanko** - https://www.youtube.com/playlist?list=PLGXEnmqeD0-WILaVRuQsgwa2MOAel9Nbi
 2. [Ил-2 Штурмовик: Великие битвы. Редактор миссий. Введение | Full Mission Builder](https://www.youtube.com/watch?v=6_Qq4EaQjEk)
 3. [Редактор миссий Ил-2. Зона сервисного обслуживания | Full Mission Builder](https://www.youtube.com/watch?v=5CRWdzNOcvI)
-4. 
+4. [Тема для предложений по инструменту](https://forum.il2-series.com/topic/4483-mission-editoril2editorexe-suggestions/)
+5. 
 
 
 ## Остальное
