@@ -8,12 +8,13 @@
 
 ## Остальное
 
-1. ["Летучка" выпуск №24. Новый редактор](https://vkvideo.ru/video-55386695_456239378)
-2. [Раздел в старом форуме](https://forum.il2sturmovik.com/forum/92-mission-making-and-mission-editor/)
-3. [Старый форум тема по редактору](https://forum.il2sturmovik.ru/topic/2609-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B9/)
-4. [BoS_editor_v1104.pdf](https://drive.google.com/file/d/19Dri6X3XIDXEBC5yuYsKedQQJqp7hnx_/view)
-5. ROF_Mission_Editor_User_Manual_rus.pdf
-6. 
+1. [Моя тема на новом форуме](https://forum.il2-series.com/topic/4461-il2editor-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B9)
+2. ["Летучка" выпуск №24. Новый редактор](https://vkvideo.ru/video-55386695_456239378)
+3. [Раздел в старом форуме](https://forum.il2sturmovik.com/forum/92-mission-making-and-mission-editor/)
+4. [Старый форум тема по редактору](https://forum.il2sturmovik.ru/topic/2609-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B9/)
+5. [BoS_editor_v1104.pdf](https://drive.google.com/file/d/19Dri6X3XIDXEBC5yuYsKedQQJqp7hnx_/view)
+6. ROF_Mission_Editor_User_Manual_rus.pdf
+7. 
 
 ## Идеи
 
