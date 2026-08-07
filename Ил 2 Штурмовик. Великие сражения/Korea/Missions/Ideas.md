@@ -13,4 +13,6 @@
    - Например, ППК был у СССР только с 1953 года
    - https://il2-series.com/ru/faq/question_answer/
       - <img width="1097" height="298" alt="image" src="https://github.com/user-attachments/assets/6b7c45d0-5000-44d3-bc81-092b23bf53b9" />
+   - https://mediaru.il2-korea.com/news/hotfix-1003
+      - <img width="761" height="351" alt="image" src="https://github.com/user-attachments/assets/49b5c596-ed03-40f1-bc39-86447888467d" />
 5. 
