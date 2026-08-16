@@ -6,7 +6,9 @@
 4. [Тема для предложений по инструменту](https://forum.il2-series.com/topic/4483-mission-editoril2editorexe-suggestions/)
 5. [Тема по шерингу различных шаблонов групп объектов](https://forum.il2-series.com/topic/4269-templates-sharing-corner-il2-series-editor/)
 6. [Редактор миссий Ил-2 БзС. Делаем случайные события в миссиях | Full Mission Builder](https://www.youtube.com/watch?v=Bq_P0m7oXNY)
-7. 
+7. [IL-2 Korea Mission Editor Tutorial - Making a Combat Box Multiplayer Mission](https://forum.il2-series.com/topic/4651-il-2-korea-mission-editor-tutorial-making-a-combat-box-multiplayer-mission/)
+   - [Playlist](https://www.youtube.com/watch?v=3pcI_2ugod0&list=PLBM8k7wBkrUw)
+8. 
 
 
 ## Остальное
